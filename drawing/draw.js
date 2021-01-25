@@ -88,3 +88,13 @@ ctx.lineWidth=10;
 ctx.quadraticCurveTo(500, 550, 700, 400);
 ctx.stroke();
 
+
+
+// draw circle
+ctx.fillStyle='rgb(255,204,51)';
+ctx.strokeStyle='rgb(51,51,255)';
+ctx.lineWidth=10;
+ctx.beginPath();
+ctx.arc(width/2,height/2, 50, 0, 2*Math.PI);
+ctx.stroke();
+ctx.fill();
