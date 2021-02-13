@@ -76,6 +76,22 @@ ctx.textAlign = "center";
 var output = "Frame Rate: "+this.frameRate;
 ctx.fillText(output, xPos+boxWidth/2,yPos+boxHeight/2);
 
+ctx.fillStyle='rgb(0,153,204)';
+
+yPos = height - 3*boxHeight;
+ctx.beginPath();
+ctx.rect(xPos,yPos,boxWidth,boxHeight);
+ctx.stroke();
+ctx.fill();
+
+
+ctx.fillStyle="rgb(255,255,255)";
+ctx.font=myFont;
+ctx.textBaseline = 'middle';
+ctx.textAlign = "center";
+var output = "Frame Count: "+this.count;
+ctx.fillText(output, xPos+boxWidth/2,yPos+boxHeight/2);
+
 
 
 

@@ -1,0 +1,110 @@
+console.log("functions js called")
+
+//set up code
+
+canvas = document.querySelector('#myCanvas');
+var ctx = canvas.getContext('2d');
+var width = 1000;
+var height = 600;
+var scale = 2
+canvas.width = width*scale;
+canvas.height = height*scale;
+ctx.scale(scale,scale);
+
+var my_c = document.getElementById('myCanvas');
+my_c.style.backgroundColor = "rgb(100,100,100)"
+my_c.style.width = width+"px";
+my_c.style.height = height+"px";
+my_c.style.border = "6px solid rgba(200,200,200,0.5)";
+my_c.style.display = "block";
+my_c.style.margin = "auto";
+document.body.style.backgroundColor = "rgb(190,190,190)";
+
+// end setup code
+function draw_line(x_1, y_1, x_2,y_2){
+    ctx.strokeStyle="rgb(255,255,255)";
+
+    ctx.lineWidth=0.25;
+    ctx.beginPath();
+    ctx.moveTo(x_1, y_1);
+    ctx.lineTo(x_2,y_2);
+    ctx.stroke();
+
+
+}
+
+function draw_grid(){
+    var grid_interval = 50;
+    for(var i=0; i< width/grid_interval; i++){
+        draw_line(i*grid_interval,0,i*grid_interval,height);
+    }
+    for(var i=0; i< height/grid_interval; i++){
+        draw_line(0,i*grid_interval,width,i*grid_interval);
+    }
+}
+draw_grid();
+
+function text_box(x,y,w,h, bCol, tCol, message){
+    console.log("function called")
+    ctx.fillStyle=bCol;
+    ctx.strokeStyle='rgb(255,255,255)';
+    ctx.lineWidth=1;
+    ctx.beginPath();
+    ctx.rect(x,y,w,h);
+    
+    ctx.fill();
+    ctx.stroke();
+
+    ctx.fillStyle=tCol;
+    var myFont= "bold 25px monospace";
+
+    ctx.font=myFont;
+    ctx.textBaseline = 'middle';
+    ctx.textAlign = "center";
+    var output = message;
+    ctx.fillText(output, x+w/2,y+h/2);
+
+
+}
+
+
+button_list = ["hello", "goodbye", "see you"]
+button_height = 50;
+for(var i =0 ; i<button_list.length; i++){
+text_box(300,200+i*button_height,300,button_height, "rgb(100,200,0)", "rgb(255,255,255)", button_list[i]);
+}
+
+
+function rounded_button(x,y,w,h, bCol = "rgb(0,0,255)"){
+    console.log("function called")
+    
+    ctx.fillStyle=bCol;
+    ctx.strokeStyle='rgb(255,255,255)';
+    ctx.lineWidth=1;
+    ctx.beginPath();
+    ctx.rect(x,y,w,h);
+ 
+    ctx.fill();
+  
+ 
+    //ctx.fillStyle="rgb(0,0,255)";
+    ctx.fillStyle=bCol;
+    ctx.lineWidth=1;
+    var rad = 100;
+    if(rad > h/2){
+        rad = h/2;
+    }
+    ctx.beginPath();
+    ctx.arc(x+rad,y+rad, rad, Math.PI,3*Math.PI/2 );
+    ctx.arc(x+w-rad,y+rad, rad, 3*Math.PI/2,0 );
+    ctx.arc(x+w-rad,y+h-rad, rad,0,Math.PI/2 );
+    ctx.arc(x+rad,y+h-rad, rad,Math.PI/2,Math.PI );
+    ctx.closePath();
+    ctx.fill();
+    ctx.stroke();
+   
+  
+  
+}
+rounded_button(50,100,200,50);
+
