@@ -11,11 +11,14 @@ updateContext(ob);
 var f = ctx.fillStyle;
   console.log(f);
 
+var G = new GradRectangle(100,100,300,10); 
+
 
 function animate(){
     ctx.clearRect(0, 0, width, height);
  
     D.update();
+    G.update();
   
 
 

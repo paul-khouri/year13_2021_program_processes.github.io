@@ -27,7 +27,6 @@ document.body.style.backgroundColor = "rgb(190,190,190)";
  */
 function getColor(x,L){
     var R, G, B, rgbstring
-    console.log( x <= L/6);
     switch(true){
         case x < 0:
             console.log("x invalid, less than 0")
