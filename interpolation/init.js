@@ -114,3 +114,149 @@ function getColor(x,L){
 //console.log(getColor(6,6));
 
 
+/**
+ * Updates the context using small data object
+ * @param mini object of type {f: fillColour , s: strokeColour, l: lineWidth} can be empty
+ * @return Null
+ */
+ function updateContext(ob){
+    for (const [key, value] of Object.entries(ob)) {
+        switch(key) {
+            case "f":
+              ctx.fillStyle = value;
+              break;
+            case "s":
+                ctx.strokeStyle = value;
+              break;
+            case "l":
+                ctx.lineWidth = value;
+              break;
+            default:
+                console.log("unrecognised");
+          }
+      }
+
+}
+
+/**
+ * Creates a series of date texts 
+ * Shown right bottom of canvas
+ * 
+ * @param canvas
+ * @return Null
+ */
+
+class DateModule{
+constructor(canvas){
+    // used to calculate frame rate 
+    this.count = 0;
+    this.frame_interval = 40;
+    this.startDate = Date.now();
+    this.endDate = Date.now();
+    this.frameRate = 0;
+    // used to count seconds
+    this.seconds = 0
+    this.secondsCounter = Date.now();
+}
+/**
+ * Creates a series of date texts 
+ * 
+ * @param None
+ * @return Null
+ */
+update(){
+    this.count+=1
+    if(this.count%this.frame_interval == 0){
+        this.startDate = this.endDate;
+        this.endDate = Date.now();
+        this.frameRate= Math.round( this.frame_interval/((this.endDate - this.startDate)/1000) );
+    }
+//update seconds count
+    this.secondCount();
+    this.draw();
+}
+/**
+ * Creates a series of date texts 
+ * And draws on the canvas
+ * @param canvas
+ * @return Null
+ */
+draw(){
+    var xPos , yPos , boxWidth , boxHeight, output;
+
+    boxWidth = 300;
+    boxHeight = 30;
+    xPos = width-boxWidth;
+    yPos = height - boxHeight;
+    //---
+    output = "Seconds: "+this.seconds;
+    this.rectangleText(xPos,yPos, boxWidth, boxHeight, 
+        {f:'rgb(0,153,204)' , s:'rgb(0,0,0)' , l:1},{f:"rgb(255,255,255)"},output);
+    //----
+    yPos = height - 2*boxHeight;
+    //-----
+    output = "Frame Rate: "+this.frameRate;
+    this.rectangleText(xPos,yPos, boxWidth, boxHeight,
+    {f:'rgb(0,153,204)' , s:'rgb(0,0,0)' , l:1},{f:"rgb(255,255,255)"},output);
+    //---
+    yPos = height - 3*boxHeight;
+    //---
+    output = "Frame Count: "+this.count;
+    this.rectangleText(xPos,yPos, boxWidth, boxHeight,
+    {f:'rgb(0,153,204)' , s:'rgb(0,0,0)' , l:1},{f:"rgb(255,255,255)"},output);
+    //---
+    yPos = height - 4*boxHeight;
+    //---
+    var d = new Date();
+    output = d.getHours()+":"+d.getMinutes().toString().padStart(2, '0')+":"
+    +d.getSeconds().toString().padStart(2, '0')+":"+d.getMilliseconds().toString().padStart(3, '0');
+    this.rectangleText(xPos,yPos, boxWidth, boxHeight,
+        {f:'rgb(0,153,204)' , s:'rgb(0,0,0)' , l:1},{f:"rgb(255,255,255)"},output);
+    //---
+    yPos = height - 5*boxHeight;
+    //---
+    var t = Math.round(d.getTime()/1000);
+    output ="Seconds since 01/01/1970:"+t;
+    this.rectangleText(xPos,yPos, boxWidth, boxHeight,
+        {f:'rgb(0,153,204)' , s:'rgb(0,0,0)' , l:1},{f:"rgb(255,255,255)"},output);
+
+
+}
+
+secondCount(){
+    if(Date.now()-this.secondsCounter > 1000){
+        this.seconds +=1
+        this.secondsCounter = Date.now()
+    }
+
+}
+/**
+ * Draws rectangle with text on it 
+ * And draws on the canvas
+ * @param dimensions x,y,w,h,  rect_context(mini object), text_context(mini object), output(string)
+ * @return Null
+ */
+rectangleText(x,y,w,h,rect_context, text_context, output){
+
+    this.updateContext(rect_context);
+
+    ctx.beginPath();
+    ctx.rect(x,y,w,h);
+    ctx.stroke();
+    ctx.fill();
+    this.updateContext(text_context)
+    var myFont= "bold 15px sans-serif";
+    ctx.font=myFont;
+    ctx.textBaseline = 'middle';
+    ctx.textAlign = "center";
+ 
+    ctx.fillText(output, x+w/2,y+h/2);
+
+}
+
+
+}
+// add update conext function to the object
+DateModule.prototype.updateContext = updateContext;
+
+

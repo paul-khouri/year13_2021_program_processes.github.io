@@ -1,6 +1,7 @@
 console.log("init js called")
 
 //set up code
+document.body.style.backgroundColor = "rgb(190,190,190)";
 
 canvas = document.querySelector('#myCanvas');
 var ctx = canvas.getContext('2d');
@@ -15,10 +16,97 @@ var my_c = document.getElementById('myCanvas');
 my_c.style.backgroundColor = "rgb(100,100,100)"
 my_c.style.width = width+"px";
 my_c.style.height = height+"px";
-my_c.style.border = "6px solid rgba(200,200,200,0.5)";
+my_c.style.border = "0px solid rgba(200,200,200,0.5)";
 my_c.style.display = "block";
 my_c.style.margin = "auto";
-document.body.style.backgroundColor = "rgb(190,190,190)";
+
+
+
+secondCanvas = document.querySelector('#mySecondCanvas');
+var s_ctx = secondCanvas.getContext('2d');
+var s_width = 1*width/5;
+var s_height =1*height/5;
+var s_scale = 2
+secondCanvas.width = s_width*s_scale;
+secondCanvas.height = s_height*s_scale;
+s_ctx.scale(s_scale,s_scale);
+var my_s_c = document.getElementById('mySecondCanvas');
+my_s_c.style.backgroundColor = "rgb(100,100,100)"
+my_s_c.style.width = s_width+"px";
+my_s_c.style.height = s_height+"px";
+my_s_c.style.border = "0px solid rgba(200,200,200,0.5)";
+my_s_c.style.display = "block";
+my_s_c.style.margin = "auto";
+
+
+
+
+
+// colour set
+var colArray=[
+
+    [ "rgba(255,255,255,1)", "rgba(153,153,153,1)", "rgba(0,0,0,1)", 
+
+      "rgba(204,0,0,1)","rgba(255,204,51,1)","rgba(51,51,255,1)",
+
+      "rgba(255,102,102,1)","rgba(255,255,153,1)", "rgba(100,153,204,1)",
+
+      "rgba(20,255,20,1)","rgba(255,165,5,1)"
+
+    ],
+
+    [ "rgba(255,255,255,0.67)", "rgba(153,153,153,0.67)", "rgba(0,0,0,0.67)", 
+
+       "rgba(204,0,0,0.67)","rgba(255,204,51,0.67)","rgba(51,51,255,0.67)",
+
+       "rgba(255,102,102,0.67)","rgba(255,255,153,0.67)", "rgba(0,153,204,0.67)",
+
+       "rgba(137,255,0,0.67)","rgba(255,165,0,0.67)"
+
+     ],
+
+     [ "rgba(255,255,255,0.33)", "rgba(153,153,153,0.33)", "rgba(0,0,0,0.33)", 
+
+       "rgba(204,0,0,0.33)","rgba(255,204,51,0.33)","rgba(51,51,255,0.33)",
+
+       "rgba(255,102,102,0.33)","rgba(255,255,153,0.33)", "rgba(0,153,204,0.33)",
+
+       "rgba(137,255,0,0.33)","rgba(255,165,0,0.33)"
+
+      ]
+
+        ]
+//---
+
+
+class showColours{
+constructor(c,x,y,w){
+    this.color = c;
+    this.x = x;
+    this.y = y
+    this.w = w
+
+}
+    update(){
+        this.draw();
+    }
+
+    draw(){
+        for( var row=0; row<this.color.length; row ++ ){
+            for(var col=0 ; col<this.color[row].length; col ++){
+                ctx.fillStyle = this.color[row][col];
+                ctx.beginPath();
+                var step = this.w/this.color[row].length
+                ctx.rect(this.x + col*step, this.y + row*step, step, step)
+                ctx.fill();
+            }
+        }
+    }
+
+}
+
+
+
 /**
  * get a colour given Hue by interval 0 -> L
  * @param  0 <= x <= L  (number)
@@ -156,123 +244,39 @@ function updateContext(ob){
 
 }
 
-/**
- * Creates a series of date texts 
- * Shown right bottom of canvas
- * 
- * @param canvas
- * @return Null
- */
 
-class DateModule{
-constructor(canvas){
-    // used to calculate frame rate 
-    this.count = 0;
-    this.frame_interval = 40;
-    this.startDate = Date.now();
-    this.endDate = Date.now();
-    this.frameRate = 0;
-    // used to count seconds
-    this.seconds = 0
-    this.secondsCounter = Date.now();
-}
-/**
- * Creates a series of date texts 
- * 
- * @param None
- * @return Null
- */
-update(){
-    this.count+=1
-    if(this.count%this.frame_interval == 0){
-        this.startDate = this.endDate;
-        this.endDate = Date.now();
-        this.frameRate= Math.round( this.frame_interval/((this.endDate - this.startDate)/1000) );
-    }
-//update seconds count
-    this.secondCount();
-    this.draw();
-}
-/**
- * Creates a series of date texts 
- * And draws on the canvas
- * @param canvas
- * @return Null
- */
-draw(){
-    var xPos , yPos , boxWidth , boxHeight, output;
-
-    boxWidth = 300;
-    boxHeight = 30;
-    xPos = width-boxWidth;
-    yPos = height - boxHeight;
-    //---
-    output = "Seconds: "+this.seconds;
-    this.rectangleText(xPos,yPos, boxWidth, boxHeight, 
-        {f:'rgb(0,153,204)' , s:'rgb(0,0,0)' , l:1},{f:"rgb(255,255,255)"},output);
-    //----
-    yPos = height - 2*boxHeight;
-    //-----
-    output = "Frame Rate: "+this.frameRate;
-    this.rectangleText(xPos,yPos, boxWidth, boxHeight,
-    {f:'rgb(0,153,204)' , s:'rgb(0,0,0)' , l:1},{f:"rgb(255,255,255)"},output);
-    //---
-    yPos = height - 3*boxHeight;
-    //---
-    output = "Frame Count: "+this.count;
-    this.rectangleText(xPos,yPos, boxWidth, boxHeight,
-    {f:'rgb(0,153,204)' , s:'rgb(0,0,0)' , l:1},{f:"rgb(255,255,255)"},output);
-    //---
-    yPos = height - 4*boxHeight;
-    //---
-    var d = new Date();
-    output = d.getHours()+":"+d.getMinutes().toString().padStart(2, '0')+":"
-    +d.getSeconds().toString().padStart(2, '0')+":"+d.getMilliseconds().toString().padStart(3, '0');
-    this.rectangleText(xPos,yPos, boxWidth, boxHeight,
-        {f:'rgb(0,153,204)' , s:'rgb(0,0,0)' , l:1},{f:"rgb(255,255,255)"},output);
-    //---
-    yPos = height - 5*boxHeight;
-    //---
-    var t = Math.round(d.getTime()/1000);
-    output ="Seconds since 01/01/1970:"+t;
-    this.rectangleText(xPos,yPos, boxWidth, boxHeight,
-        {f:'rgb(0,153,204)' , s:'rgb(0,0,0)' , l:1},{f:"rgb(255,255,255)"},output);
-
-
-}
-
-secondCount(){
-    if(Date.now()-this.secondsCounter > 1000){
-        this.seconds +=1
-        this.secondsCounter = Date.now()
+class Grid{
+    constructor(w,h, xstep, ystep){
+        this.xstep = xstep;
+        this.ystep = ystep;
+        this.w = w;
+        this.h = h;
     }
 
+    update(){
+        this.draw()
+
+
+    }
+
+    draw(){
+        for(var col=0; col<= this.w; col+= this.xstep){
+            this.draw_line(col, 0, col, this.h);
+        }
+        for(var row=0; row<= this.h; row+= this.ystep){
+            this.draw_line(0, row, this.w, row);
+        }
+    }
+
+    draw_line(x_1, y_1, x_2,y_2){
+        ctx.strokeStyle="rgb(255,255,255)";
+        ctx.lineWidth=0.25;
+        ctx.beginPath();
+        ctx.moveTo(x_1, y_1);
+        ctx.lineTo(x_2,y_2);
+        ctx.stroke();
+    }
+
+
+
 }
-/**
- * Draws rectangle with text on it 
- * And draws on the canvas
- * @param dimensions x,y,w,h,  rect_context(mini object), text_context(mini object), output(string)
- * @return Null
- */
-rectangleText(x,y,w,h,rect_context, text_context, output){
-
-    this.updateContext(rect_context);
-
-    ctx.beginPath();
-    ctx.rect(x,y,w,h);
-    ctx.stroke();
-    ctx.fill();
-    this.updateContext(text_context)
-    var myFont= "bold 15px sans-serif";
-    ctx.font=myFont;
-    ctx.textBaseline = 'middle';
-    ctx.textAlign = "center";
- 
-    ctx.fillText(output, x+w/2,y+h/2);
-
-}
-
-
-}
-// add update conext function to the object
-DateModule.prototype.updateContext = updateContext;

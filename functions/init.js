@@ -1,4 +1,4 @@
-console.log("init js with scaling called")
+console.log("functions js called")
 
 //set up code
 
@@ -19,4 +19,3 @@ my_c.style.border = "6px solid rgba(200,200,200,0.5)";
 my_c.style.display = "block";
 my_c.style.margin = "auto";
 document.body.style.backgroundColor = "rgb(190,190,190)";
-//------------------------------------------------------------------
