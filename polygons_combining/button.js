@@ -39,19 +39,10 @@ class Button{
     }
     
     mClick(e){
-        console.log("Clicked");
         if(this.inBounds){
             Button.clicked = this;
             this.target.setColor(this.targetColour)
         }
- 
-
-    /*
-        if(this.inBounds){
-           Button.clicked = this;
-           Button.shape = this.text;
-        }
-    */
     
     }
     mMove(e){
@@ -60,7 +51,6 @@ class Button{
         this.yMouse = e.offsetY;
        
         this.inBounds = this.inBoundsCheck(this.xMouse, this.yMouse, this.x, this.y, this.w, this.h);
-        console.log(this.inBounds);
    
     }
     
