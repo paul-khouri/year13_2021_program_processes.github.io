@@ -1,2005 +1,2005 @@
-Number of Bedrooms,Weekly Rent($),Weekly Income ($),Region,Floor Space (sqm),Property Type
-1,125,470,Auckland,74,Apartment
-1,135,500,Auckland,73,Apartment
-1,130,505,Auckland,90,Apartment
-1,90,560,Auckland,71,Apartment
-1,100,620,Auckland,76,Apartment
-1,170,660,Auckland,78,Apartment
-1,165,660,Auckland,81,Apartment
-1,165,685,Auckland,77,Apartment
-1,175,725,Auckland,71,Apartment
-1,220,790,Auckland,73,Apartment
-1,145,825,Auckland,76,Apartment
-1,155,845,Auckland,89,Apartment
-1,165,865,Auckland,85,Apartment
-1,280,1035,Auckland,77,Apartment
-1,280,1070,Auckland,87,Apartment
-1,290,1145,Auckland,80,Apartment
-1,285,1160,Auckland,84,Apartment
-1,240,1175,Auckland,83,Apartment
-1,300,1180,Auckland,83,Apartment
-1,245,1210,Auckland,85,Apartment
-1,295,1260,Auckland,78,Apartment
-1,325,1265,Auckland,72,Apartment
-1,355,1275,Auckland,78,Apartment
-1,350,1285,Auckland,69,Apartment
-1,330,1285,Auckland,75,Apartment
-1,310,1400,Auckland,89,Apartment
-1,340,1420,Auckland,84,Apartment
-1,375,1545,Auckland,77,Apartment
-1,400,1575,Auckland,71,Apartment
-1,440,1650,Auckland,79,Apartment
-1,465,1700,Auckland,83,Apartment
-1,455,1820,Auckland,78,Apartment
-1,515,2025,Auckland,82,Apartment
-1,565,2175,Auckland,82,Apartment
-1,560,2215,Auckland,77,Apartment
-1,615,2290,Auckland,78,Apartment
-1,625,2565,Auckland,83,Apartment
-1,695,2825,Auckland,74,Apartment
-1,715,2840,Auckland,78,Apartment
-1,775,3040,Auckland,79,Apartment
-1,790,3150,Auckland,72,Apartment
-1,890,3410,Auckland,74,Apartment
-1,985,3570,Auckland,75,Apartment
-1,220,1085,Bay of Plenty,86,Apartment
-1,500,1885,Bay of Plenty,75,Apartment
-1,150,530,Canterbury,89,Apartment
-1,125,530,Canterbury,65,Apartment
-1,145,690,Canterbury,78,Apartment
-1,155,780,Canterbury,75,Apartment
-1,220,875,Canterbury,79,Apartment
-1,220,910,Canterbury,70,Apartment
-1,310,1130,Canterbury,88,Apartment
-1,255,1230,Canterbury,69,Apartment
-1,265,1250,Canterbury,84,Apartment
-1,330,1505,Canterbury,80,Apartment
-1,410,1585,Canterbury,88,Apartment
-1,425,1675,Canterbury,77,Apartment
-1,760,2775,Canterbury,69,Apartment
-1,730,2910,Canterbury,76,Apartment
-1,230,905,Hawke's Bay,85,Apartment
-1,125,590,Manawatu-Whanganui,71,Apartment
-1,105,665,Northland,74,Apartment
-1,220,880,Northland,86,Apartment
-1,105,460,Otago,97,Apartment
-1,160,615,Otago,84,Apartment
-1,160,790,Otago,80,Apartment
-1,180,975,Otago,81,Apartment
-1,265,1005,Otago,77,Apartment
-1,315,1180,Otago,87,Apartment
-1,260,1270,Otago,81,Apartment
-1,305,1365,Otago,83,Apartment
-1,95,410,Tasman,75,Apartment
-1,95,440,Waikato,72,Apartment
-1,115,505,Waikato,95,Apartment
-1,120,645,Waikato,79,Apartment
-1,160,675,Waikato,89,Apartment
-1,180,885,Waikato,70,Apartment
-1,265,960,Waikato,83,Apartment
-1,240,1025,Waikato,75,Apartment
-1,300,1145,Waikato,91,Apartment
-1,310,1165,Waikato,73,Apartment
-1,370,1340,Waikato,89,Apartment
-1,385,1465,Waikato,81,Apartment
-1,665,2685,Waikato,84,Apartment
-1,150,520,Wellington,83,Apartment
-1,160,665,Wellington,90,Apartment
-1,210,740,Wellington,84,Apartment
-1,230,835,Wellington,84,Apartment
-1,235,855,Wellington,83,Apartment
-1,260,930,Wellington,82,Apartment
-1,305,1095,Wellington,67,Apartment
-1,230,1105,Wellington,74,Apartment
-1,275,1290,Wellington,81,Apartment
-1,370,1320,Wellington,85,Apartment
-1,280,1320,Wellington,77,Apartment
-1,430,1545,Wellington,76,Apartment
-1,470,1895,Wellington,76,Apartment
-1,510,1920,Wellington,83,Apartment
-1,135,600,Auckland,76,House
-1,135,700,Auckland,76,House
-1,285,1270,Auckland,93,House
-1,475,1720,Auckland,84,House
-1,465,1720,Auckland,85,House
-1,195,765,Canterbury,92,House
-1,160,895,Canterbury,73,House
-1,230,915,Canterbury,71,House
-1,290,1265,Canterbury,87,House
-1,450,1690,Canterbury,73,House
-1,90,480,Gisborne,88,House
-1,150,790,Hawke's Bay,75,House
-1,230,815,Marlborough,75,House
-1,195,905,Nelson,79,House
-1,290,1270,Nelson,80,House
-1,150,660,Northland,82,House
-1,400,1485,Otago,80,House
-1,95,385,Southland,85,House
-1,215,905,Southland,81,House
-1,115,625,Taranaki,91,House
-1,295,1070,Waikato,97,House
-1,355,1420,Wellington,78,House
-1,340,1445,Wellington,73,House
-1,525,2005,Wellington,87,House
-1,135,795,West Coast,81,House
-2,90,355,Auckland,93,Apartment
-2,105,360,Auckland,107,Apartment
-2,135,500,Auckland,105,Apartment
-2,125,515,Auckland,102,Apartment
-2,135,560,Auckland,104,Apartment
-2,95,565,Auckland,111,Apartment
-2,115,585,Auckland,98,Apartment
-2,150,590,Auckland,91,Apartment
-2,170,675,Auckland,109,Apartment
-2,170,680,Auckland,117,Apartment
-2,195,715,Auckland,88,Apartment
-2,140,815,Auckland,119,Apartment
-2,225,955,Auckland,106,Apartment
-2,225,980,Auckland,96,Apartment
-2,280,1000,Auckland,101,Apartment
-2,280,1030,Auckland,103,Apartment
-2,295,1045,Auckland,105,Apartment
-2,250,1050,Auckland,110,Apartment
-2,285,1105,Auckland,111,Apartment
-2,285,1115,Auckland,100,Apartment
-2,265,1120,Auckland,99,Apartment
-2,315,1140,Auckland,93,Apartment
-2,325,1170,Auckland,94,Apartment
-2,285,1170,Auckland,110,Apartment
-2,285,1170,Auckland,93,Apartment
-2,270,1175,Auckland,100,Apartment
-2,265,1175,Auckland,104,Apartment
-2,280,1180,Auckland,107,Apartment
-2,255,1195,Auckland,99,Apartment
-2,285,1200,Auckland,100,Apartment
-2,265,1200,Auckland,120,Apartment
-2,290,1210,Auckland,102,Apartment
-2,295,1215,Auckland,120,Apartment
-2,330,1225,Auckland,93,Apartment
-2,265,1230,Auckland,123,Apartment
-2,275,1230,Auckland,114,Apartment
-2,315,1240,Auckland,88,Apartment
-2,350,1240,Auckland,96,Apartment
-2,345,1250,Auckland,117,Apartment
-2,295,1255,Auckland,97,Apartment
-2,345,1270,Auckland,94,Apartment
-2,335,1275,Auckland,100,Apartment
-2,360,1280,Auckland,96,Apartment
-2,300,1290,Auckland,105,Apartment
-2,285,1315,Auckland,117,Apartment
-2,310,1320,Auckland,97,Apartment
-2,315,1330,Auckland,115,Apartment
-2,290,1330,Auckland,96,Apartment
-2,275,1330,Auckland,116,Apartment
-2,375,1370,Auckland,115,Apartment
-2,330,1370,Auckland,109,Apartment
-2,325,1370,Auckland,111,Apartment
-2,340,1445,Auckland,104,Apartment
-2,355,1445,Auckland,110,Apartment
-2,390,1450,Auckland,104,Apartment
-2,335,1465,Auckland,88,Apartment
-2,400,1465,Auckland,101,Apartment
-2,350,1480,Auckland,109,Apartment
-2,365,1485,Auckland,120,Apartment
-2,405,1490,Auckland,100,Apartment
-2,415,1490,Auckland,106,Apartment
-2,370,1515,Auckland,111,Apartment
-2,335,1515,Auckland,105,Apartment
-2,400,1535,Auckland,112,Apartment
-2,395,1535,Auckland,117,Apartment
-2,400,1595,Auckland,99,Apartment
-2,365,1635,Auckland,98,Apartment
-2,455,1665,Auckland,109,Apartment
-2,395,1675,Auckland,101,Apartment
-2,475,1690,Auckland,122,Apartment
-2,400,1695,Auckland,112,Apartment
-2,465,1720,Auckland,104,Apartment
-2,430,1720,Auckland,105,Apartment
-2,430,1755,Auckland,104,Apartment
-2,435,1765,Auckland,111,Apartment
-2,440,1795,Auckland,112,Apartment
-2,470,1800,Auckland,102,Apartment
-2,495,1805,Auckland,101,Apartment
-2,420,1835,Auckland,99,Apartment
-2,455,1870,Auckland,112,Apartment
-2,515,1890,Auckland,96,Apartment
-2,440,1900,Auckland,121,Apartment
-2,450,1905,Auckland,113,Apartment
-2,480,1925,Auckland,95,Apartment
-2,465,1930,Auckland,113,Apartment
-2,500,1945,Auckland,117,Apartment
-2,510,2005,Auckland,89,Apartment
-2,555,2025,Auckland,101,Apartment
-2,545,2120,Auckland,113,Apartment
-2,515,2120,Auckland,94,Apartment
-2,590,2275,Auckland,100,Apartment
-2,560,2275,Auckland,104,Apartment
-2,615,2330,Auckland,106,Apartment
-2,555,2340,Auckland,103,Apartment
-2,580,2365,Auckland,115,Apartment
-2,585,2410,Auckland,110,Apartment
-2,655,2430,Auckland,96,Apartment
-2,645,2455,Auckland,112,Apartment
-2,650,2485,Auckland,100,Apartment
-2,745,2795,Auckland,106,Apartment
-2,755,2870,Auckland,117,Apartment
-2,755,2925,Auckland,115,Apartment
-2,815,3030,Auckland,101,Apartment
-2,810,3130,Auckland,119,Apartment
-2,915,3530,Auckland,91,Apartment
-2,1105,4190,Auckland,99,Apartment
-2,1360,5090,Auckland,97,Apartment
-2,1385,5175,Auckland,100,Apartment
-2,1760,6505,Auckland,93,Apartment
-2,305,1140,Bay of Plenty,114,Apartment
-2,295,1200,Bay of Plenty,112,Apartment
-2,385,1435,Bay of Plenty,115,Apartment
-2,95,335,Canterbury,104,Apartment
-2,110,450,Canterbury,122,Apartment
-2,75,495,Canterbury,110,Apartment
-2,80,500,Canterbury,119,Apartment
-2,100,590,Canterbury,119,Apartment
-2,135,630,Canterbury,125,Apartment
-2,175,660,Canterbury,110,Apartment
-2,180,680,Canterbury,111,Apartment
-2,110,680,Canterbury,120,Apartment
-2,125,710,Canterbury,130,Apartment
-2,225,810,Canterbury,109,Apartment
-2,260,915,Canterbury,117,Apartment
-2,260,935,Canterbury,104,Apartment
-2,235,935,Canterbury,106,Apartment
-2,195,955,Canterbury,109,Apartment
-2,240,960,Canterbury,116,Apartment
-2,230,985,Canterbury,99,Apartment
-2,180,985,Canterbury,105,Apartment
-2,260,1045,Canterbury,118,Apartment
-2,325,1155,Canterbury,110,Apartment
-2,295,1220,Canterbury,106,Apartment
-2,320,1265,Canterbury,115,Apartment
-2,295,1370,Canterbury,123,Apartment
-2,325,1505,Canterbury,106,Apartment
-2,390,1545,Canterbury,120,Apartment
-2,385,1580,Canterbury,111,Apartment
-2,360,1630,Canterbury,130,Apartment
-2,445,1690,Canterbury,125,Apartment
-2,455,1740,Canterbury,119,Apartment
-2,475,1760,Canterbury,129,Apartment
-2,430,1780,Canterbury,98,Apartment
-2,480,1800,Canterbury,115,Apartment
-2,505,1845,Canterbury,110,Apartment
-2,555,2040,Canterbury,113,Apartment
-2,585,2110,Canterbury,114,Apartment
-2,580,2420,Canterbury,117,Apartment
-2,695,2660,Canterbury,104,Apartment
-2,235,1160,Gisborne,117,Apartment
-2,385,1400,Gisborne,119,Apartment
-2,125,480,Hawke's Bay,115,Apartment
-2,195,805,Hawke's Bay,111,Apartment
-2,215,815,Hawke's Bay,109,Apartment
-2,355,1430,Hawke's Bay,111,Apartment
-2,215,790,Manawatu-Whanganui,125,Apartment
-2,265,950,Manawatu-Whanganui,110,Apartment
-2,175,950,Manawatu-Whanganui,121,Apartment
-2,250,975,Manawatu-Whanganui,130,Apartment
-2,265,1015,Manawatu-Whanganui,116,Apartment
-2,310,1175,Manawatu-Whanganui,115,Apartment
-2,315,1220,Manawatu-Whanganui,105,Apartment
-2,320,1265,Manawatu-Whanganui,105,Apartment
-2,420,1515,Manawatu-Whanganui,112,Apartment
-2,415,1630,Manawatu-Whanganui,125,Apartment
-2,470,1765,Manawatu-Whanganui,133,Apartment
-2,210,1010,Marlborough,101,Apartment
-2,305,1320,Marlborough,97,Apartment
-2,280,1070,Nelson,119,Apartment
-2,420,1555,Nelson,121,Apartment
-2,200,930,Northland,122,Apartment
-2,225,1085,Northland,109,Apartment
-2,230,1170,Northland,106,Apartment
-2,350,1530,Northland,112,Apartment
-2,420,1670,Northland,115,Apartment
-2,400,1730,Northland,112,Apartment
-2,100,600,Otago,114,Apartment
-2,170,635,Otago,129,Apartment
-2,100,640,Otago,122,Apartment
-2,170,795,Otago,116,Apartment
-2,290,1075,Otago,125,Apartment
-2,270,1085,Otago,105,Apartment
-2,275,1100,Otago,130,Apartment
-2,265,1190,Otago,108,Apartment
-2,265,1190,Otago,98,Apartment
-2,255,1195,Otago,104,Apartment
-2,325,1220,Otago,112,Apartment
-2,315,1400,Otago,112,Apartment
-2,435,1590,Otago,130,Apartment
-2,385,1615,Otago,127,Apartment
-2,440,1620,Otago,104,Apartment
-2,385,1670,Otago,115,Apartment
-2,425,1695,Otago,117,Apartment
-2,455,1805,Otago,115,Apartment
-2,460,1855,Otago,126,Apartment
-2,495,1985,Otago,115,Apartment
-2,555,2070,Otago,108,Apartment
-2,165,875,Taranaki,121,Apartment
-2,185,905,Taranaki,101,Apartment
-2,225,1130,Taranaki,101,Apartment
-2,235,1180,Taranaki,109,Apartment
-2,565,2155,Taranaki,118,Apartment
-2,185,855,Tasman,119,Apartment
-2,315,1310,Tasman,118,Apartment
-2,380,1600,Tasman,103,Apartment
-2,140,540,Waikato,122,Apartment
-2,140,570,Waikato,122,Apartment
-2,155,575,Waikato,120,Apartment
-2,165,680,Waikato,115,Apartment
-2,140,690,Waikato,120,Apartment
-2,110,700,Waikato,125,Apartment
-2,145,720,Waikato,115,Apartment
-2,200,725,Waikato,111,Apartment
-2,195,730,Waikato,103,Apartment
-2,145,765,Waikato,108,Apartment
-2,125,780,Waikato,111,Apartment
-2,150,800,Waikato,114,Apartment
-2,240,860,Waikato,115,Apartment
-2,180,930,Waikato,106,Apartment
-2,215,940,Waikato,113,Apartment
-2,205,945,Waikato,123,Apartment
-2,290,1025,Waikato,123,Apartment
-2,205,1025,Waikato,123,Apartment
-2,280,1065,Waikato,108,Apartment
-2,290,1085,Waikato,122,Apartment
-2,315,1185,Waikato,123,Apartment
-2,330,1285,Waikato,125,Apartment
-2,360,1360,Waikato,129,Apartment
-2,350,1375,Waikato,111,Apartment
-2,305,1405,Waikato,122,Apartment
-2,340,1510,Waikato,113,Apartment
-2,470,1725,Waikato,107,Apartment
-2,465,1910,Waikato,114,Apartment
-2,135,690,Wellington,112,Apartment
-2,175,855,Wellington,95,Apartment
-2,190,865,Wellington,113,Apartment
-2,165,895,Wellington,126,Apartment
-2,200,995,Wellington,120,Apartment
-2,275,1035,Wellington,111,Apartment
-2,270,1135,Wellington,113,Apartment
-2,315,1170,Wellington,108,Apartment
-2,310,1185,Wellington,97,Apartment
-2,305,1220,Wellington,105,Apartment
-2,350,1245,Wellington,122,Apartment
-2,305,1250,Wellington,123,Apartment
-2,285,1250,Wellington,118,Apartment
-2,305,1265,Wellington,124,Apartment
-2,360,1285,Wellington,106,Apartment
-2,345,1345,Wellington,106,Apartment
-2,355,1345,Wellington,105,Apartment
-2,380,1390,Wellington,96,Apartment
-2,385,1470,Wellington,114,Apartment
-2,340,1510,Wellington,116,Apartment
-2,330,1510,Wellington,99,Apartment
-2,365,1530,Wellington,121,Apartment
-2,390,1550,Wellington,112,Apartment
-2,435,1670,Wellington,107,Apartment
-2,410,1690,Wellington,120,Apartment
-2,410,1755,Wellington,96,Apartment
-2,510,1865,Wellington,110,Apartment
-2,465,2015,Wellington,104,Apartment
-2,545,2080,Wellington,107,Apartment
-2,560,2090,Wellington,109,Apartment
-2,510,2140,Wellington,112,Apartment
-2,610,2175,Wellington,101,Apartment
-2,550,2260,Wellington,108,Apartment
-2,635,2445,Wellington,109,Apartment
-2,735,2640,Wellington,115,Apartment
-2,740,2795,Wellington,114,Apartment
-2,820,3245,Wellington,106,Apartment
-2,900,3545,Wellington,104,Apartment
-2,945,3560,Wellington,118,Apartment
-2,1060,4115,Wellington,102,Apartment
-2,330,1415,West Coast,117,Apartment
-2,115,590,Auckland,112,House
-2,100,620,Auckland,105,House
-2,110,635,Auckland,106,House
-2,290,1095,Auckland,105,House
-2,260,1100,Auckland,97,House
-2,280,1105,Auckland,95,House
-2,335,1340,Auckland,113,House
-2,295,1350,Auckland,97,House
-2,340,1355,Auckland,110,House
-2,315,1375,Auckland,100,House
-2,315,1420,Auckland,102,House
-2,400,1440,Auckland,105,House
-2,410,1535,Auckland,88,House
-2,420,1535,Auckland,96,House
-2,420,1535,Auckland,115,House
-2,355,1545,Auckland,107,House
-2,395,1550,Auckland,98,House
-2,380,1555,Auckland,105,House
-2,475,1855,Auckland,95,House
-2,515,1860,Auckland,99,House
-2,465,1865,Auckland,110,House
-2,505,2045,Auckland,100,House
-2,545,2080,Auckland,93,House
-2,505,2115,Auckland,106,House
-2,650,2495,Auckland,105,House
-2,610,2530,Auckland,105,House
-2,655,2540,Auckland,116,House
-2,660,2540,Auckland,92,House
-2,695,2595,Auckland,99,House
-2,645,2610,Auckland,106,House
-2,655,2640,Auckland,122,House
-2,750,2705,Auckland,115,House
-2,750,2770,Auckland,113,House
-2,825,3195,Auckland,113,House
-2,890,3350,Auckland,98,House
-2,940,3470,Auckland,100,House
-2,105,360,Bay of Plenty,107,House
-2,130,635,Bay of Plenty,112,House
-2,175,775,Bay of Plenty,105,House
-2,275,1240,Bay of Plenty,128,House
-2,330,1270,Bay of Plenty,111,House
-2,305,1305,Bay of Plenty,97,House
-2,415,1520,Bay of Plenty,114,House
-2,560,2060,Bay of Plenty,116,House
-2,1210,4355,Bay of Plenty,109,House
-2,205,725,Canterbury,113,House
-2,145,745,Canterbury,124,House
-2,210,770,Canterbury,106,House
-2,255,1010,Canterbury,109,House
-2,265,1010,Canterbury,106,House
-2,265,1035,Canterbury,123,House
-2,215,1085,Canterbury,118,House
-2,225,1110,Canterbury,112,House
-2,315,1115,Canterbury,106,House
-2,320,1330,Canterbury,101,House
-2,335,1335,Canterbury,128,House
-2,295,1360,Canterbury,117,House
-2,325,1375,Canterbury,108,House
-2,335,1445,Canterbury,127,House
-2,365,1460,Canterbury,123,House
-2,520,2165,Canterbury,111,House
-2,595,2210,Canterbury,115,House
-2,550,2240,Canterbury,113,House
-2,930,3655,Canterbury,127,House
-2,145,645,Gisborne,109,House
-2,205,735,Gisborne,119,House
-2,210,855,Hawke's Bay,102,House
-2,200,910,Hawke's Bay,113,House
-2,265,1010,Hawke's Bay,117,House
-2,460,1835,Hawke's Bay,107,House
-2,145,520,Manawatu-Whanganui,116,House
-2,165,600,Manawatu-Whanganui,129,House
-2,195,680,Manawatu-Whanganui,105,House
-2,105,720,Manawatu-Whanganui,114,House
-2,140,750,Manawatu-Whanganui,102,House
-2,555,2125,Marlborough,116,House
-2,195,800,Nelson,128,House
-2,220,825,Nelson,110,House
-2,165,620,Northland,120,House
-2,145,785,Northland,119,House
-2,150,835,Northland,110,House
-2,235,1005,Northland,123,House
-2,265,1035,Northland,121,House
-2,295,1080,Northland,109,House
-2,200,700,Otago,120,House
-2,180,730,Otago,113,House
-2,175,780,Otago,115,House
-2,200,870,Otago,127,House
-2,175,965,Otago,127,House
-2,270,1015,Otago,115,House
-2,525,2225,Otago,110,House
-2,150,790,Southland,104,House
-2,310,1130,Southland,106,House
-2,95,335,Taranaki,123,House
-2,185,680,Taranaki,119,House
-2,180,800,Taranaki,120,House
-2,375,1450,Waikato,106,House
-2,360,1470,Waikato,115,House
-2,405,1480,Waikato,126,House
-2,385,1535,Waikato,112,House
-2,365,1570,Waikato,106,House
-2,435,1630,Waikato,117,House
-2,405,1775,Waikato,103,House
-2,415,1805,Waikato,122,House
-2,480,1905,Waikato,116,House
-2,665,2425,Waikato,111,House
-2,1140,4320,Waikato,102,House
-2,180,630,Wellington,109,House
-2,210,1045,Wellington,104,House
-2,235,1055,Wellington,103,House
-2,290,1065,Wellington,106,House
-2,300,1305,Wellington,107,House
-2,365,1330,Wellington,106,House
-2,305,1330,Wellington,119,House
-2,350,1565,Wellington,95,House
-2,395,1570,Wellington,112,House
-2,390,1610,Wellington,105,House
-2,205,935,West Coast,130,House
-3,295,1105,Auckland,143,Apartment
-3,300,1110,Auckland,137,Apartment
-3,360,1365,Auckland,142,Apartment
-3,320,1385,Auckland,154,Apartment
-3,365,1400,Auckland,144,Apartment
-3,415,1705,Auckland,155,Apartment
-3,410,1730,Auckland,143,Apartment
-3,450,1740,Auckland,144,Apartment
-3,510,1865,Auckland,141,Apartment
-3,430,1865,Auckland,144,Apartment
-3,500,1870,Auckland,137,Apartment
-3,540,2055,Auckland,140,Apartment
-3,510,2055,Auckland,165,Apartment
-3,515,2055,Auckland,158,Apartment
-3,605,2240,Auckland,138,Apartment
-3,605,2240,Auckland,170,Apartment
-3,545,2240,Auckland,172,Apartment
-3,645,2415,Auckland,141,Apartment
-3,660,2435,Auckland,133,Apartment
-3,620,2455,Auckland,137,Apartment
-3,705,2730,Auckland,158,Apartment
-3,675,2740,Auckland,162,Apartment
-3,695,2740,Auckland,147,Apartment
-3,735,2910,Auckland,154,Apartment
-3,760,2930,Auckland,159,Apartment
-3,755,2965,Auckland,152,Apartment
-3,890,3365,Auckland,163,Apartment
-3,940,3380,Auckland,161,Apartment
-3,865,3385,Auckland,144,Apartment
-3,855,3400,Auckland,140,Apartment
-3,915,3405,Auckland,157,Apartment
-3,860,3405,Auckland,173,Apartment
-3,990,3665,Auckland,150,Apartment
-3,960,3680,Auckland,160,Apartment
-3,990,3690,Auckland,159,Apartment
-3,1220,4435,Auckland,142,Apartment
-3,1205,4450,Auckland,145,Apartment
-3,1210,4685,Auckland,146,Apartment
-3,585,2120,Bay of Plenty,152,Apartment
-3,510,2120,Bay of Plenty,152,Apartment
-3,495,2120,Bay of Plenty,176,Apartment
-3,300,1250,Canterbury,165,Apartment
-3,335,1285,Canterbury,160,Apartment
-3,320,1290,Canterbury,148,Apartment
-3,485,2030,Canterbury,140,Apartment
-3,555,2040,Canterbury,179,Apartment
-3,575,2060,Canterbury,147,Apartment
-3,755,2920,Canterbury,157,Apartment
-3,765,2930,Canterbury,154,Apartment
-3,745,2940,Canterbury,159,Apartment
-3,485,1800,Hawke's Bay,164,Apartment
-3,440,1805,Hawke's Bay,168,Apartment
-3,490,1895,Hawke's Bay,163,Apartment
-3,580,2125,Hawke's Bay,156,Apartment
-3,575,2175,Hawke's Bay,164,Apartment
-3,580,2235,Hawke's Bay,142,Apartment
-3,665,2715,Manawatu-Whanganui,167,Apartment
-3,805,2885,Manawatu-Whanganui,147,Apartment
-3,740,2890,Manawatu-Whanganui,170,Apartment
-3,1140,4385,Manawatu-Whanganui,146,Apartment
-3,200,1035,Marlborough,170,Apartment
-3,345,1525,Marlborough,144,Apartment
-3,485,1780,Marlborough,145,Apartment
-3,590,2185,Marlborough,147,Apartment
-3,750,2990,Marlborough,160,Apartment
-3,500,1845,Nelson,174,Apartment
-3,545,1975,Nelson,155,Apartment
-3,550,2075,Nelson,171,Apartment
-3,1095,4165,Nelson,157,Apartment
-3,250,900,Northland,142,Apartment
-3,220,1010,Northland,173,Apartment
-3,555,2030,Northland,135,Apartment
-3,560,2085,Northland,163,Apartment
-3,560,2105,Northland,159,Apartment
-3,425,1525,Otago,156,Apartment
-3,355,1580,Otago,172,Apartment
-3,410,1635,Otago,150,Apartment
-3,440,1830,Otago,140,Apartment
-3,515,1870,Otago,167,Apartment
-3,530,1940,Otago,154,Apartment
-3,545,2125,Otago,153,Apartment
-3,560,2150,Otago,163,Apartment
-3,600,2185,Otago,153,Apartment
-3,560,2240,Otago,155,Apartment
-3,605,2325,Otago,166,Apartment
-3,650,2355,Otago,170,Apartment
-3,670,2550,Otago,163,Apartment
-3,630,2595,Otago,147,Apartment
-3,670,2620,Otago,165,Apartment
-3,875,3260,Otago,163,Apartment
-3,970,3780,Otago,171,Apartment
-3,1080,4140,Otago,167,Apartment
-3,500,2135,Taranaki,159,Apartment
-3,585,2170,Taranaki,174,Apartment
-3,520,2210,Taranaki,142,Apartment
-3,1555,5805,Tasman,157,Apartment
-3,120,545,Waikato,143,Apartment
-3,280,1015,Waikato,172,Apartment
-3,360,1470,Waikato,166,Apartment
-3,350,1490,Waikato,153,Apartment
-3,335,1505,Waikato,170,Apartment
-3,345,1580,Waikato,157,Apartment
-3,390,1580,Waikato,166,Apartment
-3,380,1585,Waikato,163,Apartment
-3,515,1905,Waikato,147,Apartment
-3,500,1945,Waikato,150,Apartment
-3,500,1970,Waikato,154,Apartment
-3,535,2120,Waikato,137,Apartment
-3,510,2125,Waikato,164,Apartment
-3,595,2145,Waikato,166,Apartment
-3,610,2370,Waikato,157,Apartment
-3,655,2380,Waikato,159,Apartment
-3,605,2425,Waikato,158,Apartment
-3,350,1590,Wellington,164,Apartment
-3,445,1595,Wellington,173,Apartment
-3,425,1600,Wellington,161,Apartment
-3,375,1665,Wellington,135,Apartment
-3,400,1685,Wellington,168,Apartment
-3,400,1690,Wellington,167,Apartment
-3,415,1780,Wellington,170,Apartment
-3,415,1790,Wellington,145,Apartment
-3,490,1805,Wellington,174,Apartment
-3,455,1930,Wellington,166,Apartment
-3,470,1935,Wellington,161,Apartment
-3,475,1940,Wellington,178,Apartment
-3,505,2025,Wellington,155,Apartment
-3,495,2030,Wellington,154,Apartment
-3,535,2060,Wellington,152,Apartment
-3,475,1895,West Coast,143,Apartment
-3,485,1980,West Coast,140,Apartment
-3,740,2685,West Coast,162,Apartment
-3,340,1230,Auckland,152,House
-3,325,1235,Auckland,149,House
-3,315,1260,Auckland,151,House
-3,315,1265,Auckland,168,House
-3,345,1280,Auckland,141,House
-3,305,1300,Auckland,136,House
-3,360,1320,Auckland,132,House
-3,330,1320,Auckland,167,House
-3,350,1330,Auckland,165,House
-3,380,1355,Auckland,140,House
-3,340,1360,Auckland,151,House
-3,365,1365,Auckland,151,House
-3,315,1430,Auckland,135,House
-3,375,1435,Auckland,144,House
-3,315,1435,Auckland,143,House
-3,380,1440,Auckland,147,House
-3,395,1450,Auckland,138,House
-3,410,1455,Auckland,166,House
-3,355,1485,Auckland,168,House
-3,330,1505,Auckland,156,House
-3,420,1515,Auckland,133,House
-3,395,1515,Auckland,158,House
-3,355,1520,Auckland,159,House
-3,375,1535,Auckland,140,House
-3,405,1555,Auckland,170,House
-3,400,1560,Auckland,147,House
-3,370,1580,Auckland,144,House
-3,365,1585,Auckland,160,House
-3,440,1610,Auckland,156,House
-3,370,1625,Auckland,135,House
-3,465,1660,Auckland,169,House
-3,460,1670,Auckland,165,House
-3,390,1685,Auckland,150,House
-3,485,1755,Auckland,156,House
-3,465,1760,Auckland,158,House
-3,425,1760,Auckland,143,House
-3,450,1775,Auckland,147,House
-3,500,1780,Auckland,155,House
-3,410,1785,Auckland,162,House
-3,480,1800,Auckland,140,House
-3,415,1800,Auckland,140,House
-3,455,1810,Auckland,142,House
-3,420,1820,Auckland,138,House
-3,450,1825,Auckland,156,House
-3,445,1825,Auckland,161,House
-3,420,1835,Auckland,157,House
-3,480,1845,Auckland,145,House
-3,480,1855,Auckland,144,House
-3,515,1860,Auckland,145,House
-3,450,1875,Auckland,144,House
-3,500,1890,Auckland,148,House
-3,485,1895,Auckland,152,House
-3,515,1905,Auckland,165,House
-3,445,1905,Auckland,154,House
-3,525,1910,Auckland,154,House
-3,530,1920,Auckland,167,House
-3,490,1920,Auckland,161,House
-3,515,1940,Auckland,148,House
-3,485,1940,Auckland,160,House
-3,480,1945,Auckland,165,House
-3,545,1960,Auckland,159,House
-3,455,1965,Auckland,141,House
-3,490,1980,Auckland,136,House
-3,525,1985,Auckland,161,House
-3,480,1985,Auckland,155,House
-3,530,1990,Auckland,151,House
-3,555,1995,Auckland,148,House
-3,530,2015,Auckland,166,House
-3,480,2030,Auckland,147,House
-3,570,2040,Auckland,157,House
-3,530,2045,Auckland,164,House
-3,565,2055,Auckland,141,House
-3,515,2075,Auckland,148,House
-3,490,2075,Auckland,161,House
-3,535,2085,Auckland,149,House
-3,565,2095,Auckland,168,House
-3,515,2100,Auckland,142,House
-3,530,2110,Auckland,153,House
-3,520,2110,Auckland,148,House
-3,560,2115,Auckland,150,House
-3,525,2120,Auckland,147,House
-3,565,2130,Auckland,145,House
-3,530,2135,Auckland,152,House
-3,545,2145,Auckland,161,House
-3,510,2145,Auckland,161,House
-3,595,2150,Auckland,155,House
-3,555,2155,Auckland,145,House
-3,520,2160,Auckland,138,House
-3,510,2170,Auckland,148,House
-3,510,2170,Auckland,161,House
-3,520,2190,Auckland,140,House
-3,600,2195,Auckland,162,House
-3,600,2205,Auckland,157,House
-3,590,2215,Auckland,155,House
-3,600,2220,Auckland,143,House
-3,600,2225,Auckland,152,House
-3,535,2225,Auckland,164,House
-3,575,2230,Auckland,167,House
-3,535,2240,Auckland,138,House
-3,590,2245,Auckland,163,House
-3,540,2250,Auckland,160,House
-3,565,2260,Auckland,155,House
-3,640,2290,Auckland,145,House
-3,585,2295,Auckland,156,House
-3,640,2300,Auckland,150,House
-3,590,2300,Auckland,157,House
-3,600,2300,Auckland,150,House
-3,545,2300,Auckland,169,House
-3,555,2315,Auckland,160,House
-3,630,2320,Auckland,146,House
-3,560,2340,Auckland,158,House
-3,580,2340,Auckland,133,House
-3,650,2365,Auckland,134,House
-3,650,2365,Auckland,136,House
-3,575,2365,Auckland,135,House
-3,580,2375,Auckland,161,House
-3,615,2385,Auckland,157,House
-3,650,2390,Auckland,157,House
-3,595,2395,Auckland,163,House
-3,595,2455,Auckland,140,House
-3,690,2475,Auckland,135,House
-3,645,2485,Auckland,147,House
-3,650,2500,Auckland,152,House
-3,685,2515,Auckland,154,House
-3,645,2530,Auckland,155,House
-3,710,2565,Auckland,149,House
-3,675,2570,Auckland,168,House
-3,705,2585,Auckland,156,House
-3,650,2600,Auckland,154,House
-3,665,2610,Auckland,166,House
-3,655,2610,Auckland,148,House
-3,695,2615,Auckland,140,House
-3,665,2625,Auckland,155,House
-3,675,2625,Auckland,168,House
-3,715,2640,Auckland,176,House
-3,645,2640,Auckland,145,House
-3,650,2640,Auckland,156,House
-3,640,2640,Auckland,143,House
-3,730,2645,Auckland,136,House
-3,700,2655,Auckland,145,House
-3,660,2655,Auckland,150,House
-3,695,2675,Auckland,160,House
-3,660,2675,Auckland,144,House
-3,720,2730,Auckland,150,House
-3,740,2745,Auckland,148,House
-3,765,2750,Auckland,133,House
-3,715,2755,Auckland,162,House
-3,750,2760,Auckland,162,House
-3,770,2765,Auckland,142,House
-3,750,2780,Auckland,148,House
-3,700,2790,Auckland,141,House
-3,695,2795,Auckland,147,House
-3,710,2795,Auckland,159,House
-3,780,2825,Auckland,142,House
-3,700,2840,Auckland,130,House
-3,710,2850,Auckland,163,House
-3,725,2870,Auckland,159,House
-3,750,2880,Auckland,146,House
-3,780,2885,Auckland,154,House
-3,780,2980,Auckland,159,House
-3,780,2980,Auckland,140,House
-3,840,3020,Auckland,141,House
-3,830,3020,Auckland,164,House
-3,805,3020,Auckland,160,House
-3,800,3065,Auckland,134,House
-3,870,3110,Auckland,148,House
-3,845,3110,Auckland,141,House
-3,795,3140,Auckland,163,House
-3,850,3155,Auckland,137,House
-3,880,3160,Auckland,132,House
-3,810,3160,Auckland,135,House
-3,855,3165,Auckland,139,House
-3,870,3185,Auckland,155,House
-3,860,3190,Auckland,163,House
-3,860,3195,Auckland,161,House
-3,835,3195,Auckland,151,House
-3,890,3225,Auckland,133,House
-3,905,3260,Auckland,142,House
-3,815,3265,Auckland,164,House
-3,850,3290,Auckland,145,House
-3,860,3295,Auckland,151,House
-3,890,3335,Auckland,150,House
-3,925,3360,Auckland,149,House
-3,885,3395,Auckland,148,House
-3,880,3470,Auckland,137,House
-3,885,3475,Auckland,144,House
-3,890,3495,Auckland,148,House
-3,910,3500,Auckland,157,House
-3,940,3515,Auckland,151,House
-3,970,3525,Auckland,163,House
-3,970,3550,Auckland,156,House
-3,910,3575,Auckland,136,House
-3,940,3580,Auckland,160,House
-3,975,3600,Auckland,142,House
-3,975,3600,Auckland,145,House
-3,1000,3605,Auckland,157,House
-3,925,3635,Auckland,159,House
-3,1005,3735,Auckland,141,House
-3,990,3740,Auckland,151,House
-3,960,3780,Auckland,146,House
-3,990,3790,Auckland,154,House
-3,1010,3815,Auckland,160,House
-3,1050,3870,Auckland,145,House
-3,1055,3880,Auckland,172,House
-3,1065,3935,Auckland,136,House
-3,1020,3935,Auckland,139,House
-3,1065,3970,Auckland,161,House
-3,1100,3975,Auckland,150,House
-3,1025,3975,Auckland,151,House
-3,1110,3995,Auckland,151,House
-3,1020,4000,Auckland,169,House
-3,1055,4015,Auckland,140,House
-3,1150,4190,Auckland,166,House
-3,1150,4280,Auckland,172,House
-3,1285,4710,Auckland,158,House
-3,1345,5020,Auckland,151,House
-3,1320,5060,Auckland,145,House
-3,1365,5100,Auckland,165,House
-3,1640,6185,Auckland,149,House
-3,1675,6215,Auckland,162,House
-3,1780,6665,Auckland,161,House
-3,1915,6995,Auckland,138,House
-3,270,1035,Bay of Plenty,152,House
-3,230,1055,Bay of Plenty,181,House
-3,240,1105,Bay of Plenty,140,House
-3,290,1175,Bay of Plenty,140,House
-3,290,1175,Bay of Plenty,164,House
-3,325,1270,Bay of Plenty,166,House
-3,360,1285,Bay of Plenty,178,House
-3,330,1305,Bay of Plenty,142,House
-3,330,1405,Bay of Plenty,149,House
-3,390,1480,Bay of Plenty,142,House
-3,380,1490,Bay of Plenty,163,House
-3,410,1580,Bay of Plenty,168,House
-3,380,1620,Bay of Plenty,161,House
-3,415,1630,Bay of Plenty,140,House
-3,420,1670,Bay of Plenty,156,House
-3,370,1670,Bay of Plenty,170,House
-3,420,1695,Bay of Plenty,168,House
-3,435,1720,Bay of Plenty,149,House
-3,410,1770,Bay of Plenty,157,House
-3,465,1780,Bay of Plenty,158,House
-3,460,1790,Bay of Plenty,153,House
-3,510,1835,Bay of Plenty,157,House
-3,500,1905,Bay of Plenty,151,House
-3,540,1960,Bay of Plenty,174,House
-3,530,1975,Bay of Plenty,164,House
-3,485,1975,Bay of Plenty,156,House
-3,490,2075,Bay of Plenty,153,House
-3,545,2095,Bay of Plenty,138,House
-3,590,2150,Bay of Plenty,163,House
-3,545,2180,Bay of Plenty,142,House
-3,605,2225,Bay of Plenty,150,House
-3,600,2270,Bay of Plenty,159,House
-3,605,2360,Bay of Plenty,165,House
-3,580,2375,Bay of Plenty,161,House
-3,660,2435,Bay of Plenty,158,House
-3,615,2440,Bay of Plenty,160,House
-3,595,2465,Bay of Plenty,153,House
-3,620,2485,Bay of Plenty,141,House
-3,615,2490,Bay of Plenty,138,House
-3,690,2515,Bay of Plenty,168,House
-3,680,2565,Bay of Plenty,176,House
-3,690,2575,Bay of Plenty,140,House
-3,715,2645,Bay of Plenty,166,House
-3,690,2695,Bay of Plenty,148,House
-3,760,2760,Bay of Plenty,162,House
-3,705,2795,Bay of Plenty,169,House
-3,695,2805,Bay of Plenty,140,House
-3,755,2830,Bay of Plenty,157,House
-3,755,2840,Bay of Plenty,160,House
-3,735,2840,Bay of Plenty,143,House
-3,735,2910,Bay of Plenty,165,House
-3,790,2965,Bay of Plenty,164,House
-3,775,3010,Bay of Plenty,154,House
-3,855,3110,Bay of Plenty,159,House
-3,815,3160,Bay of Plenty,140,House
-3,880,3200,Bay of Plenty,167,House
-3,840,3285,Bay of Plenty,158,House
-3,905,3410,Bay of Plenty,159,House
-3,980,3695,Bay of Plenty,140,House
-3,1025,3985,Bay of Plenty,168,House
-3,1120,4300,Bay of Plenty,147,House
-3,1225,4430,Bay of Plenty,141,House
-3,295,1045,Canterbury,138,House
-3,275,1085,Canterbury,164,House
-3,300,1105,Canterbury,174,House
-3,285,1145,Canterbury,144,House
-3,260,1220,Canterbury,177,House
-3,365,1300,Canterbury,150,House
-3,355,1310,Canterbury,170,House
-3,335,1330,Canterbury,151,House
-3,375,1350,Canterbury,143,House
-3,330,1380,Canterbury,143,House
-3,360,1400,Canterbury,174,House
-3,335,1400,Canterbury,162,House
-3,400,1425,Canterbury,169,House
-3,395,1460,Canterbury,149,House
-3,410,1480,Canterbury,162,House
-3,400,1485,Canterbury,166,House
-3,370,1490,Canterbury,165,House
-3,425,1525,Canterbury,153,House
-3,385,1555,Canterbury,141,House
-3,355,1565,Canterbury,138,House
-3,395,1570,Canterbury,174,House
-3,400,1580,Canterbury,154,House
-3,405,1625,Canterbury,154,House
-3,440,1630,Canterbury,146,House
-3,375,1655,Canterbury,141,House
-3,405,1675,Canterbury,156,House
-3,440,1705,Canterbury,148,House
-3,430,1715,Canterbury,172,House
-3,400,1720,Canterbury,147,House
-3,395,1725,Canterbury,157,House
-3,390,1725,Canterbury,148,House
-3,475,1745,Canterbury,159,House
-3,480,1760,Canterbury,160,House
-3,495,1775,Canterbury,170,House
-3,495,1780,Canterbury,145,House
-3,430,1795,Canterbury,151,House
-3,490,1810,Canterbury,154,House
-3,430,1815,Canterbury,164,House
-3,425,1825,Canterbury,139,House
-3,440,1855,Canterbury,165,House
-3,520,1865,Canterbury,148,House
-3,460,1955,Canterbury,169,House
-3,450,1955,Canterbury,166,House
-3,475,1965,Canterbury,169,House
-3,540,2010,Canterbury,168,House
-3,570,2070,Canterbury,167,House
-3,500,2075,Canterbury,135,House
-3,495,2090,Canterbury,162,House
-3,510,2095,Canterbury,149,House
-3,550,2120,Canterbury,139,House
-3,535,2130,Canterbury,155,House
-3,605,2165,Canterbury,173,House
-3,540,2165,Canterbury,162,House
-3,550,2190,Canterbury,162,House
-3,595,2200,Canterbury,171,House
-3,605,2205,Canterbury,146,House
-3,625,2285,Canterbury,154,House
-3,575,2290,Canterbury,167,House
-3,605,2300,Canterbury,179,House
-3,595,2300,Canterbury,159,House
-3,555,2305,Canterbury,178,House
-3,595,2315,Canterbury,158,House
-3,665,2380,Canterbury,161,House
-3,620,2445,Canterbury,150,House
-3,630,2535,Canterbury,168,House
-3,700,2545,Canterbury,148,House
-3,635,2610,Canterbury,147,House
-3,685,2620,Canterbury,168,House
-3,700,2620,Canterbury,160,House
-3,655,2645,Canterbury,148,House
-3,665,2655,Canterbury,163,House
-3,675,2670,Canterbury,155,House
-3,730,2695,Canterbury,165,House
-3,735,2770,Canterbury,158,House
-3,775,2785,Canterbury,136,House
-3,700,2825,Canterbury,159,House
-3,785,2885,Canterbury,171,House
-3,795,3100,Canterbury,148,House
-3,805,3190,Canterbury,154,House
-3,840,3240,Canterbury,164,House
-3,875,3355,Canterbury,149,House
-3,965,3585,Canterbury,156,House
-3,910,3610,Canterbury,150,House
-3,945,3640,Canterbury,150,House
-3,955,3650,Canterbury,138,House
-3,1020,3990,Canterbury,163,House
-3,1115,4065,Canterbury,150,House
-3,1280,4780,Canterbury,163,House
-3,1570,5960,Canterbury,155,House
-3,335,1195,Gisborne,176,House
-3,300,1370,Gisborne,155,House
-3,525,2075,Gisborne,156,House
-3,620,2435,Gisborne,156,House
-3,700,2580,Gisborne,163,House
-3,725,2665,Gisborne,157,House
-3,805,3055,Gisborne,174,House
-3,1025,3945,Gisborne,152,House
-3,300,1270,Hawke's Bay,156,House
-3,315,1285,Hawke's Bay,160,House
-3,355,1430,Hawke's Bay,166,House
-3,360,1455,Hawke's Bay,173,House
-3,355,1455,Hawke's Bay,155,House
-3,400,1480,Hawke's Bay,162,House
-3,365,1510,Hawke's Bay,155,House
-3,410,1535,Hawke's Bay,151,House
-3,365,1580,Hawke's Bay,150,House
-3,440,1590,Hawke's Bay,164,House
-3,465,1760,Hawke's Bay,146,House
-3,460,1775,Hawke's Bay,179,House
-3,475,1895,Hawke's Bay,179,House
-3,445,1940,Hawke's Bay,157,House
-3,545,2025,Hawke's Bay,162,House
-3,565,2030,Hawke's Bay,151,House
-3,520,2065,Hawke's Bay,165,House
-3,590,2270,Hawke's Bay,166,House
-3,630,2295,Hawke's Bay,144,House
-3,570,2300,Hawke's Bay,163,House
-3,630,2325,Hawke's Bay,163,House
-3,645,2365,Hawke's Bay,179,House
-3,720,2655,Hawke's Bay,144,House
-3,780,2840,Hawke's Bay,157,House
-3,830,3160,Hawke's Bay,157,House
-3,1030,3745,Hawke's Bay,162,House
-3,1220,4630,Hawke's Bay,175,House
-3,205,950,Manawatu-Whanganui,149,House
-3,325,1220,Manawatu-Whanganui,164,House
-3,300,1240,Manawatu-Whanganui,152,House
-3,305,1275,Manawatu-Whanganui,141,House
-3,340,1295,Manawatu-Whanganui,150,House
-3,395,1425,Manawatu-Whanganui,164,House
-3,385,1465,Manawatu-Whanganui,154,House
-3,380,1495,Manawatu-Whanganui,171,House
-3,400,1535,Manawatu-Whanganui,151,House
-3,410,1550,Manawatu-Whanganui,171,House
-3,345,1565,Manawatu-Whanganui,171,House
-3,410,1585,Manawatu-Whanganui,161,House
-3,440,1705,Manawatu-Whanganui,142,House
-3,465,1730,Manawatu-Whanganui,171,House
-3,425,1765,Manawatu-Whanganui,161,House
-3,430,1795,Manawatu-Whanganui,163,House
-3,495,1800,Manawatu-Whanganui,150,House
-3,470,1900,Manawatu-Whanganui,161,House
-3,450,1920,Manawatu-Whanganui,151,House
-3,460,1980,Manawatu-Whanganui,153,House
-3,525,2025,Manawatu-Whanganui,142,House
-3,535,2025,Manawatu-Whanganui,167,House
-3,470,2030,Manawatu-Whanganui,154,House
-3,495,2050,Manawatu-Whanganui,155,House
-3,540,2085,Manawatu-Whanganui,147,House
-3,540,2105,Manawatu-Whanganui,157,House
-3,575,2190,Manawatu-Whanganui,140,House
-3,550,2300,Manawatu-Whanganui,169,House
-3,655,2375,Manawatu-Whanganui,147,House
-3,600,2430,Manawatu-Whanganui,173,House
-3,600,2435,Manawatu-Whanganui,159,House
-3,630,2550,Manawatu-Whanganui,164,House
-3,640,2570,Manawatu-Whanganui,163,House
-3,720,2680,Manawatu-Whanganui,153,House
-3,820,3160,Manawatu-Whanganui,150,House
-3,805,3230,Manawatu-Whanganui,148,House
-3,955,3490,Manawatu-Whanganui,168,House
-3,385,1560,Marlborough,141,House
-3,405,1575,Marlborough,168,House
-3,430,1770,Marlborough,161,House
-3,385,1445,Nelson,155,House
-3,395,1665,Nelson,152,House
-3,430,1675,Nelson,149,House
-3,500,1790,Nelson,162,House
-3,530,2180,Nelson,154,House
-3,695,2570,Nelson,165,House
-3,810,3180,Nelson,153,House
-3,940,3580,Nelson,150,House
-3,275,1170,Northland,158,House
-3,320,1185,Northland,167,House
-3,305,1190,Northland,153,House
-3,320,1195,Northland,143,House
-3,305,1340,Northland,176,House
-3,355,1380,Northland,158,House
-3,330,1430,Northland,137,House
-3,345,1445,Northland,141,House
-3,320,1485,Northland,177,House
-3,385,1490,Northland,155,House
-3,420,1525,Northland,169,House
-3,390,1640,Northland,156,House
-3,430,1765,Northland,150,House
-3,430,1800,Northland,142,House
-3,450,1865,Northland,162,House
-3,515,1905,Northland,143,House
-3,515,1950,Northland,166,House
-3,510,1975,Northland,167,House
-3,615,2200,Northland,146,House
-3,645,2445,Northland,147,House
-3,660,2560,Northland,160,House
-3,715,2585,Northland,160,House
-3,710,2675,Northland,152,House
-3,760,2785,Northland,157,House
-3,835,3285,Northland,148,House
-3,1205,4515,Northland,150,House
-3,1350,4940,Northland,175,House
-3,305,1230,Otago,178,House
-3,325,1300,Otago,148,House
-3,305,1310,Otago,164,House
-3,310,1365,Otago,162,House
-3,375,1390,Otago,156,House
-3,385,1430,Otago,164,House
-3,315,1465,Otago,174,House
-3,415,1485,Otago,158,House
-3,380,1490,Otago,171,House
-3,370,1640,Otago,162,House
-3,450,1695,Otago,156,House
-3,445,1755,Otago,138,House
-3,525,2020,Otago,164,House
-3,500,2110,Otago,148,House
-3,575,2215,Otago,144,House
-3,560,2235,Otago,143,House
-3,590,2385,Otago,171,House
-3,680,2430,Otago,165,House
-3,715,2660,Otago,160,House
-3,705,2720,Otago,145,House
-3,725,2725,Otago,174,House
-3,710,2735,Otago,152,House
-3,790,2870,Otago,176,House
-3,725,2935,Otago,173,House
-3,805,2970,Otago,155,House
-3,820,3125,Otago,157,House
-3,1360,5120,Otago,178,House
-3,1350,5145,Otago,144,House
-3,1670,6305,Otago,153,House
-3,1770,6475,Otago,159,House
-3,1945,7250,Otago,176,House
-3,245,900,Southland,161,House
-3,295,1135,Southland,160,House
-3,300,1140,Southland,148,House
-3,300,1150,Southland,149,House
-3,375,1365,Southland,160,House
-3,440,1585,Southland,173,House
-3,370,1665,Southland,147,House
-3,425,1865,Southland,177,House
-3,625,2450,Southland,181,House
-3,280,990,Taranaki,153,House
-3,255,1155,Taranaki,162,House
-3,340,1505,Taranaki,163,House
-3,385,1620,Taranaki,174,House
-3,435,1725,Taranaki,150,House
-3,415,1730,Taranaki,160,House
-3,395,1760,Taranaki,144,House
-3,440,1785,Taranaki,167,House
-3,540,1990,Taranaki,154,House
-3,615,2325,Taranaki,147,House
-3,715,2915,Taranaki,154,House
-3,905,3420,Taranaki,146,House
-3,925,3645,Taranaki,153,House
-3,315,1245,Tasman,161,House
-3,480,1835,Tasman,149,House
-3,455,1855,Tasman,169,House
-3,590,2145,Tasman,174,House
-3,600,2240,Tasman,143,House
-3,705,2625,Tasman,157,House
-3,670,2660,Tasman,168,House
-3,795,3155,Tasman,158,House
-3,985,3670,Tasman,148,House
-3,220,1045,Waikato,175,House
-3,325,1260,Waikato,135,House
-3,330,1375,Waikato,158,House
-3,340,1430,Waikato,155,House
-3,310,1455,Waikato,173,House
-3,385,1525,Waikato,157,House
-3,410,1530,Waikato,154,House
-3,425,1530,Waikato,143,House
-3,340,1530,Waikato,162,House
-3,420,1600,Waikato,166,House
-3,450,1605,Waikato,159,House
-3,440,1635,Waikato,146,House
-3,455,1635,Waikato,160,House
-3,410,1635,Waikato,161,House
-3,395,1670,Waikato,147,House
-3,435,1695,Waikato,164,House
-3,480,1710,Waikato,171,House
-3,415,1730,Waikato,167,House
-3,470,1760,Waikato,158,House
-3,490,1860,Waikato,152,House
-3,480,1875,Waikato,163,House
-3,530,1890,Waikato,173,House
-3,545,2020,Waikato,153,House
-3,505,2030,Waikato,143,House
-3,500,2040,Waikato,168,House
-3,515,2050,Waikato,160,House
-3,525,2145,Waikato,156,House
-3,580,2165,Waikato,152,House
-3,550,2165,Waikato,160,House
-3,590,2165,Waikato,157,House
-3,520,2185,Waikato,151,House
-3,540,2185,Waikato,176,House
-3,570,2240,Waikato,150,House
-3,625,2275,Waikato,158,House
-3,570,2310,Waikato,144,House
-3,640,2330,Waikato,160,House
-3,595,2345,Waikato,170,House
-3,610,2345,Waikato,173,House
-3,585,2350,Waikato,140,House
-3,635,2555,Waikato,154,House
-3,625,2575,Waikato,167,House
-3,630,2605,Waikato,144,House
-3,705,2615,Waikato,165,House
-3,725,2690,Waikato,172,House
-3,660,2695,Waikato,164,House
-3,695,2700,Waikato,164,House
-3,670,2710,Waikato,167,House
-3,670,2735,Waikato,178,House
-3,690,2765,Waikato,154,House
-3,735,2800,Waikato,156,House
-3,750,3020,Waikato,166,House
-3,820,3085,Waikato,156,House
-3,805,3205,Waikato,158,House
-3,835,3225,Waikato,146,House
-3,945,3430,Waikato,166,House
-3,1300,5000,Waikato,151,House
-3,195,900,Wellington,163,House
-3,195,945,Wellington,168,House
-3,210,975,Wellington,145,House
-3,340,1220,Wellington,159,House
-3,295,1275,Wellington,164,House
-3,290,1335,Wellington,145,House
-3,355,1340,Wellington,152,House
-3,285,1345,Wellington,164,House
-3,315,1350,Wellington,174,House
-3,360,1375,Wellington,159,House
-3,370,1375,Wellington,155,House
-3,330,1400,Wellington,166,House
-3,325,1400,Wellington,174,House
-3,370,1425,Wellington,159,House
-3,390,1475,Wellington,161,House
-3,380,1495,Wellington,158,House
-3,395,1505,Wellington,165,House
-3,365,1550,Wellington,167,House
-3,440,1565,Wellington,146,House
-3,340,1565,Wellington,151,House
-3,345,1575,Wellington,148,House
-3,365,1580,Wellington,163,House
-3,405,1600,Wellington,155,House
-3,395,1620,Wellington,172,House
-3,435,1625,Wellington,144,House
-3,380,1625,Wellington,151,House
-3,405,1640,Wellington,167,House
-3,460,1660,Wellington,158,House
-3,390,1660,Wellington,145,House
-3,425,1715,Wellington,162,House
-3,425,1725,Wellington,163,House
-3,450,1730,Wellington,161,House
-3,415,1735,Wellington,154,House
-3,440,1745,Wellington,162,House
-3,415,1760,Wellington,147,House
-3,405,1760,Wellington,145,House
-3,500,1815,Wellington,163,House
-3,420,1815,Wellington,162,House
-3,455,1825,Wellington,160,House
-3,490,1850,Wellington,161,House
-3,510,1870,Wellington,164,House
-3,500,1875,Wellington,149,House
-3,490,1905,Wellington,153,House
-3,535,1910,Wellington,160,House
-3,465,1940,Wellington,155,House
-3,530,1950,Wellington,156,House
-3,480,1995,Wellington,139,House
-3,550,2020,Wellington,173,House
-3,485,2025,Wellington,135,House
-3,535,2070,Wellington,139,House
-3,500,2075,Wellington,160,House
-3,545,2095,Wellington,155,House
-3,520,2105,Wellington,165,House
-3,500,2130,Wellington,159,House
-3,530,2170,Wellington,154,House
-3,520,2195,Wellington,153,House
-3,605,2205,Wellington,152,House
-3,580,2210,Wellington,171,House
-3,545,2255,Wellington,154,House
-3,615,2260,Wellington,143,House
-3,620,2335,Wellington,144,House
-3,650,2420,Wellington,161,House
-3,620,2425,Wellington,144,House
-3,615,2535,Wellington,162,House
-3,690,2540,Wellington,163,House
-3,675,2590,Wellington,170,House
-3,645,2625,Wellington,165,House
-3,760,2845,Wellington,156,House
-3,760,2865,Wellington,153,House
-3,750,2980,Wellington,175,House
-3,810,3000,Wellington,161,House
-3,820,3025,Wellington,147,House
-3,765,3040,Wellington,143,House
-3,1015,3875,Wellington,153,House
-3,1805,6530,Wellington,171,House
-3,2230,8295,Wellington,139,House
-3,315,1165,West Coast,146,House
-3,275,1195,West Coast,157,House
-3,365,1430,West Coast,147,House
-3,335,1535,West Coast,152,House
-3,430,1595,West Coast,160,House
-4,495,2065,Auckland,208,Apartment
-4,545,2080,Auckland,220,Apartment
-4,490,2085,Auckland,196,Apartment
-4,1025,3830,Auckland,194,Apartment
-4,1075,3875,Auckland,210,Apartment
-4,1035,3875,Auckland,227,Apartment
-4,405,1465,Bay of Plenty,222,Apartment
-4,435,1560,Bay of Plenty,227,Apartment
-4,445,1620,Bay of Plenty,230,Apartment
-4,1485,5540,Bay of Plenty,222,Apartment
-4,125,790,Canterbury,236,Apartment
-4,280,1180,Canterbury,212,Apartment
-4,535,2075,Canterbury,224,Apartment
-4,550,2090,Canterbury,231,Apartment
-4,525,2110,Canterbury,211,Apartment
-4,920,3505,Canterbury,231,Apartment
-4,955,3720,Canterbury,221,Apartment
-4,980,3850,Canterbury,230,Apartment
-4,415,1475,Hawke's Bay,221,Apartment
-4,455,1625,Hawke's Bay,231,Apartment
-4,390,1640,Hawke's Bay,230,Apartment
-4,525,1885,Hawke's Bay,225,Apartment
-4,540,1975,Hawke's Bay,212,Apartment
-4,535,2055,Hawke's Bay,214,Apartment
-4,290,1155,Manawatu-Whanganui,201,Apartment
-4,365,1310,Manawatu-Whanganui,234,Apartment
-4,350,1470,Manawatu-Whanganui,237,Apartment
-4,365,1625,Manawatu-Whanganui,222,Apartment
-4,440,1735,Manawatu-Whanganui,223,Apartment
-4,440,1735,Manawatu-Whanganui,241,Apartment
-4,295,1255,Northland,240,Apartment
-4,330,1400,Northland,202,Apartment
-4,400,1445,Northland,223,Apartment
-4,670,2455,Otago,211,Apartment
-4,645,2485,Otago,221,Apartment
-4,605,2515,Otago,206,Apartment
-4,750,2755,Otago,201,Apartment
-4,730,2815,Otago,234,Apartment
-4,790,2865,Otago,211,Apartment
-4,750,2920,Otago,204,Apartment
-4,750,2960,Otago,217,Apartment
-4,795,3065,Otago,215,Apartment
-4,1280,4860,Otago,206,Apartment
-4,1355,4995,Otago,218,Apartment
-4,275,1135,Southland,210,Apartment
-4,550,2085,Southland,216,Apartment
-4,295,1055,Taranaki,201,Apartment
-4,320,1455,Taranaki,241,Apartment
-4,460,1765,Waikato,242,Apartment
-4,480,1800,Waikato,217,Apartment
-4,435,1825,Waikato,208,Apartment
-4,470,2015,Waikato,203,Apartment
-4,535,2030,Waikato,195,Apartment
-4,520,2080,Waikato,223,Apartment
-4,615,2395,Waikato,208,Apartment
-4,595,2405,Waikato,206,Apartment
-4,635,2460,Waikato,206,Apartment
-4,865,3285,Waikato,229,Apartment
-4,915,3315,Waikato,221,Apartment
-4,925,3565,Waikato,221,Apartment
-4,375,1365,Wellington,209,Apartment
-4,365,1490,Wellington,198,Apartment
-4,385,1505,Wellington,204,Apartment
-4,510,1945,Wellington,220,Apartment
-4,475,1950,Wellington,215,Apartment
-4,470,2020,Wellington,227,Apartment
-4,675,2565,Wellington,227,Apartment
-4,655,2600,Wellington,226,Apartment
-4,730,2670,Wellington,229,Apartment
-4,190,675,Auckland,200,House
-4,270,1020,Auckland,231,House
-4,255,1070,Auckland,217,House
-4,255,1085,Auckland,198,House
-4,270,1110,Auckland,202,House
-4,265,1115,Auckland,224,House
-4,335,1225,Auckland,186,House
-4,345,1265,Auckland,221,House
-4,320,1350,Auckland,226,House
-4,375,1465,Auckland,221,House
-4,425,1525,Auckland,201,House
-4,370,1530,Auckland,230,House
-4,355,1540,Auckland,205,House
-4,410,1545,Auckland,214,House
-4,405,1565,Auckland,188,House
-4,400,1590,Auckland,186,House
-4,405,1625,Auckland,225,House
-4,360,1625,Auckland,189,House
-4,415,1630,Auckland,232,House
-4,440,1630,Auckland,224,House
-4,405,1645,Auckland,213,House
-4,400,1665,Auckland,223,House
-4,415,1680,Auckland,191,House
-4,465,1700,Auckland,225,House
-4,385,1715,Auckland,205,House
-4,475,1725,Auckland,224,House
-4,415,1730,Auckland,194,House
-4,470,1810,Auckland,207,House
-4,465,1820,Auckland,212,House
-4,465,1855,Auckland,209,House
-4,525,1885,Auckland,236,House
-4,480,1885,Auckland,222,House
-4,495,1895,Auckland,208,House
-4,515,1905,Auckland,232,House
-4,475,1915,Auckland,207,House
-4,505,1925,Auckland,209,House
-4,520,1940,Auckland,216,House
-4,445,1940,Auckland,194,House
-4,475,1960,Auckland,214,House
-4,480,1970,Auckland,211,House
-4,485,1970,Auckland,215,House
-4,505,1990,Auckland,202,House
-4,555,2020,Auckland,233,House
-4,515,2025,Auckland,226,House
-4,555,2035,Auckland,216,House
-4,565,2090,Auckland,213,House
-4,565,2100,Auckland,221,House
-4,575,2105,Auckland,206,House
-4,490,2105,Auckland,222,House
-4,555,2140,Auckland,197,House
-4,555,2160,Auckland,216,House
-4,595,2165,Auckland,210,House
-4,595,2175,Auckland,210,House
-4,575,2200,Auckland,223,House
-4,595,2215,Auckland,208,House
-4,530,2215,Auckland,205,House
-4,530,2225,Auckland,217,House
-4,545,2245,Auckland,205,House
-4,590,2250,Auckland,218,House
-4,620,2260,Auckland,227,House
-4,620,2295,Auckland,228,House
-4,555,2310,Auckland,214,House
-4,605,2315,Auckland,195,House
-4,600,2320,Auckland,209,House
-4,650,2340,Auckland,232,House
-4,645,2345,Auckland,191,House
-4,560,2345,Auckland,208,House
-4,625,2410,Auckland,203,House
-4,660,2435,Auckland,194,House
-4,590,2450,Auckland,197,House
-4,615,2510,Auckland,191,House
-4,635,2525,Auckland,227,House
-4,695,2545,Auckland,212,House
-4,650,2605,Auckland,213,House
-4,705,2615,Auckland,208,House
-4,670,2615,Auckland,229,House
-4,660,2630,Auckland,213,House
-4,700,2655,Auckland,185,House
-4,735,2660,Auckland,189,House
-4,670,2665,Auckland,199,House
-4,740,2695,Auckland,214,House
-4,705,2730,Auckland,199,House
-4,760,2750,Auckland,221,House
-4,735,2775,Auckland,220,House
-4,735,2790,Auckland,227,House
-4,685,2800,Auckland,213,House
-4,730,2840,Auckland,199,House
-4,695,2840,Auckland,194,House
-4,715,2845,Auckland,190,House
-4,740,2890,Auckland,218,House
-4,720,2890,Auckland,209,House
-4,715,2890,Auckland,225,House
-4,715,2895,Auckland,226,House
-4,760,2920,Auckland,210,House
-4,755,2965,Auckland,201,House
-4,795,2985,Auckland,230,House
-4,820,3025,Auckland,188,House
-4,765,3030,Auckland,209,House
-4,765,3035,Auckland,236,House
-4,810,3115,Auckland,190,House
-4,785,3130,Auckland,208,House
-4,850,3135,Auckland,197,House
-4,815,3170,Auckland,229,House
-4,840,3220,Auckland,215,House
-4,855,3290,Auckland,209,House
-4,890,3315,Auckland,204,House
-4,890,3335,Auckland,198,House
-4,895,3345,Auckland,192,House
-4,885,3370,Auckland,210,House
-4,850,3370,Auckland,206,House
-4,855,3385,Auckland,232,House
-4,855,3410,Auckland,215,House
-4,935,3440,Auckland,202,House
-4,960,3465,Auckland,190,House
-4,930,3470,Auckland,227,House
-4,920,3535,Auckland,212,House
-4,895,3555,Auckland,201,House
-4,905,3570,Auckland,233,House
-4,1000,3600,Auckland,208,House
-4,950,3625,Auckland,222,House
-4,1005,3660,Auckland,202,House
-4,1030,3695,Auckland,211,House
-4,970,3715,Auckland,225,House
-4,1010,3730,Auckland,199,House
-4,1035,3760,Auckland,209,House
-4,1055,3820,Auckland,210,House
-4,1055,3885,Auckland,236,House
-4,1010,3900,Auckland,214,House
-4,1060,3965,Auckland,226,House
-4,1015,3995,Auckland,198,House
-4,1085,4070,Auckland,230,House
-4,1090,4125,Auckland,205,House
-4,1095,4170,Auckland,228,House
-4,1135,4235,Auckland,203,House
-4,1165,4270,Auckland,213,House
-4,1240,4450,Auckland,230,House
-4,1210,4450,Auckland,222,House
-4,1235,4470,Auckland,205,House
-4,1195,4490,Auckland,214,House
-4,1195,4550,Auckland,228,House
-4,1265,4620,Auckland,195,House
-4,1260,4720,Auckland,190,House
-4,1325,4925,Auckland,186,House
-4,1365,4985,Auckland,225,House
-4,1355,5000,Auckland,200,House
-4,1340,5080,Auckland,224,House
-4,1375,5080,Auckland,200,House
-4,1410,5085,Auckland,225,House
-4,1455,5225,Auckland,189,House
-4,1420,5275,Auckland,205,House
-4,1395,5280,Auckland,209,House
-4,1505,5425,Auckland,196,House
-4,1480,5425,Auckland,236,House
-4,1525,5480,Auckland,224,House
-4,1490,5520,Auckland,203,House
-4,1500,5570,Auckland,198,House
-4,1490,5585,Auckland,211,House
-4,1535,5725,Auckland,223,House
-4,1535,5795,Auckland,218,House
-4,1620,5880,Auckland,207,House
-4,1580,5880,Auckland,209,House
-4,1750,6425,Auckland,207,House
-4,1970,7095,Auckland,234,House
-4,1985,7325,Auckland,216,House
-4,290,1030,Bay of Plenty,226,House
-4,310,1210,Bay of Plenty,211,House
-4,370,1440,Bay of Plenty,218,House
-4,425,1635,Bay of Plenty,208,House
-4,450,1645,Bay of Plenty,218,House
-4,460,1690,Bay of Plenty,216,House
-4,400,1720,Bay of Plenty,214,House
-4,450,1760,Bay of Plenty,208,House
-4,420,1765,Bay of Plenty,202,House
-4,410,1795,Bay of Plenty,234,House
-4,430,1820,Bay of Plenty,206,House
-4,515,1840,Bay of Plenty,220,House
-4,445,1890,Bay of Plenty,213,House
-4,490,1935,Bay of Plenty,207,House
-4,470,1950,Bay of Plenty,221,House
-4,470,1950,Bay of Plenty,192,House
-4,495,2045,Bay of Plenty,209,House
-4,565,2065,Bay of Plenty,207,House
-4,565,2245,Bay of Plenty,212,House
-4,580,2390,Bay of Plenty,216,House
-4,655,2480,Bay of Plenty,230,House
-4,695,2545,Bay of Plenty,200,House
-4,630,2550,Bay of Plenty,217,House
-4,645,2550,Bay of Plenty,227,House
-4,675,2570,Bay of Plenty,218,House
-4,710,2595,Bay of Plenty,199,House
-4,670,2600,Bay of Plenty,204,House
-4,735,2630,Bay of Plenty,218,House
-4,715,2650,Bay of Plenty,197,House
-4,740,2665,Bay of Plenty,229,House
-4,690,2705,Bay of Plenty,215,House
-4,880,3305,Bay of Plenty,212,House
-4,940,3370,Bay of Plenty,210,House
-4,920,3600,Bay of Plenty,233,House
-4,1045,4015,Bay of Plenty,204,House
-4,1130,4400,Bay of Plenty,192,House
-4,285,1300,Canterbury,233,House
-4,305,1315,Canterbury,228,House
-4,315,1355,Canterbury,228,House
-4,355,1375,Canterbury,204,House
-4,360,1510,Canterbury,241,House
-4,360,1525,Canterbury,212,House
-4,435,1560,Canterbury,242,House
-4,445,1605,Canterbury,213,House
-4,400,1690,Canterbury,245,House
-4,405,1700,Canterbury,232,House
-4,405,1715,Canterbury,205,House
-4,435,1720,Canterbury,215,House
-4,485,1735,Canterbury,209,House
-4,435,1745,Canterbury,209,House
-4,425,1760,Canterbury,231,House
-4,485,1780,Canterbury,236,House
-4,470,1790,Canterbury,206,House
-4,410,1810,Canterbury,202,House
-4,450,1815,Canterbury,228,House
-4,515,1835,Canterbury,224,House
-4,480,1865,Canterbury,211,House
-4,520,1900,Canterbury,230,House
-4,475,1905,Canterbury,231,House
-4,465,1925,Canterbury,210,House
-4,475,1965,Canterbury,211,House
-4,525,1975,Canterbury,214,House
-4,560,2180,Canterbury,236,House
-4,515,2180,Canterbury,217,House
-4,585,2215,Canterbury,216,House
-4,570,2250,Canterbury,197,House
-4,595,2270,Canterbury,226,House
-4,580,2280,Canterbury,212,House
-4,605,2375,Canterbury,222,House
-4,640,2415,Canterbury,221,House
-4,615,2435,Canterbury,200,House
-4,620,2490,Canterbury,208,House
-4,630,2515,Canterbury,238,House
-4,625,2525,Canterbury,206,House
-4,660,2535,Canterbury,235,House
-4,655,2625,Canterbury,232,House
-4,710,2670,Canterbury,202,House
-4,740,2750,Canterbury,201,House
-4,695,2795,Canterbury,200,House
-4,745,2830,Canterbury,207,House
-4,765,2830,Canterbury,229,House
-4,760,3030,Canterbury,226,House
-4,770,3050,Canterbury,205,House
-4,820,3190,Canterbury,229,House
-4,925,3365,Canterbury,230,House
-4,895,3405,Canterbury,210,House
-4,1140,4100,Canterbury,205,House
-4,1160,4310,Canterbury,210,House
-4,1155,4395,Canterbury,205,House
-4,1280,4890,Canterbury,216,House
-4,365,1605,Gisborne,197,House
-4,465,1805,Gisborne,208,House
-4,550,2165,Gisborne,200,House
-4,595,2220,Gisborne,231,House
-4,550,2300,Gisborne,230,House
-4,315,1235,Hawke's Bay,227,House
-4,295,1235,Hawke's Bay,196,House
-4,385,1390,Hawke's Bay,237,House
-4,355,1410,Hawke's Bay,206,House
-4,390,1450,Hawke's Bay,221,House
-4,415,1705,Hawke's Bay,226,House
-4,455,1755,Hawke's Bay,213,House
-4,430,1845,Hawke's Bay,228,House
-4,485,2055,Hawke's Bay,220,House
-4,535,2210,Hawke's Bay,202,House
-4,620,2480,Hawke's Bay,213,House
-4,610,2480,Hawke's Bay,205,House
-4,680,2720,Hawke's Bay,226,House
-4,760,2730,Hawke's Bay,211,House
-4,1150,4200,Hawke's Bay,215,House
-4,485,1850,Manawatu-Whanganui,226,House
-4,520,1875,Manawatu-Whanganui,200,House
-4,445,1920,Manawatu-Whanganui,199,House
-4,565,2090,Manawatu-Whanganui,224,House
-4,540,2195,Manawatu-Whanganui,208,House
-4,565,2295,Manawatu-Whanganui,212,House
-4,610,2310,Manawatu-Whanganui,232,House
-4,645,2360,Manawatu-Whanganui,214,House
-4,640,2380,Manawatu-Whanganui,217,House
-4,590,2445,Manawatu-Whanganui,235,House
-4,690,2485,Manawatu-Whanganui,227,House
-4,635,2500,Manawatu-Whanganui,206,House
-4,710,2590,Manawatu-Whanganui,216,House
-4,705,2840,Manawatu-Whanganui,232,House
-4,740,2915,Manawatu-Whanganui,204,House
-4,785,2975,Manawatu-Whanganui,232,House
-4,805,3095,Manawatu-Whanganui,233,House
-4,905,3510,Manawatu-Whanganui,227,House
-4,970,3800,Manawatu-Whanganui,232,House
-4,355,1270,Marlborough,213,House
-4,330,1270,Marlborough,210,House
-4,335,1315,Marlborough,227,House
-4,605,2340,Marlborough,236,House
-4,615,2390,Marlborough,202,House
-4,655,2580,Marlborough,225,House
-4,960,3730,Marlborough,233,House
-4,430,1735,Nelson,217,House
-4,565,2315,Nelson,235,House
-4,680,2625,Nelson,211,House
-4,735,2780,Nelson,218,House
-4,900,3235,Nelson,211,House
-4,1330,4945,Nelson,205,House
-4,200,1055,Northland,211,House
-4,240,1115,Northland,213,House
-4,295,1190,Northland,229,House
-4,400,1555,Northland,196,House
-4,420,1720,Northland,213,House
-4,520,1865,Northland,221,House
-4,435,1870,Northland,218,House
-4,495,2020,Northland,214,House
-4,560,2140,Northland,209,House
-4,540,2160,Northland,221,House
-4,580,2210,Northland,207,House
-4,610,2395,Northland,230,House
-4,590,2410,Northland,221,House
-4,630,2490,Northland,213,House
-4,695,2510,Northland,226,House
-4,675,2750,Northland,226,House
-4,935,3515,Northland,195,House
-4,1125,4365,Northland,198,House
-4,210,1080,Otago,203,House
-4,390,1445,Otago,226,House
-4,325,1445,Otago,219,House
-4,445,1670,Otago,221,House
-4,450,1750,Otago,210,House
-4,490,1810,Otago,233,House
-4,475,1840,Otago,224,House
-4,510,1860,Otago,207,House
-4,475,1930,Otago,224,House
-4,615,2245,Otago,228,House
-4,605,2450,Otago,203,House
-4,660,2715,Otago,196,House
-4,735,2885,Otago,190,House
-4,830,3190,Otago,225,House
-4,835,3290,Otago,229,House
-4,435,1705,Southland,237,House
-4,410,1770,Southland,217,House
-4,505,1865,Southland,227,House
-4,560,2060,Southland,192,House
-4,390,1735,Taranaki,224,House
-4,430,1775,Taranaki,235,House
-4,530,1925,Taranaki,226,House
-4,465,2000,Taranaki,215,House
-4,565,2170,Taranaki,242,House
-4,735,2815,Taranaki,201,House
-4,765,2900,Taranaki,216,House
-4,1005,3905,Taranaki,221,House
-4,1030,4005,Taranaki,203,House
-4,430,1645,Tasman,230,House
-4,575,2115,Tasman,222,House
-4,685,2460,Tasman,198,House
-4,1140,4210,Tasman,211,House
-4,280,1040,Waikato,213,House
-4,350,1330,Waikato,205,House
-4,295,1400,Waikato,221,House
-4,390,1500,Waikato,201,House
-4,430,1530,Waikato,227,House
-4,355,1550,Waikato,231,House
-4,410,1630,Waikato,215,House
-4,430,1705,Waikato,224,House
-4,440,1755,Waikato,224,House
-4,510,1905,Waikato,230,House
-4,585,2175,Waikato,234,House
-4,610,2270,Waikato,222,House
-4,575,2340,Waikato,223,House
-4,690,2485,Waikato,231,House
-4,640,2560,Waikato,204,House
-4,645,2570,Waikato,203,House
-4,660,2580,Waikato,198,House
-4,685,2615,Waikato,229,House
-4,665,2675,Waikato,215,House
-4,670,2725,Waikato,228,House
-4,685,2730,Waikato,223,House
-4,700,2730,Waikato,233,House
-4,710,2780,Waikato,240,House
-4,745,2880,Waikato,219,House
-4,750,2930,Waikato,243,House
-4,735,2950,Waikato,209,House
-4,830,2995,Waikato,221,House
-4,760,3025,Waikato,227,House
-4,810,3210,Waikato,230,House
-4,960,3695,Waikato,215,House
-4,1000,3695,Waikato,208,House
-4,1005,3740,Waikato,203,House
-4,1040,3850,Waikato,216,House
-4,1020,3885,Waikato,237,House
-4,1045,3995,Waikato,193,House
-4,1120,4115,Waikato,205,House
-4,1160,4275,Waikato,234,House
-4,1140,4380,Waikato,238,House
-4,1270,4780,Waikato,216,House
-4,1280,4885,Waikato,202,House
-4,1345,5105,Waikato,226,House
-4,1570,5930,Waikato,198,House
-4,1620,6080,Waikato,195,House
-4,240,880,Wellington,209,House
-4,250,1020,Wellington,206,House
-4,255,1080,Wellington,223,House
-4,340,1355,Wellington,211,House
-4,355,1550,Wellington,197,House
-4,430,1820,Wellington,193,House
-4,450,1875,Wellington,193,House
-4,510,1905,Wellington,210,House
-4,570,2185,Wellington,194,House
-4,570,2215,Wellington,200,House
-4,625,2255,Wellington,202,House
-4,565,2275,Wellington,200,House
-4,635,2280,Wellington,199,House
-4,645,2385,Wellington,215,House
-4,645,2405,Wellington,229,House
-4,620,2465,Wellington,230,House
-4,630,2560,Wellington,198,House
-4,750,2715,Wellington,216,House
-4,745,2745,Wellington,200,House
-4,750,2845,Wellington,202,House
-4,720,2850,Wellington,211,House
-4,715,2855,Wellington,222,House
-4,770,2885,Wellington,224,House
-4,730,2925,Wellington,214,House
-4,790,3120,Wellington,205,House
-4,810,3135,Wellington,194,House
-4,860,3145,Wellington,202,House
-4,865,3265,Wellington,232,House
-4,865,3390,Wellington,215,House
-4,875,3490,Wellington,226,House
-4,940,3640,Wellington,213,House
-4,940,3680,Wellington,225,House
-4,965,3710,Wellington,217,House
-4,945,3710,Wellington,213,House
-4,1055,3785,Wellington,197,House
-4,1015,3820,Wellington,203,House
-4,1080,3920,Wellington,190,House
-4,1075,4185,Wellington,196,House
-4,1125,4330,Wellington,219,House
-4,1685,6140,Wellington,197,House
-4,1795,6730,Wellington,214,House
-4,1900,6985,Wellington,201,House
-4,315,1285,West Coast,199,House
-4,460,1670,West Coast,240,House
-4,575,2325,West Coast,228,House
-4,665,2505,West Coast,233,House
-5,500,1895,Auckland,265,Apartment
-5,485,1970,Auckland,300,Apartment
-5,510,1985,Auckland,279,Apartment
-5,1260,4535,Auckland,299,Apartment
-5,555,2265,Bay of Plenty,303,Apartment
-5,1155,4495,Canterbury,273,Apartment
-5,1180,4585,Canterbury,268,Apartment
-5,900,3355,Waikato,276,Apartment
-5,990,3775,Waikato,310,Apartment
-5,1170,4405,Waikato,287,Apartment
-5,350,1510,Auckland,295,House
-5,415,1600,Auckland,298,House
-5,385,1640,Auckland,281,House
-5,400,1655,Auckland,278,House
-5,575,2165,Auckland,292,House
-5,575,2210,Auckland,293,House
-5,570,2230,Auckland,287,House
-5,545,2290,Auckland,252,House
-5,570,2315,Auckland,279,House
-5,630,2345,Auckland,260,House
-5,645,2345,Auckland,259,House
-5,600,2410,Auckland,255,House
-5,605,2480,Auckland,283,House
-5,680,2580,Auckland,294,House
-5,675,2605,Auckland,295,House
-5,710,2610,Auckland,276,House
-5,680,2625,Auckland,282,House
-5,730,2635,Auckland,249,House
-5,700,2640,Auckland,305,House
-5,675,2725,Auckland,263,House
-5,755,2795,Auckland,273,House
-5,785,2855,Auckland,305,House
-5,760,2870,Auckland,256,House
-5,805,3015,Auckland,280,House
-5,780,3070,Auckland,273,House
-5,930,3460,Auckland,291,House
-5,910,3540,Auckland,299,House
-5,915,3600,Auckland,276,House
-5,955,3720,Auckland,269,House
-5,1035,3930,Auckland,268,House
-5,1050,3980,Auckland,263,House
-5,1065,4165,Auckland,254,House
-5,1210,4415,Auckland,279,House
-5,1275,4585,Auckland,274,House
-5,1235,4685,Auckland,291,House
-5,1310,4755,Auckland,267,House
-5,1290,4765,Auckland,281,House
-5,1250,4775,Auckland,290,House
-5,1365,5070,Auckland,270,House
-5,1415,5090,Auckland,268,House
-5,1355,5205,Auckland,284,House
-5,1460,5425,Auckland,302,House
-5,2100,7880,Auckland,305,House
-5,545,2080,Bay of Plenty,269,House
-5,495,2120,Bay of Plenty,280,House
-5,565,2250,Bay of Plenty,274,House
-5,750,2875,Bay of Plenty,287,House
-5,775,2885,Bay of Plenty,265,House
-5,420,1565,Canterbury,254,House
-5,490,1765,Canterbury,283,House
-5,485,1990,Canterbury,268,House
-5,530,2010,Canterbury,293,House
-5,535,2210,Canterbury,288,House
-5,795,3020,Canterbury,304,House
-5,820,3045,Canterbury,269,House
-5,850,3115,Canterbury,291,House
-5,905,3320,Canterbury,261,House
-5,945,3495,Canterbury,286,House
-5,975,3515,Canterbury,283,House
-5,915,3615,Canterbury,284,House
-5,1010,3630,Canterbury,299,House
-5,1065,4005,Canterbury,301,House
-5,1075,4055,Canterbury,263,House
-5,1095,4280,Canterbury,265,House
-5,1220,4480,Canterbury,292,House
-5,1320,4855,Canterbury,298,House
-5,1290,4955,Canterbury,278,House
-5,570,2230,Gisborne,284,House
-5,550,2095,Hawke's Bay,287,House
-5,755,2780,Hawke's Bay,310,House
-5,850,3120,Hawke's Bay,300,House
-5,955,3495,Hawke's Bay,278,House
-5,430,1535,Manawatu-Whanganui,302,House
-5,610,2370,Manawatu-Whanganui,274,House
-5,615,2415,Manawatu-Whanganui,285,House
-5,720,2615,Manawatu-Whanganui,272,House
-5,1005,3930,Manawatu-Whanganui,254,House
-5,1055,4070,Marlborough,267,House
-5,625,2265,Nelson,270,House
-5,845,3295,Northland,297,House
-5,950,3575,Northland,260,House
-5,670,2485,Otago,259,House
-5,815,3130,Otago,293,House
-5,925,3330,Otago,259,House
-5,1030,3800,Otago,272,House
-5,1160,4235,Otago,288,House
-5,1140,4340,Otago,308,House
-5,775,2825,Southland,281,House
-5,1165,4230,Southland,279,House
-5,1220,4375,Taranaki,281,House
-5,1245,4680,Tasman,266,House
-5,375,1565,Waikato,280,House
-5,545,2270,Waikato,262,House
-5,690,2510,Waikato,293,House
-5,700,2615,Waikato,279,House
-5,755,2705,Waikato,292,House
-5,745,2720,Waikato,299,House
-5,815,3040,Waikato,274,House
-5,870,3115,Waikato,275,House
-5,805,3175,Waikato,306,House
-5,1185,4540,Waikato,278,House
-5,1490,5605,Waikato,291,House
-5,1535,5810,Waikato,307,House
-5,1700,6420,Waikato,265,House
-5,320,1255,Wellington,268,House
-5,480,1805,Wellington,279,House
-5,550,2005,Wellington,258,House
-5,585,2265,Wellington,278,House
-5,695,2555,Wellington,294,House
-5,795,3030,Wellington,283,House
-5,840,3090,Wellington,279,House
-5,885,3260,Wellington,300,House
-5,900,3465,Wellington,285,House
-5,915,3605,Wellington,271,House
-5,930,3665,Wellington,303,House
-5,1075,3990,Wellington,252,House
-5,1430,5225,Wellington,279,House
-5,1455,5245,Wellington,266,House
-5,1495,5540,Wellington,262,House
-5,1610,5810,Wellington,275,House
-5,595,2185,West Coast,267,House
-6,645,2355,Auckland,393,House
-6,920,3415,Auckland,371,House
-6,905,3415,Auckland,338,House
-6,1120,4100,Auckland,387,House
-6,1415,5155,Auckland,366,House
-6,1500,5440,Auckland,388,House
-6,1445,5540,Auckland,349,House
-6,1820,6625,Auckland,358,House
-6,1905,6935,Auckland,355,House
-6,1275,4930,Canterbury,396,House
-6,660,2705,Marlborough,377,House
-6,1055,3835,Otago,372,House
-6,1075,3880,Waikato,376,House
-6,1190,4615,Waikato,338,House
-6,1190,4620,Waikato,389,House
-6,1605,6030,Waikato,390,House
-6,1835,6820,Wellington,355,House
-6,1995,7190,Wellington,382,House
-7,1220,4520,Auckland,479,House
-7,1275,4705,Auckland,476,House
-7,2160,8065,Auckland,463,House
-7,1060,3830,Waikato,466,House
-8,1180,4540,Auckland,559,House
-8,2305,8540,Auckland,495,House
-9,1520,5695,West Coast,621,House
-10,2350,8725,Auckland,954,House
-10,2620,9600,Auckland,808,House
-10,1575,5775,Wellington,772,House
-11,3520,12665,Auckland,1001,House
-11,1925,6955,Canterbury,992,House
-12,2945,10750,Auckland,1215,House
+Number of Bedrooms,Weekly Rent($),Weekly Income ($),Region,Floor Space (sqm),Property Type,Island
+1,125,470,Auckland,74,Apartment,North
+1,135,500,Auckland,73,Apartment,North
+1,130,505,Auckland,90,Apartment,North
+1,90,560,Auckland,71,Apartment,North
+1,100,620,Auckland,76,Apartment,North
+1,170,660,Auckland,78,Apartment,North
+1,165,660,Auckland,81,Apartment,North
+1,165,685,Auckland,77,Apartment,North
+1,175,725,Auckland,71,Apartment,North
+1,220,790,Auckland,73,Apartment,North
+1,145,825,Auckland,76,Apartment,North
+1,155,845,Auckland,89,Apartment,North
+1,165,865,Auckland,85,Apartment,North
+1,280,1035,Auckland,77,Apartment,North
+1,280,1070,Auckland,87,Apartment,North
+1,290,1145,Auckland,80,Apartment,North
+1,285,1160,Auckland,84,Apartment,North
+1,240,1175,Auckland,83,Apartment,North
+1,300,1180,Auckland,83,Apartment,North
+1,245,1210,Auckland,85,Apartment,North
+1,295,1260,Auckland,78,Apartment,North
+1,325,1265,Auckland,72,Apartment,North
+1,355,1275,Auckland,78,Apartment,North
+1,350,1285,Auckland,69,Apartment,North
+1,330,1285,Auckland,75,Apartment,North
+1,310,1400,Auckland,89,Apartment,North
+1,340,1420,Auckland,84,Apartment,North
+1,375,1545,Auckland,77,Apartment,North
+1,400,1575,Auckland,71,Apartment,North
+1,440,1650,Auckland,79,Apartment,North
+1,465,1700,Auckland,83,Apartment,North
+1,455,1820,Auckland,78,Apartment,North
+1,515,2025,Auckland,82,Apartment,North
+1,565,2175,Auckland,82,Apartment,North
+1,560,2215,Auckland,77,Apartment,North
+1,615,2290,Auckland,78,Apartment,North
+1,625,2565,Auckland,83,Apartment,North
+1,695,2825,Auckland,74,Apartment,North
+1,715,2840,Auckland,78,Apartment,North
+1,775,3040,Auckland,79,Apartment,North
+1,790,3150,Auckland,72,Apartment,North
+1,890,3410,Auckland,74,Apartment,North
+1,985,3570,Auckland,75,Apartment,North
+1,135,600,Auckland,76,House,North
+1,135,700,Auckland,76,House,North
+1,285,1270,Auckland,93,House,North
+1,475,1720,Auckland,84,House,North
+1,465,1720,Auckland,85,House,North
+2,90,355,Auckland,93,Apartment,North
+2,105,360,Auckland,107,Apartment,North
+2,135,500,Auckland,105,Apartment,North
+2,125,515,Auckland,102,Apartment,North
+2,135,560,Auckland,104,Apartment,North
+2,95,565,Auckland,111,Apartment,North
+2,115,585,Auckland,98,Apartment,North
+2,150,590,Auckland,91,Apartment,North
+2,170,675,Auckland,109,Apartment,North
+2,170,680,Auckland,117,Apartment,North
+2,195,715,Auckland,88,Apartment,North
+2,140,815,Auckland,119,Apartment,North
+2,225,955,Auckland,106,Apartment,North
+2,225,980,Auckland,96,Apartment,North
+2,280,1000,Auckland,101,Apartment,North
+2,280,1030,Auckland,103,Apartment,North
+2,295,1045,Auckland,105,Apartment,North
+2,250,1050,Auckland,110,Apartment,North
+2,285,1105,Auckland,111,Apartment,North
+2,285,1115,Auckland,100,Apartment,North
+2,265,1120,Auckland,99,Apartment,North
+2,315,1140,Auckland,93,Apartment,North
+2,325,1170,Auckland,94,Apartment,North
+2,285,1170,Auckland,110,Apartment,North
+2,285,1170,Auckland,93,Apartment,North
+2,270,1175,Auckland,100,Apartment,North
+2,265,1175,Auckland,104,Apartment,North
+2,280,1180,Auckland,107,Apartment,North
+2,255,1195,Auckland,99,Apartment,North
+2,285,1200,Auckland,100,Apartment,North
+2,265,1200,Auckland,120,Apartment,North
+2,290,1210,Auckland,102,Apartment,North
+2,295,1215,Auckland,120,Apartment,North
+2,330,1225,Auckland,93,Apartment,North
+2,265,1230,Auckland,123,Apartment,North
+2,275,1230,Auckland,114,Apartment,North
+2,315,1240,Auckland,88,Apartment,North
+2,350,1240,Auckland,96,Apartment,North
+2,345,1250,Auckland,117,Apartment,North
+2,295,1255,Auckland,97,Apartment,North
+2,345,1270,Auckland,94,Apartment,North
+2,335,1275,Auckland,100,Apartment,North
+2,360,1280,Auckland,96,Apartment,North
+2,300,1290,Auckland,105,Apartment,North
+2,285,1315,Auckland,117,Apartment,North
+2,310,1320,Auckland,97,Apartment,North
+2,315,1330,Auckland,115,Apartment,North
+2,290,1330,Auckland,96,Apartment,North
+2,275,1330,Auckland,116,Apartment,North
+2,375,1370,Auckland,115,Apartment,North
+2,330,1370,Auckland,109,Apartment,North
+2,325,1370,Auckland,111,Apartment,North
+2,340,1445,Auckland,104,Apartment,North
+2,355,1445,Auckland,110,Apartment,North
+2,390,1450,Auckland,104,Apartment,North
+2,335,1465,Auckland,88,Apartment,North
+2,400,1465,Auckland,101,Apartment,North
+2,350,1480,Auckland,109,Apartment,North
+2,365,1485,Auckland,120,Apartment,North
+2,405,1490,Auckland,100,Apartment,North
+2,415,1490,Auckland,106,Apartment,North
+2,370,1515,Auckland,111,Apartment,North
+2,335,1515,Auckland,105,Apartment,North
+2,400,1535,Auckland,112,Apartment,North
+2,395,1535,Auckland,117,Apartment,North
+2,400,1595,Auckland,99,Apartment,North
+2,365,1635,Auckland,98,Apartment,North
+2,455,1665,Auckland,109,Apartment,North
+2,395,1675,Auckland,101,Apartment,North
+2,475,1690,Auckland,122,Apartment,North
+2,400,1695,Auckland,112,Apartment,North
+2,465,1720,Auckland,104,Apartment,North
+2,430,1720,Auckland,105,Apartment,North
+2,430,1755,Auckland,104,Apartment,North
+2,435,1765,Auckland,111,Apartment,North
+2,440,1795,Auckland,112,Apartment,North
+2,470,1800,Auckland,102,Apartment,North
+2,495,1805,Auckland,101,Apartment,North
+2,420,1835,Auckland,99,Apartment,North
+2,455,1870,Auckland,112,Apartment,North
+2,515,1890,Auckland,96,Apartment,North
+2,440,1900,Auckland,121,Apartment,North
+2,450,1905,Auckland,113,Apartment,North
+2,480,1925,Auckland,95,Apartment,North
+2,465,1930,Auckland,113,Apartment,North
+2,500,1945,Auckland,117,Apartment,North
+2,510,2005,Auckland,89,Apartment,North
+2,555,2025,Auckland,101,Apartment,North
+2,545,2120,Auckland,113,Apartment,North
+2,515,2120,Auckland,94,Apartment,North
+2,590,2275,Auckland,100,Apartment,North
+2,560,2275,Auckland,104,Apartment,North
+2,615,2330,Auckland,106,Apartment,North
+2,555,2340,Auckland,103,Apartment,North
+2,580,2365,Auckland,115,Apartment,North
+2,585,2410,Auckland,110,Apartment,North
+2,655,2430,Auckland,96,Apartment,North
+2,645,2455,Auckland,112,Apartment,North
+2,650,2485,Auckland,100,Apartment,North
+2,745,2795,Auckland,106,Apartment,North
+2,755,2870,Auckland,117,Apartment,North
+2,755,2925,Auckland,115,Apartment,North
+2,815,3030,Auckland,101,Apartment,North
+2,810,3130,Auckland,119,Apartment,North
+2,915,3530,Auckland,91,Apartment,North
+2,1105,4190,Auckland,99,Apartment,North
+2,1360,5090,Auckland,97,Apartment,North
+2,1385,5175,Auckland,100,Apartment,North
+2,1760,6505,Auckland,93,Apartment,North
+2,115,590,Auckland,112,House,North
+2,100,620,Auckland,105,House,North
+2,110,635,Auckland,106,House,North
+2,290,1095,Auckland,105,House,North
+2,260,1100,Auckland,97,House,North
+2,280,1105,Auckland,95,House,North
+2,335,1340,Auckland,113,House,North
+2,295,1350,Auckland,97,House,North
+2,340,1355,Auckland,110,House,North
+2,315,1375,Auckland,100,House,North
+2,315,1420,Auckland,102,House,North
+2,400,1440,Auckland,105,House,North
+2,410,1535,Auckland,88,House,North
+2,420,1535,Auckland,96,House,North
+2,420,1535,Auckland,115,House,North
+2,355,1545,Auckland,107,House,North
+2,395,1550,Auckland,98,House,North
+2,380,1555,Auckland,105,House,North
+2,475,1855,Auckland,95,House,North
+2,515,1860,Auckland,99,House,North
+2,465,1865,Auckland,110,House,North
+2,505,2045,Auckland,100,House,North
+2,545,2080,Auckland,93,House,North
+2,505,2115,Auckland,106,House,North
+2,650,2495,Auckland,105,House,North
+2,610,2530,Auckland,105,House,North
+2,655,2540,Auckland,116,House,North
+2,660,2540,Auckland,92,House,North
+2,695,2595,Auckland,99,House,North
+2,645,2610,Auckland,106,House,North
+2,655,2640,Auckland,122,House,North
+2,750,2705,Auckland,115,House,North
+2,750,2770,Auckland,113,House,North
+2,825,3195,Auckland,113,House,North
+2,890,3350,Auckland,98,House,North
+2,940,3470,Auckland,100,House,North
+3,295,1105,Auckland,143,Apartment,North
+3,300,1110,Auckland,137,Apartment,North
+3,360,1365,Auckland,142,Apartment,North
+3,320,1385,Auckland,154,Apartment,North
+3,365,1400,Auckland,144,Apartment,North
+3,415,1705,Auckland,155,Apartment,North
+3,410,1730,Auckland,143,Apartment,North
+3,450,1740,Auckland,144,Apartment,North
+3,510,1865,Auckland,141,Apartment,North
+3,430,1865,Auckland,144,Apartment,North
+3,500,1870,Auckland,137,Apartment,North
+3,540,2055,Auckland,140,Apartment,North
+3,510,2055,Auckland,165,Apartment,North
+3,515,2055,Auckland,158,Apartment,North
+3,605,2240,Auckland,138,Apartment,North
+3,605,2240,Auckland,170,Apartment,North
+3,545,2240,Auckland,172,Apartment,North
+3,645,2415,Auckland,141,Apartment,North
+3,660,2435,Auckland,133,Apartment,North
+3,620,2455,Auckland,137,Apartment,North
+3,705,2730,Auckland,158,Apartment,North
+3,675,2740,Auckland,162,Apartment,North
+3,695,2740,Auckland,147,Apartment,North
+3,735,2910,Auckland,154,Apartment,North
+3,760,2930,Auckland,159,Apartment,North
+3,755,2965,Auckland,152,Apartment,North
+3,890,3365,Auckland,163,Apartment,North
+3,940,3380,Auckland,161,Apartment,North
+3,865,3385,Auckland,144,Apartment,North
+3,855,3400,Auckland,140,Apartment,North
+3,915,3405,Auckland,157,Apartment,North
+3,860,3405,Auckland,173,Apartment,North
+3,990,3665,Auckland,150,Apartment,North
+3,960,3680,Auckland,160,Apartment,North
+3,990,3690,Auckland,159,Apartment,North
+3,1220,4435,Auckland,142,Apartment,North
+3,1205,4450,Auckland,145,Apartment,North
+3,1210,4685,Auckland,146,Apartment,North
+3,340,1230,Auckland,152,House,North
+3,325,1235,Auckland,149,House,North
+3,315,1260,Auckland,151,House,North
+3,315,1265,Auckland,168,House,North
+3,345,1280,Auckland,141,House,North
+3,305,1300,Auckland,136,House,North
+3,360,1320,Auckland,132,House,North
+3,330,1320,Auckland,167,House,North
+3,350,1330,Auckland,165,House,North
+3,380,1355,Auckland,140,House,North
+3,340,1360,Auckland,151,House,North
+3,365,1365,Auckland,151,House,North
+3,315,1430,Auckland,135,House,North
+3,375,1435,Auckland,144,House,North
+3,315,1435,Auckland,143,House,North
+3,380,1440,Auckland,147,House,North
+3,395,1450,Auckland,138,House,North
+3,410,1455,Auckland,166,House,North
+3,355,1485,Auckland,168,House,North
+3,330,1505,Auckland,156,House,North
+3,420,1515,Auckland,133,House,North
+3,395,1515,Auckland,158,House,North
+3,355,1520,Auckland,159,House,North
+3,375,1535,Auckland,140,House,North
+3,405,1555,Auckland,170,House,North
+3,400,1560,Auckland,147,House,North
+3,370,1580,Auckland,144,House,North
+3,365,1585,Auckland,160,House,North
+3,440,1610,Auckland,156,House,North
+3,370,1625,Auckland,135,House,North
+3,465,1660,Auckland,169,House,North
+3,460,1670,Auckland,165,House,North
+3,390,1685,Auckland,150,House,North
+3,485,1755,Auckland,156,House,North
+3,465,1760,Auckland,158,House,North
+3,425,1760,Auckland,143,House,North
+3,450,1775,Auckland,147,House,North
+3,500,1780,Auckland,155,House,North
+3,410,1785,Auckland,162,House,North
+3,480,1800,Auckland,140,House,North
+3,415,1800,Auckland,140,House,North
+3,455,1810,Auckland,142,House,North
+3,420,1820,Auckland,138,House,North
+3,450,1825,Auckland,156,House,North
+3,445,1825,Auckland,161,House,North
+3,420,1835,Auckland,157,House,North
+3,480,1845,Auckland,145,House,North
+3,480,1855,Auckland,144,House,North
+3,515,1860,Auckland,145,House,North
+3,450,1875,Auckland,144,House,North
+3,500,1890,Auckland,148,House,North
+3,485,1895,Auckland,152,House,North
+3,515,1905,Auckland,165,House,North
+3,445,1905,Auckland,154,House,North
+3,525,1910,Auckland,154,House,North
+3,530,1920,Auckland,167,House,North
+3,490,1920,Auckland,161,House,North
+3,515,1940,Auckland,148,House,North
+3,485,1940,Auckland,160,House,North
+3,480,1945,Auckland,165,House,North
+3,545,1960,Auckland,159,House,North
+3,455,1965,Auckland,141,House,North
+3,490,1980,Auckland,136,House,North
+3,525,1985,Auckland,161,House,North
+3,480,1985,Auckland,155,House,North
+3,530,1990,Auckland,151,House,North
+3,555,1995,Auckland,148,House,North
+3,530,2015,Auckland,166,House,North
+3,480,2030,Auckland,147,House,North
+3,570,2040,Auckland,157,House,North
+3,530,2045,Auckland,164,House,North
+3,565,2055,Auckland,141,House,North
+3,515,2075,Auckland,148,House,North
+3,490,2075,Auckland,161,House,North
+3,535,2085,Auckland,149,House,North
+3,565,2095,Auckland,168,House,North
+3,515,2100,Auckland,142,House,North
+3,530,2110,Auckland,153,House,North
+3,520,2110,Auckland,148,House,North
+3,560,2115,Auckland,150,House,North
+3,525,2120,Auckland,147,House,North
+3,565,2130,Auckland,145,House,North
+3,530,2135,Auckland,152,House,North
+3,545,2145,Auckland,161,House,North
+3,510,2145,Auckland,161,House,North
+3,595,2150,Auckland,155,House,North
+3,555,2155,Auckland,145,House,North
+3,520,2160,Auckland,138,House,North
+3,510,2170,Auckland,148,House,North
+3,510,2170,Auckland,161,House,North
+3,520,2190,Auckland,140,House,North
+3,600,2195,Auckland,162,House,North
+3,600,2205,Auckland,157,House,North
+3,590,2215,Auckland,155,House,North
+3,600,2220,Auckland,143,House,North
+3,600,2225,Auckland,152,House,North
+3,535,2225,Auckland,164,House,North
+3,575,2230,Auckland,167,House,North
+3,535,2240,Auckland,138,House,North
+3,590,2245,Auckland,163,House,North
+3,540,2250,Auckland,160,House,North
+3,565,2260,Auckland,155,House,North
+3,640,2290,Auckland,145,House,North
+3,585,2295,Auckland,156,House,North
+3,640,2300,Auckland,150,House,North
+3,590,2300,Auckland,157,House,North
+3,600,2300,Auckland,150,House,North
+3,545,2300,Auckland,169,House,North
+3,555,2315,Auckland,160,House,North
+3,630,2320,Auckland,146,House,North
+3,560,2340,Auckland,158,House,North
+3,580,2340,Auckland,133,House,North
+3,650,2365,Auckland,134,House,North
+3,650,2365,Auckland,136,House,North
+3,575,2365,Auckland,135,House,North
+3,580,2375,Auckland,161,House,North
+3,615,2385,Auckland,157,House,North
+3,650,2390,Auckland,157,House,North
+3,595,2395,Auckland,163,House,North
+3,595,2455,Auckland,140,House,North
+3,690,2475,Auckland,135,House,North
+3,645,2485,Auckland,147,House,North
+3,650,2500,Auckland,152,House,North
+3,685,2515,Auckland,154,House,North
+3,645,2530,Auckland,155,House,North
+3,710,2565,Auckland,149,House,North
+3,675,2570,Auckland,168,House,North
+3,705,2585,Auckland,156,House,North
+3,650,2600,Auckland,154,House,North
+3,665,2610,Auckland,166,House,North
+3,655,2610,Auckland,148,House,North
+3,695,2615,Auckland,140,House,North
+3,665,2625,Auckland,155,House,North
+3,675,2625,Auckland,168,House,North
+3,715,2640,Auckland,176,House,North
+3,645,2640,Auckland,145,House,North
+3,650,2640,Auckland,156,House,North
+3,640,2640,Auckland,143,House,North
+3,730,2645,Auckland,136,House,North
+3,700,2655,Auckland,145,House,North
+3,660,2655,Auckland,150,House,North
+3,695,2675,Auckland,160,House,North
+3,660,2675,Auckland,144,House,North
+3,720,2730,Auckland,150,House,North
+3,740,2745,Auckland,148,House,North
+3,765,2750,Auckland,133,House,North
+3,715,2755,Auckland,162,House,North
+3,750,2760,Auckland,162,House,North
+3,770,2765,Auckland,142,House,North
+3,750,2780,Auckland,148,House,North
+3,700,2790,Auckland,141,House,North
+3,695,2795,Auckland,147,House,North
+3,710,2795,Auckland,159,House,North
+3,780,2825,Auckland,142,House,North
+3,700,2840,Auckland,130,House,North
+3,710,2850,Auckland,163,House,North
+3,725,2870,Auckland,159,House,North
+3,750,2880,Auckland,146,House,North
+3,780,2885,Auckland,154,House,North
+3,780,2980,Auckland,159,House,North
+3,780,2980,Auckland,140,House,North
+3,840,3020,Auckland,141,House,North
+3,830,3020,Auckland,164,House,North
+3,805,3020,Auckland,160,House,North
+3,800,3065,Auckland,134,House,North
+3,870,3110,Auckland,148,House,North
+3,845,3110,Auckland,141,House,North
+3,795,3140,Auckland,163,House,North
+3,850,3155,Auckland,137,House,North
+3,880,3160,Auckland,132,House,North
+3,810,3160,Auckland,135,House,North
+3,855,3165,Auckland,139,House,North
+3,870,3185,Auckland,155,House,North
+3,860,3190,Auckland,163,House,North
+3,860,3195,Auckland,161,House,North
+3,835,3195,Auckland,151,House,North
+3,890,3225,Auckland,133,House,North
+3,905,3260,Auckland,142,House,North
+3,815,3265,Auckland,164,House,North
+3,850,3290,Auckland,145,House,North
+3,860,3295,Auckland,151,House,North
+3,890,3335,Auckland,150,House,North
+3,925,3360,Auckland,149,House,North
+3,885,3395,Auckland,148,House,North
+3,880,3470,Auckland,137,House,North
+3,885,3475,Auckland,144,House,North
+3,890,3495,Auckland,148,House,North
+3,910,3500,Auckland,157,House,North
+3,940,3515,Auckland,151,House,North
+3,970,3525,Auckland,163,House,North
+3,970,3550,Auckland,156,House,North
+3,910,3575,Auckland,136,House,North
+3,940,3580,Auckland,160,House,North
+3,975,3600,Auckland,142,House,North
+3,975,3600,Auckland,145,House,North
+3,1000,3605,Auckland,157,House,North
+3,925,3635,Auckland,159,House,North
+3,1005,3735,Auckland,141,House,North
+3,990,3740,Auckland,151,House,North
+3,960,3780,Auckland,146,House,North
+3,990,3790,Auckland,154,House,North
+3,1010,3815,Auckland,160,House,North
+3,1050,3870,Auckland,145,House,North
+3,1055,3880,Auckland,172,House,North
+3,1065,3935,Auckland,136,House,North
+3,1020,3935,Auckland,139,House,North
+3,1065,3970,Auckland,161,House,North
+3,1100,3975,Auckland,150,House,North
+3,1025,3975,Auckland,151,House,North
+3,1110,3995,Auckland,151,House,North
+3,1020,4000,Auckland,169,House,North
+3,1055,4015,Auckland,140,House,North
+3,1150,4190,Auckland,166,House,North
+3,1150,4280,Auckland,172,House,North
+3,1285,4710,Auckland,158,House,North
+3,1345,5020,Auckland,151,House,North
+3,1320,5060,Auckland,145,House,North
+3,1365,5100,Auckland,165,House,North
+3,1640,6185,Auckland,149,House,North
+3,1675,6215,Auckland,162,House,North
+3,1780,6665,Auckland,161,House,North
+3,1915,6995,Auckland,138,House,North
+4,495,2065,Auckland,208,Apartment,North
+4,545,2080,Auckland,220,Apartment,North
+4,490,2085,Auckland,196,Apartment,North
+4,1025,3830,Auckland,194,Apartment,North
+4,1075,3875,Auckland,210,Apartment,North
+4,1035,3875,Auckland,227,Apartment,North
+4,190,675,Auckland,200,House,North
+4,270,1020,Auckland,231,House,North
+4,255,1070,Auckland,217,House,North
+4,255,1085,Auckland,198,House,North
+4,270,1110,Auckland,202,House,North
+4,265,1115,Auckland,224,House,North
+4,335,1225,Auckland,186,House,North
+4,345,1265,Auckland,221,House,North
+4,320,1350,Auckland,226,House,North
+4,375,1465,Auckland,221,House,North
+4,425,1525,Auckland,201,House,North
+4,370,1530,Auckland,230,House,North
+4,355,1540,Auckland,205,House,North
+4,410,1545,Auckland,214,House,North
+4,405,1565,Auckland,188,House,North
+4,400,1590,Auckland,186,House,North
+4,405,1625,Auckland,225,House,North
+4,360,1625,Auckland,189,House,North
+4,415,1630,Auckland,232,House,North
+4,440,1630,Auckland,224,House,North
+4,405,1645,Auckland,213,House,North
+4,400,1665,Auckland,223,House,North
+4,415,1680,Auckland,191,House,North
+4,465,1700,Auckland,225,House,North
+4,385,1715,Auckland,205,House,North
+4,475,1725,Auckland,224,House,North
+4,415,1730,Auckland,194,House,North
+4,470,1810,Auckland,207,House,North
+4,465,1820,Auckland,212,House,North
+4,465,1855,Auckland,209,House,North
+4,525,1885,Auckland,236,House,North
+4,480,1885,Auckland,222,House,North
+4,495,1895,Auckland,208,House,North
+4,515,1905,Auckland,232,House,North
+4,475,1915,Auckland,207,House,North
+4,505,1925,Auckland,209,House,North
+4,520,1940,Auckland,216,House,North
+4,445,1940,Auckland,194,House,North
+4,475,1960,Auckland,214,House,North
+4,480,1970,Auckland,211,House,North
+4,485,1970,Auckland,215,House,North
+4,505,1990,Auckland,202,House,North
+4,555,2020,Auckland,233,House,North
+4,515,2025,Auckland,226,House,North
+4,555,2035,Auckland,216,House,North
+4,565,2090,Auckland,213,House,North
+4,565,2100,Auckland,221,House,North
+4,575,2105,Auckland,206,House,North
+4,490,2105,Auckland,222,House,North
+4,555,2140,Auckland,197,House,North
+4,555,2160,Auckland,216,House,North
+4,595,2165,Auckland,210,House,North
+4,595,2175,Auckland,210,House,North
+4,575,2200,Auckland,223,House,North
+4,595,2215,Auckland,208,House,North
+4,530,2215,Auckland,205,House,North
+4,530,2225,Auckland,217,House,North
+4,545,2245,Auckland,205,House,North
+4,590,2250,Auckland,218,House,North
+4,620,2260,Auckland,227,House,North
+4,620,2295,Auckland,228,House,North
+4,555,2310,Auckland,214,House,North
+4,605,2315,Auckland,195,House,North
+4,600,2320,Auckland,209,House,North
+4,650,2340,Auckland,232,House,North
+4,645,2345,Auckland,191,House,North
+4,560,2345,Auckland,208,House,North
+4,625,2410,Auckland,203,House,North
+4,660,2435,Auckland,194,House,North
+4,590,2450,Auckland,197,House,North
+4,615,2510,Auckland,191,House,North
+4,635,2525,Auckland,227,House,North
+4,695,2545,Auckland,212,House,North
+4,650,2605,Auckland,213,House,North
+4,705,2615,Auckland,208,House,North
+4,670,2615,Auckland,229,House,North
+4,660,2630,Auckland,213,House,North
+4,700,2655,Auckland,185,House,North
+4,735,2660,Auckland,189,House,North
+4,670,2665,Auckland,199,House,North
+4,740,2695,Auckland,214,House,North
+4,705,2730,Auckland,199,House,North
+4,760,2750,Auckland,221,House,North
+4,735,2775,Auckland,220,House,North
+4,735,2790,Auckland,227,House,North
+4,685,2800,Auckland,213,House,North
+4,730,2840,Auckland,199,House,North
+4,695,2840,Auckland,194,House,North
+4,715,2845,Auckland,190,House,North
+4,740,2890,Auckland,218,House,North
+4,720,2890,Auckland,209,House,North
+4,715,2890,Auckland,225,House,North
+4,715,2895,Auckland,226,House,North
+4,760,2920,Auckland,210,House,North
+4,755,2965,Auckland,201,House,North
+4,795,2985,Auckland,230,House,North
+4,820,3025,Auckland,188,House,North
+4,765,3030,Auckland,209,House,North
+4,765,3035,Auckland,236,House,North
+4,810,3115,Auckland,190,House,North
+4,785,3130,Auckland,208,House,North
+4,850,3135,Auckland,197,House,North
+4,815,3170,Auckland,229,House,North
+4,840,3220,Auckland,215,House,North
+4,855,3290,Auckland,209,House,North
+4,890,3315,Auckland,204,House,North
+4,890,3335,Auckland,198,House,North
+4,895,3345,Auckland,192,House,North
+4,885,3370,Auckland,210,House,North
+4,850,3370,Auckland,206,House,North
+4,855,3385,Auckland,232,House,North
+4,855,3410,Auckland,215,House,North
+4,935,3440,Auckland,202,House,North
+4,960,3465,Auckland,190,House,North
+4,930,3470,Auckland,227,House,North
+4,920,3535,Auckland,212,House,North
+4,895,3555,Auckland,201,House,North
+4,905,3570,Auckland,233,House,North
+4,1000,3600,Auckland,208,House,North
+4,950,3625,Auckland,222,House,North
+4,1005,3660,Auckland,202,House,North
+4,1030,3695,Auckland,211,House,North
+4,970,3715,Auckland,225,House,North
+4,1010,3730,Auckland,199,House,North
+4,1035,3760,Auckland,209,House,North
+4,1055,3820,Auckland,210,House,North
+4,1055,3885,Auckland,236,House,North
+4,1010,3900,Auckland,214,House,North
+4,1060,3965,Auckland,226,House,North
+4,1015,3995,Auckland,198,House,North
+4,1085,4070,Auckland,230,House,North
+4,1090,4125,Auckland,205,House,North
+4,1095,4170,Auckland,228,House,North
+4,1135,4235,Auckland,203,House,North
+4,1165,4270,Auckland,213,House,North
+4,1240,4450,Auckland,230,House,North
+4,1210,4450,Auckland,222,House,North
+4,1235,4470,Auckland,205,House,North
+4,1195,4490,Auckland,214,House,North
+4,1195,4550,Auckland,228,House,North
+4,1265,4620,Auckland,195,House,North
+4,1260,4720,Auckland,190,House,North
+4,1325,4925,Auckland,186,House,North
+4,1365,4985,Auckland,225,House,North
+4,1355,5000,Auckland,200,House,North
+4,1340,5080,Auckland,224,House,North
+4,1375,5080,Auckland,200,House,North
+4,1410,5085,Auckland,225,House,North
+4,1455,5225,Auckland,189,House,North
+4,1420,5275,Auckland,205,House,North
+4,1395,5280,Auckland,209,House,North
+4,1505,5425,Auckland,196,House,North
+4,1480,5425,Auckland,236,House,North
+4,1525,5480,Auckland,224,House,North
+4,1490,5520,Auckland,203,House,North
+4,1500,5570,Auckland,198,House,North
+4,1490,5585,Auckland,211,House,North
+4,1535,5725,Auckland,223,House,North
+4,1535,5795,Auckland,218,House,North
+4,1620,5880,Auckland,207,House,North
+4,1580,5880,Auckland,209,House,North
+4,1750,6425,Auckland,207,House,North
+4,1970,7095,Auckland,234,House,North
+4,1985,7325,Auckland,216,House,North
+5,500,1895,Auckland,265,Apartment,North
+5,485,1970,Auckland,300,Apartment,North
+5,510,1985,Auckland,279,Apartment,North
+5,1260,4535,Auckland,299,Apartment,North
+5,350,1510,Auckland,295,House,North
+5,415,1600,Auckland,298,House,North
+5,385,1640,Auckland,281,House,North
+5,400,1655,Auckland,278,House,North
+5,575,2165,Auckland,292,House,North
+5,575,2210,Auckland,293,House,North
+5,570,2230,Auckland,287,House,North
+5,545,2290,Auckland,252,House,North
+5,570,2315,Auckland,279,House,North
+5,630,2345,Auckland,260,House,North
+5,645,2345,Auckland,259,House,North
+5,600,2410,Auckland,255,House,North
+5,605,2480,Auckland,283,House,North
+5,680,2580,Auckland,294,House,North
+5,675,2605,Auckland,295,House,North
+5,710,2610,Auckland,276,House,North
+5,680,2625,Auckland,282,House,North
+5,730,2635,Auckland,249,House,North
+5,700,2640,Auckland,305,House,North
+5,675,2725,Auckland,263,House,North
+5,755,2795,Auckland,273,House,North
+5,785,2855,Auckland,305,House,North
+5,760,2870,Auckland,256,House,North
+5,805,3015,Auckland,280,House,North
+5,780,3070,Auckland,273,House,North
+5,930,3460,Auckland,291,House,North
+5,910,3540,Auckland,299,House,North
+5,915,3600,Auckland,276,House,North
+5,955,3720,Auckland,269,House,North
+5,1035,3930,Auckland,268,House,North
+5,1050,3980,Auckland,263,House,North
+5,1065,4165,Auckland,254,House,North
+5,1210,4415,Auckland,279,House,North
+5,1275,4585,Auckland,274,House,North
+5,1235,4685,Auckland,291,House,North
+5,1310,4755,Auckland,267,House,North
+5,1290,4765,Auckland,281,House,North
+5,1250,4775,Auckland,290,House,North
+5,1365,5070,Auckland,270,House,North
+5,1415,5090,Auckland,268,House,North
+5,1355,5205,Auckland,284,House,North
+5,1460,5425,Auckland,302,House,North
+5,2100,7880,Auckland,305,House,North
+6,645,2355,Auckland,393,House,North
+6,920,3415,Auckland,371,House,North
+6,905,3415,Auckland,338,House,North
+6,1120,4100,Auckland,387,House,North
+6,1415,5155,Auckland,366,House,North
+6,1500,5440,Auckland,388,House,North
+6,1445,5540,Auckland,349,House,North
+6,1820,6625,Auckland,358,House,North
+6,1905,6935,Auckland,355,House,North
+7,1220,4520,Auckland,479,House,North
+7,1275,4705,Auckland,476,House,North
+7,2160,8065,Auckland,463,House,North
+8,1180,4540,Auckland,559,House,North
+8,2305,8540,Auckland,495,House,North
+10,2350,8725,Auckland,954,House,North
+10,2620,9600,Auckland,808,House,North
+11,3520,12665,Auckland,1001,House,North
+12,2945,10750,Auckland,1215,House,North
+1,220,1085,Bay of Plenty,86,Apartment,North
+1,500,1885,Bay of Plenty,75,Apartment,North
+2,305,1140,Bay of Plenty,114,Apartment,North
+2,295,1200,Bay of Plenty,112,Apartment,North
+2,385,1435,Bay of Plenty,115,Apartment,North
+2,105,360,Bay of Plenty,107,House,North
+2,130,635,Bay of Plenty,112,House,North
+2,175,775,Bay of Plenty,105,House,North
+2,275,1240,Bay of Plenty,128,House,North
+2,330,1270,Bay of Plenty,111,House,North
+2,305,1305,Bay of Plenty,97,House,North
+2,415,1520,Bay of Plenty,114,House,North
+2,560,2060,Bay of Plenty,116,House,North
+2,1210,4355,Bay of Plenty,109,House,North
+3,585,2120,Bay of Plenty,152,Apartment,North
+3,510,2120,Bay of Plenty,152,Apartment,North
+3,495,2120,Bay of Plenty,176,Apartment,North
+3,270,1035,Bay of Plenty,152,House,North
+3,230,1055,Bay of Plenty,181,House,North
+3,240,1105,Bay of Plenty,140,House,North
+3,290,1175,Bay of Plenty,140,House,North
+3,290,1175,Bay of Plenty,164,House,North
+3,325,1270,Bay of Plenty,166,House,North
+3,360,1285,Bay of Plenty,178,House,North
+3,330,1305,Bay of Plenty,142,House,North
+3,330,1405,Bay of Plenty,149,House,North
+3,390,1480,Bay of Plenty,142,House,North
+3,380,1490,Bay of Plenty,163,House,North
+3,410,1580,Bay of Plenty,168,House,North
+3,380,1620,Bay of Plenty,161,House,North
+3,415,1630,Bay of Plenty,140,House,North
+3,420,1670,Bay of Plenty,156,House,North
+3,370,1670,Bay of Plenty,170,House,North
+3,420,1695,Bay of Plenty,168,House,North
+3,435,1720,Bay of Plenty,149,House,North
+3,410,1770,Bay of Plenty,157,House,North
+3,465,1780,Bay of Plenty,158,House,North
+3,460,1790,Bay of Plenty,153,House,North
+3,510,1835,Bay of Plenty,157,House,North
+3,500,1905,Bay of Plenty,151,House,North
+3,540,1960,Bay of Plenty,174,House,North
+3,530,1975,Bay of Plenty,164,House,North
+3,485,1975,Bay of Plenty,156,House,North
+3,490,2075,Bay of Plenty,153,House,North
+3,545,2095,Bay of Plenty,138,House,North
+3,590,2150,Bay of Plenty,163,House,North
+3,545,2180,Bay of Plenty,142,House,North
+3,605,2225,Bay of Plenty,150,House,North
+3,600,2270,Bay of Plenty,159,House,North
+3,605,2360,Bay of Plenty,165,House,North
+3,580,2375,Bay of Plenty,161,House,North
+3,660,2435,Bay of Plenty,158,House,North
+3,615,2440,Bay of Plenty,160,House,North
+3,595,2465,Bay of Plenty,153,House,North
+3,620,2485,Bay of Plenty,141,House,North
+3,615,2490,Bay of Plenty,138,House,North
+3,690,2515,Bay of Plenty,168,House,North
+3,680,2565,Bay of Plenty,176,House,North
+3,690,2575,Bay of Plenty,140,House,North
+3,715,2645,Bay of Plenty,166,House,North
+3,690,2695,Bay of Plenty,148,House,North
+3,760,2760,Bay of Plenty,162,House,North
+3,705,2795,Bay of Plenty,169,House,North
+3,695,2805,Bay of Plenty,140,House,North
+3,755,2830,Bay of Plenty,157,House,North
+3,755,2840,Bay of Plenty,160,House,North
+3,735,2840,Bay of Plenty,143,House,North
+3,735,2910,Bay of Plenty,165,House,North
+3,790,2965,Bay of Plenty,164,House,North
+3,775,3010,Bay of Plenty,154,House,North
+3,855,3110,Bay of Plenty,159,House,North
+3,815,3160,Bay of Plenty,140,House,North
+3,880,3200,Bay of Plenty,167,House,North
+3,840,3285,Bay of Plenty,158,House,North
+3,905,3410,Bay of Plenty,159,House,North
+3,980,3695,Bay of Plenty,140,House,North
+3,1025,3985,Bay of Plenty,168,House,North
+3,1120,4300,Bay of Plenty,147,House,North
+3,1225,4430,Bay of Plenty,141,House,North
+4,405,1465,Bay of Plenty,222,Apartment,North
+4,435,1560,Bay of Plenty,227,Apartment,North
+4,445,1620,Bay of Plenty,230,Apartment,North
+4,1485,5540,Bay of Plenty,222,Apartment,North
+4,290,1030,Bay of Plenty,226,House,North
+4,310,1210,Bay of Plenty,211,House,North
+4,370,1440,Bay of Plenty,218,House,North
+4,425,1635,Bay of Plenty,208,House,North
+4,450,1645,Bay of Plenty,218,House,North
+4,460,1690,Bay of Plenty,216,House,North
+4,400,1720,Bay of Plenty,214,House,North
+4,450,1760,Bay of Plenty,208,House,North
+4,420,1765,Bay of Plenty,202,House,North
+4,410,1795,Bay of Plenty,234,House,North
+4,430,1820,Bay of Plenty,206,House,North
+4,515,1840,Bay of Plenty,220,House,North
+4,445,1890,Bay of Plenty,213,House,North
+4,490,1935,Bay of Plenty,207,House,North
+4,470,1950,Bay of Plenty,221,House,North
+4,470,1950,Bay of Plenty,192,House,North
+4,495,2045,Bay of Plenty,209,House,North
+4,565,2065,Bay of Plenty,207,House,North
+4,565,2245,Bay of Plenty,212,House,North
+4,580,2390,Bay of Plenty,216,House,North
+4,655,2480,Bay of Plenty,230,House,North
+4,695,2545,Bay of Plenty,200,House,North
+4,630,2550,Bay of Plenty,217,House,North
+4,645,2550,Bay of Plenty,227,House,North
+4,675,2570,Bay of Plenty,218,House,North
+4,710,2595,Bay of Plenty,199,House,North
+4,670,2600,Bay of Plenty,204,House,North
+4,735,2630,Bay of Plenty,218,House,North
+4,715,2650,Bay of Plenty,197,House,North
+4,740,2665,Bay of Plenty,229,House,North
+4,690,2705,Bay of Plenty,215,House,North
+4,880,3305,Bay of Plenty,212,House,North
+4,940,3370,Bay of Plenty,210,House,North
+4,920,3600,Bay of Plenty,233,House,North
+4,1045,4015,Bay of Plenty,204,House,North
+4,1130,4400,Bay of Plenty,192,House,North
+5,555,2265,Bay of Plenty,303,Apartment,North
+5,545,2080,Bay of Plenty,269,House,North
+5,495,2120,Bay of Plenty,280,House,North
+5,565,2250,Bay of Plenty,274,House,North
+5,750,2875,Bay of Plenty,287,House,North
+5,775,2885,Bay of Plenty,265,House,North
+1,150,530,Canterbury,89,Apartment,South
+1,125,530,Canterbury,65,Apartment,South
+1,145,690,Canterbury,78,Apartment,South
+1,155,780,Canterbury,75,Apartment,South
+1,220,875,Canterbury,79,Apartment,South
+1,220,910,Canterbury,70,Apartment,South
+1,310,1130,Canterbury,88,Apartment,South
+1,255,1230,Canterbury,69,Apartment,South
+1,265,1250,Canterbury,84,Apartment,South
+1,330,1505,Canterbury,80,Apartment,South
+1,410,1585,Canterbury,88,Apartment,South
+1,425,1675,Canterbury,77,Apartment,South
+1,760,2775,Canterbury,69,Apartment,South
+1,730,2910,Canterbury,76,Apartment,South
+1,195,765,Canterbury,92,House,South
+1,160,895,Canterbury,73,House,South
+1,230,915,Canterbury,71,House,South
+1,290,1265,Canterbury,87,House,South
+1,450,1690,Canterbury,73,House,South
+2,95,335,Canterbury,104,Apartment,South
+2,110,450,Canterbury,122,Apartment,South
+2,75,495,Canterbury,110,Apartment,South
+2,80,500,Canterbury,119,Apartment,South
+2,100,590,Canterbury,119,Apartment,South
+2,135,630,Canterbury,125,Apartment,South
+2,175,660,Canterbury,110,Apartment,South
+2,180,680,Canterbury,111,Apartment,South
+2,110,680,Canterbury,120,Apartment,South
+2,125,710,Canterbury,130,Apartment,South
+2,225,810,Canterbury,109,Apartment,South
+2,260,915,Canterbury,117,Apartment,South
+2,260,935,Canterbury,104,Apartment,South
+2,235,935,Canterbury,106,Apartment,South
+2,195,955,Canterbury,109,Apartment,South
+2,240,960,Canterbury,116,Apartment,South
+2,230,985,Canterbury,99,Apartment,South
+2,180,985,Canterbury,105,Apartment,South
+2,260,1045,Canterbury,118,Apartment,South
+2,325,1155,Canterbury,110,Apartment,South
+2,295,1220,Canterbury,106,Apartment,South
+2,320,1265,Canterbury,115,Apartment,South
+2,295,1370,Canterbury,123,Apartment,South
+2,325,1505,Canterbury,106,Apartment,South
+2,390,1545,Canterbury,120,Apartment,South
+2,385,1580,Canterbury,111,Apartment,South
+2,360,1630,Canterbury,130,Apartment,South
+2,445,1690,Canterbury,125,Apartment,South
+2,455,1740,Canterbury,119,Apartment,South
+2,475,1760,Canterbury,129,Apartment,South
+2,430,1780,Canterbury,98,Apartment,South
+2,480,1800,Canterbury,115,Apartment,South
+2,505,1845,Canterbury,110,Apartment,South
+2,555,2040,Canterbury,113,Apartment,South
+2,585,2110,Canterbury,114,Apartment,South
+2,580,2420,Canterbury,117,Apartment,South
+2,695,2660,Canterbury,104,Apartment,South
+2,205,725,Canterbury,113,House,South
+2,145,745,Canterbury,124,House,South
+2,210,770,Canterbury,106,House,South
+2,255,1010,Canterbury,109,House,South
+2,265,1010,Canterbury,106,House,South
+2,265,1035,Canterbury,123,House,South
+2,215,1085,Canterbury,118,House,South
+2,225,1110,Canterbury,112,House,South
+2,315,1115,Canterbury,106,House,South
+2,320,1330,Canterbury,101,House,South
+2,335,1335,Canterbury,128,House,South
+2,295,1360,Canterbury,117,House,South
+2,325,1375,Canterbury,108,House,South
+2,335,1445,Canterbury,127,House,South
+2,365,1460,Canterbury,123,House,South
+2,520,2165,Canterbury,111,House,South
+2,595,2210,Canterbury,115,House,South
+2,550,2240,Canterbury,113,House,South
+2,930,3655,Canterbury,127,House,South
+3,300,1250,Canterbury,165,Apartment,South
+3,335,1285,Canterbury,160,Apartment,South
+3,320,1290,Canterbury,148,Apartment,South
+3,485,2030,Canterbury,140,Apartment,South
+3,555,2040,Canterbury,179,Apartment,South
+3,575,2060,Canterbury,147,Apartment,South
+3,755,2920,Canterbury,157,Apartment,South
+3,765,2930,Canterbury,154,Apartment,South
+3,745,2940,Canterbury,159,Apartment,South
+3,295,1045,Canterbury,138,House,South
+3,275,1085,Canterbury,164,House,South
+3,300,1105,Canterbury,174,House,South
+3,285,1145,Canterbury,144,House,South
+3,260,1220,Canterbury,177,House,South
+3,365,1300,Canterbury,150,House,South
+3,355,1310,Canterbury,170,House,South
+3,335,1330,Canterbury,151,House,South
+3,375,1350,Canterbury,143,House,South
+3,330,1380,Canterbury,143,House,South
+3,360,1400,Canterbury,174,House,South
+3,335,1400,Canterbury,162,House,South
+3,400,1425,Canterbury,169,House,South
+3,395,1460,Canterbury,149,House,South
+3,410,1480,Canterbury,162,House,South
+3,400,1485,Canterbury,166,House,South
+3,370,1490,Canterbury,165,House,South
+3,425,1525,Canterbury,153,House,South
+3,385,1555,Canterbury,141,House,South
+3,355,1565,Canterbury,138,House,South
+3,395,1570,Canterbury,174,House,South
+3,400,1580,Canterbury,154,House,South
+3,405,1625,Canterbury,154,House,South
+3,440,1630,Canterbury,146,House,South
+3,375,1655,Canterbury,141,House,South
+3,405,1675,Canterbury,156,House,South
+3,440,1705,Canterbury,148,House,South
+3,430,1715,Canterbury,172,House,South
+3,400,1720,Canterbury,147,House,South
+3,395,1725,Canterbury,157,House,South
+3,390,1725,Canterbury,148,House,South
+3,475,1745,Canterbury,159,House,South
+3,480,1760,Canterbury,160,House,South
+3,495,1775,Canterbury,170,House,South
+3,495,1780,Canterbury,145,House,South
+3,430,1795,Canterbury,151,House,South
+3,490,1810,Canterbury,154,House,South
+3,430,1815,Canterbury,164,House,South
+3,425,1825,Canterbury,139,House,South
+3,440,1855,Canterbury,165,House,South
+3,520,1865,Canterbury,148,House,South
+3,460,1955,Canterbury,169,House,South
+3,450,1955,Canterbury,166,House,South
+3,475,1965,Canterbury,169,House,South
+3,540,2010,Canterbury,168,House,South
+3,570,2070,Canterbury,167,House,South
+3,500,2075,Canterbury,135,House,South
+3,495,2090,Canterbury,162,House,South
+3,510,2095,Canterbury,149,House,South
+3,550,2120,Canterbury,139,House,South
+3,535,2130,Canterbury,155,House,South
+3,605,2165,Canterbury,173,House,South
+3,540,2165,Canterbury,162,House,South
+3,550,2190,Canterbury,162,House,South
+3,595,2200,Canterbury,171,House,South
+3,605,2205,Canterbury,146,House,South
+3,625,2285,Canterbury,154,House,South
+3,575,2290,Canterbury,167,House,South
+3,605,2300,Canterbury,179,House,South
+3,595,2300,Canterbury,159,House,South
+3,555,2305,Canterbury,178,House,South
+3,595,2315,Canterbury,158,House,South
+3,665,2380,Canterbury,161,House,South
+3,620,2445,Canterbury,150,House,South
+3,630,2535,Canterbury,168,House,South
+3,700,2545,Canterbury,148,House,South
+3,635,2610,Canterbury,147,House,South
+3,685,2620,Canterbury,168,House,South
+3,700,2620,Canterbury,160,House,South
+3,655,2645,Canterbury,148,House,South
+3,665,2655,Canterbury,163,House,South
+3,675,2670,Canterbury,155,House,South
+3,730,2695,Canterbury,165,House,South
+3,735,2770,Canterbury,158,House,South
+3,775,2785,Canterbury,136,House,South
+3,700,2825,Canterbury,159,House,South
+3,785,2885,Canterbury,171,House,South
+3,795,3100,Canterbury,148,House,South
+3,805,3190,Canterbury,154,House,South
+3,840,3240,Canterbury,164,House,South
+3,875,3355,Canterbury,149,House,South
+3,965,3585,Canterbury,156,House,South
+3,910,3610,Canterbury,150,House,South
+3,945,3640,Canterbury,150,House,South
+3,955,3650,Canterbury,138,House,South
+3,1020,3990,Canterbury,163,House,South
+3,1115,4065,Canterbury,150,House,South
+3,1280,4780,Canterbury,163,House,South
+3,1570,5960,Canterbury,155,House,South
+4,125,790,Canterbury,236,Apartment,South
+4,280,1180,Canterbury,212,Apartment,South
+4,535,2075,Canterbury,224,Apartment,South
+4,550,2090,Canterbury,231,Apartment,South
+4,525,2110,Canterbury,211,Apartment,South
+4,920,3505,Canterbury,231,Apartment,South
+4,955,3720,Canterbury,221,Apartment,South
+4,980,3850,Canterbury,230,Apartment,South
+4,285,1300,Canterbury,233,House,South
+4,305,1315,Canterbury,228,House,South
+4,315,1355,Canterbury,228,House,South
+4,355,1375,Canterbury,204,House,South
+4,360,1510,Canterbury,241,House,South
+4,360,1525,Canterbury,212,House,South
+4,435,1560,Canterbury,242,House,South
+4,445,1605,Canterbury,213,House,South
+4,400,1690,Canterbury,245,House,South
+4,405,1700,Canterbury,232,House,South
+4,405,1715,Canterbury,205,House,South
+4,435,1720,Canterbury,215,House,South
+4,485,1735,Canterbury,209,House,South
+4,435,1745,Canterbury,209,House,South
+4,425,1760,Canterbury,231,House,South
+4,485,1780,Canterbury,236,House,South
+4,470,1790,Canterbury,206,House,South
+4,410,1810,Canterbury,202,House,South
+4,450,1815,Canterbury,228,House,South
+4,515,1835,Canterbury,224,House,South
+4,480,1865,Canterbury,211,House,South
+4,520,1900,Canterbury,230,House,South
+4,475,1905,Canterbury,231,House,South
+4,465,1925,Canterbury,210,House,South
+4,475,1965,Canterbury,211,House,South
+4,525,1975,Canterbury,214,House,South
+4,560,2180,Canterbury,236,House,South
+4,515,2180,Canterbury,217,House,South
+4,585,2215,Canterbury,216,House,South
+4,570,2250,Canterbury,197,House,South
+4,595,2270,Canterbury,226,House,South
+4,580,2280,Canterbury,212,House,South
+4,605,2375,Canterbury,222,House,South
+4,640,2415,Canterbury,221,House,South
+4,615,2435,Canterbury,200,House,South
+4,620,2490,Canterbury,208,House,South
+4,630,2515,Canterbury,238,House,South
+4,625,2525,Canterbury,206,House,South
+4,660,2535,Canterbury,235,House,South
+4,655,2625,Canterbury,232,House,South
+4,710,2670,Canterbury,202,House,South
+4,740,2750,Canterbury,201,House,South
+4,695,2795,Canterbury,200,House,South
+4,745,2830,Canterbury,207,House,South
+4,765,2830,Canterbury,229,House,South
+4,760,3030,Canterbury,226,House,South
+4,770,3050,Canterbury,205,House,South
+4,820,3190,Canterbury,229,House,South
+4,925,3365,Canterbury,230,House,South
+4,895,3405,Canterbury,210,House,South
+4,1140,4100,Canterbury,205,House,South
+4,1160,4310,Canterbury,210,House,South
+4,1155,4395,Canterbury,205,House,South
+4,1280,4890,Canterbury,216,House,South
+5,1155,4495,Canterbury,273,Apartment,South
+5,1180,4585,Canterbury,268,Apartment,South
+5,420,1565,Canterbury,254,House,South
+5,490,1765,Canterbury,283,House,South
+5,485,1990,Canterbury,268,House,South
+5,530,2010,Canterbury,293,House,South
+5,535,2210,Canterbury,288,House,South
+5,795,3020,Canterbury,304,House,South
+5,820,3045,Canterbury,269,House,South
+5,850,3115,Canterbury,291,House,South
+5,905,3320,Canterbury,261,House,South
+5,945,3495,Canterbury,286,House,South
+5,975,3515,Canterbury,283,House,South
+5,915,3615,Canterbury,284,House,South
+5,1010,3630,Canterbury,299,House,South
+5,1065,4005,Canterbury,301,House,South
+5,1075,4055,Canterbury,263,House,South
+5,1095,4280,Canterbury,265,House,South
+5,1220,4480,Canterbury,292,House,South
+5,1320,4855,Canterbury,298,House,South
+5,1290,4955,Canterbury,278,House,South
+6,1275,4930,Canterbury,396,House,South
+11,1925,6955,Canterbury,992,House,South
+1,90,480,Gisborne,88,House,North
+2,235,1160,Gisborne,117,Apartment,North
+2,385,1400,Gisborne,119,Apartment,North
+2,145,645,Gisborne,109,House,North
+2,205,735,Gisborne,119,House,North
+3,335,1195,Gisborne,176,House,North
+3,300,1370,Gisborne,155,House,North
+3,525,2075,Gisborne,156,House,North
+3,620,2435,Gisborne,156,House,North
+3,700,2580,Gisborne,163,House,North
+3,725,2665,Gisborne,157,House,North
+3,805,3055,Gisborne,174,House,North
+3,1025,3945,Gisborne,152,House,North
+4,365,1605,Gisborne,197,House,North
+4,465,1805,Gisborne,208,House,North
+4,550,2165,Gisborne,200,House,North
+4,595,2220,Gisborne,231,House,North
+4,550,2300,Gisborne,230,House,North
+5,570,2230,Gisborne,284,House,North
+1,230,905,Hawke's Bay,85,Apartment,North
+1,150,790,Hawke's Bay,75,House,North
+2,125,480,Hawke's Bay,115,Apartment,North
+2,195,805,Hawke's Bay,111,Apartment,North
+2,215,815,Hawke's Bay,109,Apartment,North
+2,355,1430,Hawke's Bay,111,Apartment,North
+2,210,855,Hawke's Bay,102,House,North
+2,200,910,Hawke's Bay,113,House,North
+2,265,1010,Hawke's Bay,117,House,North
+2,460,1835,Hawke's Bay,107,House,North
+3,485,1800,Hawke's Bay,164,Apartment,North
+3,440,1805,Hawke's Bay,168,Apartment,North
+3,490,1895,Hawke's Bay,163,Apartment,North
+3,580,2125,Hawke's Bay,156,Apartment,North
+3,575,2175,Hawke's Bay,164,Apartment,North
+3,580,2235,Hawke's Bay,142,Apartment,North
+3,300,1270,Hawke's Bay,156,House,North
+3,315,1285,Hawke's Bay,160,House,North
+3,355,1430,Hawke's Bay,166,House,North
+3,360,1455,Hawke's Bay,173,House,North
+3,355,1455,Hawke's Bay,155,House,North
+3,400,1480,Hawke's Bay,162,House,North
+3,365,1510,Hawke's Bay,155,House,North
+3,410,1535,Hawke's Bay,151,House,North
+3,365,1580,Hawke's Bay,150,House,North
+3,440,1590,Hawke's Bay,164,House,North
+3,465,1760,Hawke's Bay,146,House,North
+3,460,1775,Hawke's Bay,179,House,North
+3,475,1895,Hawke's Bay,179,House,North
+3,445,1940,Hawke's Bay,157,House,North
+3,545,2025,Hawke's Bay,162,House,North
+3,565,2030,Hawke's Bay,151,House,North
+3,520,2065,Hawke's Bay,165,House,North
+3,590,2270,Hawke's Bay,166,House,North
+3,630,2295,Hawke's Bay,144,House,North
+3,570,2300,Hawke's Bay,163,House,North
+3,630,2325,Hawke's Bay,163,House,North
+3,645,2365,Hawke's Bay,179,House,North
+3,720,2655,Hawke's Bay,144,House,North
+3,780,2840,Hawke's Bay,157,House,North
+3,830,3160,Hawke's Bay,157,House,North
+3,1030,3745,Hawke's Bay,162,House,North
+3,1220,4630,Hawke's Bay,175,House,North
+4,415,1475,Hawke's Bay,221,Apartment,North
+4,455,1625,Hawke's Bay,231,Apartment,North
+4,390,1640,Hawke's Bay,230,Apartment,North
+4,525,1885,Hawke's Bay,225,Apartment,North
+4,540,1975,Hawke's Bay,212,Apartment,North
+4,535,2055,Hawke's Bay,214,Apartment,North
+4,315,1235,Hawke's Bay,227,House,North
+4,295,1235,Hawke's Bay,196,House,North
+4,385,1390,Hawke's Bay,237,House,North
+4,355,1410,Hawke's Bay,206,House,North
+4,390,1450,Hawke's Bay,221,House,North
+4,415,1705,Hawke's Bay,226,House,North
+4,455,1755,Hawke's Bay,213,House,North
+4,430,1845,Hawke's Bay,228,House,North
+4,485,2055,Hawke's Bay,220,House,North
+4,535,2210,Hawke's Bay,202,House,North
+4,620,2480,Hawke's Bay,213,House,North
+4,610,2480,Hawke's Bay,205,House,North
+4,680,2720,Hawke's Bay,226,House,North
+4,760,2730,Hawke's Bay,211,House,North
+4,1150,4200,Hawke's Bay,215,House,North
+5,550,2095,Hawke's Bay,287,House,North
+5,755,2780,Hawke's Bay,310,House,North
+5,850,3120,Hawke's Bay,300,House,North
+5,955,3495,Hawke's Bay,278,House,North
+1,125,590,Manawatu-Whanganui,71,Apartment,North
+2,215,790,Manawatu-Whanganui,125,Apartment,North
+2,265,950,Manawatu-Whanganui,110,Apartment,North
+2,175,950,Manawatu-Whanganui,121,Apartment,North
+2,250,975,Manawatu-Whanganui,130,Apartment,North
+2,265,1015,Manawatu-Whanganui,116,Apartment,North
+2,310,1175,Manawatu-Whanganui,115,Apartment,North
+2,315,1220,Manawatu-Whanganui,105,Apartment,North
+2,320,1265,Manawatu-Whanganui,105,Apartment,North
+2,420,1515,Manawatu-Whanganui,112,Apartment,North
+2,415,1630,Manawatu-Whanganui,125,Apartment,North
+2,470,1765,Manawatu-Whanganui,133,Apartment,North
+2,145,520,Manawatu-Whanganui,116,House,North
+2,165,600,Manawatu-Whanganui,129,House,North
+2,195,680,Manawatu-Whanganui,105,House,North
+2,105,720,Manawatu-Whanganui,114,House,North
+2,140,750,Manawatu-Whanganui,102,House,North
+3,665,2715,Manawatu-Whanganui,167,Apartment,North
+3,805,2885,Manawatu-Whanganui,147,Apartment,North
+3,740,2890,Manawatu-Whanganui,170,Apartment,North
+3,1140,4385,Manawatu-Whanganui,146,Apartment,North
+3,205,950,Manawatu-Whanganui,149,House,North
+3,325,1220,Manawatu-Whanganui,164,House,North
+3,300,1240,Manawatu-Whanganui,152,House,North
+3,305,1275,Manawatu-Whanganui,141,House,North
+3,340,1295,Manawatu-Whanganui,150,House,North
+3,395,1425,Manawatu-Whanganui,164,House,North
+3,385,1465,Manawatu-Whanganui,154,House,North
+3,380,1495,Manawatu-Whanganui,171,House,North
+3,400,1535,Manawatu-Whanganui,151,House,North
+3,410,1550,Manawatu-Whanganui,171,House,North
+3,345,1565,Manawatu-Whanganui,171,House,North
+3,410,1585,Manawatu-Whanganui,161,House,North
+3,440,1705,Manawatu-Whanganui,142,House,North
+3,465,1730,Manawatu-Whanganui,171,House,North
+3,425,1765,Manawatu-Whanganui,161,House,North
+3,430,1795,Manawatu-Whanganui,163,House,North
+3,495,1800,Manawatu-Whanganui,150,House,North
+3,470,1900,Manawatu-Whanganui,161,House,North
+3,450,1920,Manawatu-Whanganui,151,House,North
+3,460,1980,Manawatu-Whanganui,153,House,North
+3,525,2025,Manawatu-Whanganui,142,House,North
+3,535,2025,Manawatu-Whanganui,167,House,North
+3,470,2030,Manawatu-Whanganui,154,House,North
+3,495,2050,Manawatu-Whanganui,155,House,North
+3,540,2085,Manawatu-Whanganui,147,House,North
+3,540,2105,Manawatu-Whanganui,157,House,North
+3,575,2190,Manawatu-Whanganui,140,House,North
+3,550,2300,Manawatu-Whanganui,169,House,North
+3,655,2375,Manawatu-Whanganui,147,House,North
+3,600,2430,Manawatu-Whanganui,173,House,North
+3,600,2435,Manawatu-Whanganui,159,House,North
+3,630,2550,Manawatu-Whanganui,164,House,North
+3,640,2570,Manawatu-Whanganui,163,House,North
+3,720,2680,Manawatu-Whanganui,153,House,North
+3,820,3160,Manawatu-Whanganui,150,House,North
+3,805,3230,Manawatu-Whanganui,148,House,North
+3,955,3490,Manawatu-Whanganui,168,House,North
+4,290,1155,Manawatu-Whanganui,201,Apartment,North
+4,365,1310,Manawatu-Whanganui,234,Apartment,North
+4,350,1470,Manawatu-Whanganui,237,Apartment,North
+4,365,1625,Manawatu-Whanganui,222,Apartment,North
+4,440,1735,Manawatu-Whanganui,223,Apartment,North
+4,440,1735,Manawatu-Whanganui,241,Apartment,North
+4,485,1850,Manawatu-Whanganui,226,House,North
+4,520,1875,Manawatu-Whanganui,200,House,North
+4,445,1920,Manawatu-Whanganui,199,House,North
+4,565,2090,Manawatu-Whanganui,224,House,North
+4,540,2195,Manawatu-Whanganui,208,House,North
+4,565,2295,Manawatu-Whanganui,212,House,North
+4,610,2310,Manawatu-Whanganui,232,House,North
+4,645,2360,Manawatu-Whanganui,214,House,North
+4,640,2380,Manawatu-Whanganui,217,House,North
+4,590,2445,Manawatu-Whanganui,235,House,North
+4,690,2485,Manawatu-Whanganui,227,House,North
+4,635,2500,Manawatu-Whanganui,206,House,North
+4,710,2590,Manawatu-Whanganui,216,House,North
+4,705,2840,Manawatu-Whanganui,232,House,North
+4,740,2915,Manawatu-Whanganui,204,House,North
+4,785,2975,Manawatu-Whanganui,232,House,North
+4,805,3095,Manawatu-Whanganui,233,House,North
+4,905,3510,Manawatu-Whanganui,227,House,North
+4,970,3800,Manawatu-Whanganui,232,House,North
+5,430,1535,Manawatu-Whanganui,302,House,North
+5,610,2370,Manawatu-Whanganui,274,House,North
+5,615,2415,Manawatu-Whanganui,285,House,North
+5,720,2615,Manawatu-Whanganui,272,House,North
+5,1005,3930,Manawatu-Whanganui,254,House,North
+1,230,815,Marlborough,75,House,South
+2,210,1010,Marlborough,101,Apartment,South
+2,305,1320,Marlborough,97,Apartment,South
+2,555,2125,Marlborough,116,House,South
+3,200,1035,Marlborough,170,Apartment,South
+3,345,1525,Marlborough,144,Apartment,South
+3,485,1780,Marlborough,145,Apartment,South
+3,590,2185,Marlborough,147,Apartment,South
+3,750,2990,Marlborough,160,Apartment,South
+3,385,1560,Marlborough,141,House,South
+3,405,1575,Marlborough,168,House,South
+3,430,1770,Marlborough,161,House,South
+4,355,1270,Marlborough,213,House,South
+4,330,1270,Marlborough,210,House,South
+4,335,1315,Marlborough,227,House,South
+4,605,2340,Marlborough,236,House,South
+4,615,2390,Marlborough,202,House,South
+4,655,2580,Marlborough,225,House,South
+4,960,3730,Marlborough,233,House,South
+5,1055,4070,Marlborough,267,House,South
+6,660,2705,Marlborough,377,House,South
+1,195,905,Nelson,79,House,South
+1,290,1270,Nelson,80,House,South
+2,280,1070,Nelson,119,Apartment,South
+2,420,1555,Nelson,121,Apartment,South
+2,195,800,Nelson,128,House,South
+2,220,825,Nelson,110,House,South
+3,500,1845,Nelson,174,Apartment,South
+3,545,1975,Nelson,155,Apartment,South
+3,550,2075,Nelson,171,Apartment,South
+3,1095,4165,Nelson,157,Apartment,South
+3,385,1445,Nelson,155,House,South
+3,395,1665,Nelson,152,House,South
+3,430,1675,Nelson,149,House,South
+3,500,1790,Nelson,162,House,South
+3,530,2180,Nelson,154,House,South
+3,695,2570,Nelson,165,House,South
+3,810,3180,Nelson,153,House,South
+3,940,3580,Nelson,150,House,South
+4,430,1735,Nelson,217,House,South
+4,565,2315,Nelson,235,House,South
+4,680,2625,Nelson,211,House,South
+4,735,2780,Nelson,218,House,South
+4,900,3235,Nelson,211,House,South
+4,1330,4945,Nelson,205,House,South
+5,625,2265,Nelson,270,House,South
+1,105,665,Northland,74,Apartment,North
+1,220,880,Northland,86,Apartment,North
+1,150,660,Northland,82,House,North
+2,200,930,Northland,122,Apartment,North
+2,225,1085,Northland,109,Apartment,North
+2,230,1170,Northland,106,Apartment,North
+2,350,1530,Northland,112,Apartment,North
+2,420,1670,Northland,115,Apartment,North
+2,400,1730,Northland,112,Apartment,North
+2,165,620,Northland,120,House,North
+2,145,785,Northland,119,House,North
+2,150,835,Northland,110,House,North
+2,235,1005,Northland,123,House,North
+2,265,1035,Northland,121,House,North
+2,295,1080,Northland,109,House,North
+3,250,900,Northland,142,Apartment,North
+3,220,1010,Northland,173,Apartment,North
+3,555,2030,Northland,135,Apartment,North
+3,560,2085,Northland,163,Apartment,North
+3,560,2105,Northland,159,Apartment,North
+3,275,1170,Northland,158,House,North
+3,320,1185,Northland,167,House,North
+3,305,1190,Northland,153,House,North
+3,320,1195,Northland,143,House,North
+3,305,1340,Northland,176,House,North
+3,355,1380,Northland,158,House,North
+3,330,1430,Northland,137,House,North
+3,345,1445,Northland,141,House,North
+3,320,1485,Northland,177,House,North
+3,385,1490,Northland,155,House,North
+3,420,1525,Northland,169,House,North
+3,390,1640,Northland,156,House,North
+3,430,1765,Northland,150,House,North
+3,430,1800,Northland,142,House,North
+3,450,1865,Northland,162,House,North
+3,515,1905,Northland,143,House,North
+3,515,1950,Northland,166,House,North
+3,510,1975,Northland,167,House,North
+3,615,2200,Northland,146,House,North
+3,645,2445,Northland,147,House,North
+3,660,2560,Northland,160,House,North
+3,715,2585,Northland,160,House,North
+3,710,2675,Northland,152,House,North
+3,760,2785,Northland,157,House,North
+3,835,3285,Northland,148,House,North
+3,1205,4515,Northland,150,House,North
+3,1350,4940,Northland,175,House,North
+4,295,1255,Northland,240,Apartment,North
+4,330,1400,Northland,202,Apartment,North
+4,400,1445,Northland,223,Apartment,North
+4,200,1055,Northland,211,House,North
+4,240,1115,Northland,213,House,North
+4,295,1190,Northland,229,House,North
+4,400,1555,Northland,196,House,North
+4,420,1720,Northland,213,House,North
+4,520,1865,Northland,221,House,North
+4,435,1870,Northland,218,House,North
+4,495,2020,Northland,214,House,North
+4,560,2140,Northland,209,House,North
+4,540,2160,Northland,221,House,North
+4,580,2210,Northland,207,House,North
+4,610,2395,Northland,230,House,North
+4,590,2410,Northland,221,House,North
+4,630,2490,Northland,213,House,North
+4,695,2510,Northland,226,House,North
+4,675,2750,Northland,226,House,North
+4,935,3515,Northland,195,House,North
+4,1125,4365,Northland,198,House,North
+5,845,3295,Northland,297,House,North
+5,950,3575,Northland,260,House,North
+1,105,460,Otago,97,Apartment,South
+1,160,615,Otago,84,Apartment,South
+1,160,790,Otago,80,Apartment,South
+1,180,975,Otago,81,Apartment,South
+1,265,1005,Otago,77,Apartment,South
+1,315,1180,Otago,87,Apartment,South
+1,260,1270,Otago,81,Apartment,South
+1,305,1365,Otago,83,Apartment,South
+1,400,1485,Otago,80,House,South
+2,100,600,Otago,114,Apartment,South
+2,170,635,Otago,129,Apartment,South
+2,100,640,Otago,122,Apartment,South
+2,170,795,Otago,116,Apartment,South
+2,290,1075,Otago,125,Apartment,South
+2,270,1085,Otago,105,Apartment,South
+2,275,1100,Otago,130,Apartment,South
+2,265,1190,Otago,108,Apartment,South
+2,265,1190,Otago,98,Apartment,South
+2,255,1195,Otago,104,Apartment,South
+2,325,1220,Otago,112,Apartment,South
+2,315,1400,Otago,112,Apartment,South
+2,435,1590,Otago,130,Apartment,South
+2,385,1615,Otago,127,Apartment,South
+2,440,1620,Otago,104,Apartment,South
+2,385,1670,Otago,115,Apartment,South
+2,425,1695,Otago,117,Apartment,South
+2,455,1805,Otago,115,Apartment,South
+2,460,1855,Otago,126,Apartment,South
+2,495,1985,Otago,115,Apartment,South
+2,555,2070,Otago,108,Apartment,South
+2,200,700,Otago,120,House,South
+2,180,730,Otago,113,House,South
+2,175,780,Otago,115,House,South
+2,200,870,Otago,127,House,South
+2,175,965,Otago,127,House,South
+2,270,1015,Otago,115,House,South
+2,525,2225,Otago,110,House,South
+3,425,1525,Otago,156,Apartment,South
+3,355,1580,Otago,172,Apartment,South
+3,410,1635,Otago,150,Apartment,South
+3,440,1830,Otago,140,Apartment,South
+3,515,1870,Otago,167,Apartment,South
+3,530,1940,Otago,154,Apartment,South
+3,545,2125,Otago,153,Apartment,South
+3,560,2150,Otago,163,Apartment,South
+3,600,2185,Otago,153,Apartment,South
+3,560,2240,Otago,155,Apartment,South
+3,605,2325,Otago,166,Apartment,South
+3,650,2355,Otago,170,Apartment,South
+3,670,2550,Otago,163,Apartment,South
+3,630,2595,Otago,147,Apartment,South
+3,670,2620,Otago,165,Apartment,South
+3,875,3260,Otago,163,Apartment,South
+3,970,3780,Otago,171,Apartment,South
+3,1080,4140,Otago,167,Apartment,South
+3,305,1230,Otago,178,House,South
+3,325,1300,Otago,148,House,South
+3,305,1310,Otago,164,House,South
+3,310,1365,Otago,162,House,South
+3,375,1390,Otago,156,House,South
+3,385,1430,Otago,164,House,South
+3,315,1465,Otago,174,House,South
+3,415,1485,Otago,158,House,South
+3,380,1490,Otago,171,House,South
+3,370,1640,Otago,162,House,South
+3,450,1695,Otago,156,House,South
+3,445,1755,Otago,138,House,South
+3,525,2020,Otago,164,House,South
+3,500,2110,Otago,148,House,South
+3,575,2215,Otago,144,House,South
+3,560,2235,Otago,143,House,South
+3,590,2385,Otago,171,House,South
+3,680,2430,Otago,165,House,South
+3,715,2660,Otago,160,House,South
+3,705,2720,Otago,145,House,South
+3,725,2725,Otago,174,House,South
+3,710,2735,Otago,152,House,South
+3,790,2870,Otago,176,House,South
+3,725,2935,Otago,173,House,South
+3,805,2970,Otago,155,House,South
+3,820,3125,Otago,157,House,South
+3,1360,5120,Otago,178,House,South
+3,1350,5145,Otago,144,House,South
+3,1670,6305,Otago,153,House,South
+3,1770,6475,Otago,159,House,South
+3,1945,7250,Otago,176,House,South
+4,670,2455,Otago,211,Apartment,South
+4,645,2485,Otago,221,Apartment,South
+4,605,2515,Otago,206,Apartment,South
+4,750,2755,Otago,201,Apartment,South
+4,730,2815,Otago,234,Apartment,South
+4,790,2865,Otago,211,Apartment,South
+4,750,2920,Otago,204,Apartment,South
+4,750,2960,Otago,217,Apartment,South
+4,795,3065,Otago,215,Apartment,South
+4,1280,4860,Otago,206,Apartment,South
+4,1355,4995,Otago,218,Apartment,South
+4,210,1080,Otago,203,House,South
+4,390,1445,Otago,226,House,South
+4,325,1445,Otago,219,House,South
+4,445,1670,Otago,221,House,South
+4,450,1750,Otago,210,House,South
+4,490,1810,Otago,233,House,South
+4,475,1840,Otago,224,House,South
+4,510,1860,Otago,207,House,South
+4,475,1930,Otago,224,House,South
+4,615,2245,Otago,228,House,South
+4,605,2450,Otago,203,House,South
+4,660,2715,Otago,196,House,South
+4,735,2885,Otago,190,House,South
+4,830,3190,Otago,225,House,South
+4,835,3290,Otago,229,House,South
+5,670,2485,Otago,259,House,South
+5,815,3130,Otago,293,House,South
+5,925,3330,Otago,259,House,South
+5,1030,3800,Otago,272,House,South
+5,1160,4235,Otago,288,House,South
+5,1140,4340,Otago,308,House,South
+6,1055,3835,Otago,372,House,South
+1,95,385,Southland,85,House,South
+1,215,905,Southland,81,House,South
+2,150,790,Southland,104,House,South
+2,310,1130,Southland,106,House,South
+3,245,900,Southland,161,House,South
+3,295,1135,Southland,160,House,South
+3,300,1140,Southland,148,House,South
+3,300,1150,Southland,149,House,South
+3,375,1365,Southland,160,House,South
+3,440,1585,Southland,173,House,South
+3,370,1665,Southland,147,House,South
+3,425,1865,Southland,177,House,South
+3,625,2450,Southland,181,House,South
+4,275,1135,Southland,210,Apartment,South
+4,550,2085,Southland,216,Apartment,South
+4,435,1705,Southland,237,House,South
+4,410,1770,Southland,217,House,South
+4,505,1865,Southland,227,House,South
+4,560,2060,Southland,192,House,South
+5,775,2825,Southland,281,House,South
+5,1165,4230,Southland,279,House,South
+1,115,625,Taranaki,91,House,North
+2,165,875,Taranaki,121,Apartment,North
+2,185,905,Taranaki,101,Apartment,North
+2,225,1130,Taranaki,101,Apartment,North
+2,235,1180,Taranaki,109,Apartment,North
+2,565,2155,Taranaki,118,Apartment,North
+2,95,335,Taranaki,123,House,North
+2,185,680,Taranaki,119,House,North
+2,180,800,Taranaki,120,House,North
+3,500,2135,Taranaki,159,Apartment,North
+3,585,2170,Taranaki,174,Apartment,North
+3,520,2210,Taranaki,142,Apartment,North
+3,280,990,Taranaki,153,House,North
+3,255,1155,Taranaki,162,House,North
+3,340,1505,Taranaki,163,House,North
+3,385,1620,Taranaki,174,House,North
+3,435,1725,Taranaki,150,House,North
+3,415,1730,Taranaki,160,House,North
+3,395,1760,Taranaki,144,House,North
+3,440,1785,Taranaki,167,House,North
+3,540,1990,Taranaki,154,House,North
+3,615,2325,Taranaki,147,House,North
+3,715,2915,Taranaki,154,House,North
+3,905,3420,Taranaki,146,House,North
+3,925,3645,Taranaki,153,House,North
+4,295,1055,Taranaki,201,Apartment,North
+4,320,1455,Taranaki,241,Apartment,North
+4,390,1735,Taranaki,224,House,North
+4,430,1775,Taranaki,235,House,North
+4,530,1925,Taranaki,226,House,North
+4,465,2000,Taranaki,215,House,North
+4,565,2170,Taranaki,242,House,North
+4,735,2815,Taranaki,201,House,North
+4,765,2900,Taranaki,216,House,North
+4,1005,3905,Taranaki,221,House,North
+4,1030,4005,Taranaki,203,House,North
+5,1220,4375,Taranaki,281,House,North
+1,95,410,Tasman,75,Apartment,South
+2,185,855,Tasman,119,Apartment,South
+2,315,1310,Tasman,118,Apartment,South
+2,380,1600,Tasman,103,Apartment,South
+3,1555,5805,Tasman,157,Apartment,South
+3,315,1245,Tasman,161,House,South
+3,480,1835,Tasman,149,House,South
+3,455,1855,Tasman,169,House,South
+3,590,2145,Tasman,174,House,South
+3,600,2240,Tasman,143,House,South
+3,705,2625,Tasman,157,House,South
+3,670,2660,Tasman,168,House,South
+3,795,3155,Tasman,158,House,South
+3,985,3670,Tasman,148,House,South
+4,430,1645,Tasman,230,House,South
+4,575,2115,Tasman,222,House,South
+4,685,2460,Tasman,198,House,South
+4,1140,4210,Tasman,211,House,South
+5,1245,4680,Tasman,266,House,South
+1,95,440,Waikato,72,Apartment,North
+1,115,505,Waikato,95,Apartment,North
+1,120,645,Waikato,79,Apartment,North
+1,160,675,Waikato,89,Apartment,North
+1,180,885,Waikato,70,Apartment,North
+1,265,960,Waikato,83,Apartment,North
+1,240,1025,Waikato,75,Apartment,North
+1,300,1145,Waikato,91,Apartment,North
+1,310,1165,Waikato,73,Apartment,North
+1,370,1340,Waikato,89,Apartment,North
+1,385,1465,Waikato,81,Apartment,North
+1,665,2685,Waikato,84,Apartment,North
+1,295,1070,Waikato,97,House,North
+2,140,540,Waikato,122,Apartment,North
+2,140,570,Waikato,122,Apartment,North
+2,155,575,Waikato,120,Apartment,North
+2,165,680,Waikato,115,Apartment,North
+2,140,690,Waikato,120,Apartment,North
+2,110,700,Waikato,125,Apartment,North
+2,145,720,Waikato,115,Apartment,North
+2,200,725,Waikato,111,Apartment,North
+2,195,730,Waikato,103,Apartment,North
+2,145,765,Waikato,108,Apartment,North
+2,125,780,Waikato,111,Apartment,North
+2,150,800,Waikato,114,Apartment,North
+2,240,860,Waikato,115,Apartment,North
+2,180,930,Waikato,106,Apartment,North
+2,215,940,Waikato,113,Apartment,North
+2,205,945,Waikato,123,Apartment,North
+2,290,1025,Waikato,123,Apartment,North
+2,205,1025,Waikato,123,Apartment,North
+2,280,1065,Waikato,108,Apartment,North
+2,290,1085,Waikato,122,Apartment,North
+2,315,1185,Waikato,123,Apartment,North
+2,330,1285,Waikato,125,Apartment,North
+2,360,1360,Waikato,129,Apartment,North
+2,350,1375,Waikato,111,Apartment,North
+2,305,1405,Waikato,122,Apartment,North
+2,340,1510,Waikato,113,Apartment,North
+2,470,1725,Waikato,107,Apartment,North
+2,465,1910,Waikato,114,Apartment,North
+2,375,1450,Waikato,106,House,North
+2,360,1470,Waikato,115,House,North
+2,405,1480,Waikato,126,House,North
+2,385,1535,Waikato,112,House,North
+2,365,1570,Waikato,106,House,North
+2,435,1630,Waikato,117,House,North
+2,405,1775,Waikato,103,House,North
+2,415,1805,Waikato,122,House,North
+2,480,1905,Waikato,116,House,North
+2,665,2425,Waikato,111,House,North
+2,1140,4320,Waikato,102,House,North
+3,120,545,Waikato,143,Apartment,North
+3,280,1015,Waikato,172,Apartment,North
+3,360,1470,Waikato,166,Apartment,North
+3,350,1490,Waikato,153,Apartment,North
+3,335,1505,Waikato,170,Apartment,North
+3,345,1580,Waikato,157,Apartment,North
+3,390,1580,Waikato,166,Apartment,North
+3,380,1585,Waikato,163,Apartment,North
+3,515,1905,Waikato,147,Apartment,North
+3,500,1945,Waikato,150,Apartment,North
+3,500,1970,Waikato,154,Apartment,North
+3,535,2120,Waikato,137,Apartment,North
+3,510,2125,Waikato,164,Apartment,North
+3,595,2145,Waikato,166,Apartment,North
+3,610,2370,Waikato,157,Apartment,North
+3,655,2380,Waikato,159,Apartment,North
+3,605,2425,Waikato,158,Apartment,North
+3,220,1045,Waikato,175,House,North
+3,325,1260,Waikato,135,House,North
+3,330,1375,Waikato,158,House,North
+3,340,1430,Waikato,155,House,North
+3,310,1455,Waikato,173,House,North
+3,385,1525,Waikato,157,House,North
+3,410,1530,Waikato,154,House,North
+3,425,1530,Waikato,143,House,North
+3,340,1530,Waikato,162,House,North
+3,420,1600,Waikato,166,House,North
+3,450,1605,Waikato,159,House,North
+3,440,1635,Waikato,146,House,North
+3,455,1635,Waikato,160,House,North
+3,410,1635,Waikato,161,House,North
+3,395,1670,Waikato,147,House,North
+3,435,1695,Waikato,164,House,North
+3,480,1710,Waikato,171,House,North
+3,415,1730,Waikato,167,House,North
+3,470,1760,Waikato,158,House,North
+3,490,1860,Waikato,152,House,North
+3,480,1875,Waikato,163,House,North
+3,530,1890,Waikato,173,House,North
+3,545,2020,Waikato,153,House,North
+3,505,2030,Waikato,143,House,North
+3,500,2040,Waikato,168,House,North
+3,515,2050,Waikato,160,House,North
+3,525,2145,Waikato,156,House,North
+3,580,2165,Waikato,152,House,North
+3,550,2165,Waikato,160,House,North
+3,590,2165,Waikato,157,House,North
+3,520,2185,Waikato,151,House,North
+3,540,2185,Waikato,176,House,North
+3,570,2240,Waikato,150,House,North
+3,625,2275,Waikato,158,House,North
+3,570,2310,Waikato,144,House,North
+3,640,2330,Waikato,160,House,North
+3,595,2345,Waikato,170,House,North
+3,610,2345,Waikato,173,House,North
+3,585,2350,Waikato,140,House,North
+3,635,2555,Waikato,154,House,North
+3,625,2575,Waikato,167,House,North
+3,630,2605,Waikato,144,House,North
+3,705,2615,Waikato,165,House,North
+3,725,2690,Waikato,172,House,North
+3,660,2695,Waikato,164,House,North
+3,695,2700,Waikato,164,House,North
+3,670,2710,Waikato,167,House,North
+3,670,2735,Waikato,178,House,North
+3,690,2765,Waikato,154,House,North
+3,735,2800,Waikato,156,House,North
+3,750,3020,Waikato,166,House,North
+3,820,3085,Waikato,156,House,North
+3,805,3205,Waikato,158,House,North
+3,835,3225,Waikato,146,House,North
+3,945,3430,Waikato,166,House,North
+3,1300,5000,Waikato,151,House,North
+4,460,1765,Waikato,242,Apartment,North
+4,480,1800,Waikato,217,Apartment,North
+4,435,1825,Waikato,208,Apartment,North
+4,470,2015,Waikato,203,Apartment,North
+4,535,2030,Waikato,195,Apartment,North
+4,520,2080,Waikato,223,Apartment,North
+4,615,2395,Waikato,208,Apartment,North
+4,595,2405,Waikato,206,Apartment,North
+4,635,2460,Waikato,206,Apartment,North
+4,865,3285,Waikato,229,Apartment,North
+4,915,3315,Waikato,221,Apartment,North
+4,925,3565,Waikato,221,Apartment,North
+4,280,1040,Waikato,213,House,North
+4,350,1330,Waikato,205,House,North
+4,295,1400,Waikato,221,House,North
+4,390,1500,Waikato,201,House,North
+4,430,1530,Waikato,227,House,North
+4,355,1550,Waikato,231,House,North
+4,410,1630,Waikato,215,House,North
+4,430,1705,Waikato,224,House,North
+4,440,1755,Waikato,224,House,North
+4,510,1905,Waikato,230,House,North
+4,585,2175,Waikato,234,House,North
+4,610,2270,Waikato,222,House,North
+4,575,2340,Waikato,223,House,North
+4,690,2485,Waikato,231,House,North
+4,640,2560,Waikato,204,House,North
+4,645,2570,Waikato,203,House,North
+4,660,2580,Waikato,198,House,North
+4,685,2615,Waikato,229,House,North
+4,665,2675,Waikato,215,House,North
+4,670,2725,Waikato,228,House,North
+4,685,2730,Waikato,223,House,North
+4,700,2730,Waikato,233,House,North
+4,710,2780,Waikato,240,House,North
+4,745,2880,Waikato,219,House,North
+4,750,2930,Waikato,243,House,North
+4,735,2950,Waikato,209,House,North
+4,830,2995,Waikato,221,House,North
+4,760,3025,Waikato,227,House,North
+4,810,3210,Waikato,230,House,North
+4,960,3695,Waikato,215,House,North
+4,1000,3695,Waikato,208,House,North
+4,1005,3740,Waikato,203,House,North
+4,1040,3850,Waikato,216,House,North
+4,1020,3885,Waikato,237,House,North
+4,1045,3995,Waikato,193,House,North
+4,1120,4115,Waikato,205,House,North
+4,1160,4275,Waikato,234,House,North
+4,1140,4380,Waikato,238,House,North
+4,1270,4780,Waikato,216,House,North
+4,1280,4885,Waikato,202,House,North
+4,1345,5105,Waikato,226,House,North
+4,1570,5930,Waikato,198,House,North
+4,1620,6080,Waikato,195,House,North
+5,900,3355,Waikato,276,Apartment,North
+5,990,3775,Waikato,310,Apartment,North
+5,1170,4405,Waikato,287,Apartment,North
+5,375,1565,Waikato,280,House,North
+5,545,2270,Waikato,262,House,North
+5,690,2510,Waikato,293,House,North
+5,700,2615,Waikato,279,House,North
+5,755,2705,Waikato,292,House,North
+5,745,2720,Waikato,299,House,North
+5,815,3040,Waikato,274,House,North
+5,870,3115,Waikato,275,House,North
+5,805,3175,Waikato,306,House,North
+5,1185,4540,Waikato,278,House,North
+5,1490,5605,Waikato,291,House,North
+5,1535,5810,Waikato,307,House,North
+5,1700,6420,Waikato,265,House,North
+6,1075,3880,Waikato,376,House,North
+6,1190,4615,Waikato,338,House,North
+6,1190,4620,Waikato,389,House,North
+6,1605,6030,Waikato,390,House,North
+7,1060,3830,Waikato,466,House,North
+1,150,520,Wellington,83,Apartment,North
+1,160,665,Wellington,90,Apartment,North
+1,210,740,Wellington,84,Apartment,North
+1,230,835,Wellington,84,Apartment,North
+1,235,855,Wellington,83,Apartment,North
+1,260,930,Wellington,82,Apartment,North
+1,305,1095,Wellington,67,Apartment,North
+1,230,1105,Wellington,74,Apartment,North
+1,275,1290,Wellington,81,Apartment,North
+1,370,1320,Wellington,85,Apartment,North
+1,280,1320,Wellington,77,Apartment,North
+1,430,1545,Wellington,76,Apartment,North
+1,470,1895,Wellington,76,Apartment,North
+1,510,1920,Wellington,83,Apartment,North
+1,355,1420,Wellington,78,House,North
+1,340,1445,Wellington,73,House,North
+1,525,2005,Wellington,87,House,North
+2,135,690,Wellington,112,Apartment,North
+2,175,855,Wellington,95,Apartment,North
+2,190,865,Wellington,113,Apartment,North
+2,165,895,Wellington,126,Apartment,North
+2,200,995,Wellington,120,Apartment,North
+2,275,1035,Wellington,111,Apartment,North
+2,270,1135,Wellington,113,Apartment,North
+2,315,1170,Wellington,108,Apartment,North
+2,310,1185,Wellington,97,Apartment,North
+2,305,1220,Wellington,105,Apartment,North
+2,350,1245,Wellington,122,Apartment,North
+2,305,1250,Wellington,123,Apartment,North
+2,285,1250,Wellington,118,Apartment,North
+2,305,1265,Wellington,124,Apartment,North
+2,360,1285,Wellington,106,Apartment,North
+2,345,1345,Wellington,106,Apartment,North
+2,355,1345,Wellington,105,Apartment,North
+2,380,1390,Wellington,96,Apartment,North
+2,385,1470,Wellington,114,Apartment,North
+2,340,1510,Wellington,116,Apartment,North
+2,330,1510,Wellington,99,Apartment,North
+2,365,1530,Wellington,121,Apartment,North
+2,390,1550,Wellington,112,Apartment,North
+2,435,1670,Wellington,107,Apartment,North
+2,410,1690,Wellington,120,Apartment,North
+2,410,1755,Wellington,96,Apartment,North
+2,510,1865,Wellington,110,Apartment,North
+2,465,2015,Wellington,104,Apartment,North
+2,545,2080,Wellington,107,Apartment,North
+2,560,2090,Wellington,109,Apartment,North
+2,510,2140,Wellington,112,Apartment,North
+2,610,2175,Wellington,101,Apartment,North
+2,550,2260,Wellington,108,Apartment,North
+2,635,2445,Wellington,109,Apartment,North
+2,735,2640,Wellington,115,Apartment,North
+2,740,2795,Wellington,114,Apartment,North
+2,820,3245,Wellington,106,Apartment,North
+2,900,3545,Wellington,104,Apartment,North
+2,945,3560,Wellington,118,Apartment,North
+2,1060,4115,Wellington,102,Apartment,North
+2,180,630,Wellington,109,House,North
+2,210,1045,Wellington,104,House,North
+2,235,1055,Wellington,103,House,North
+2,290,1065,Wellington,106,House,North
+2,300,1305,Wellington,107,House,North
+2,365,1330,Wellington,106,House,North
+2,305,1330,Wellington,119,House,North
+2,350,1565,Wellington,95,House,North
+2,395,1570,Wellington,112,House,North
+2,390,1610,Wellington,105,House,North
+3,350,1590,Wellington,164,Apartment,North
+3,445,1595,Wellington,173,Apartment,North
+3,425,1600,Wellington,161,Apartment,North
+3,375,1665,Wellington,135,Apartment,North
+3,400,1685,Wellington,168,Apartment,North
+3,400,1690,Wellington,167,Apartment,North
+3,415,1780,Wellington,170,Apartment,North
+3,415,1790,Wellington,145,Apartment,North
+3,490,1805,Wellington,174,Apartment,North
+3,455,1930,Wellington,166,Apartment,North
+3,470,1935,Wellington,161,Apartment,North
+3,475,1940,Wellington,178,Apartment,North
+3,505,2025,Wellington,155,Apartment,North
+3,495,2030,Wellington,154,Apartment,North
+3,535,2060,Wellington,152,Apartment,North
+3,195,900,Wellington,163,House,North
+3,195,945,Wellington,168,House,North
+3,210,975,Wellington,145,House,North
+3,340,1220,Wellington,159,House,North
+3,295,1275,Wellington,164,House,North
+3,290,1335,Wellington,145,House,North
+3,355,1340,Wellington,152,House,North
+3,285,1345,Wellington,164,House,North
+3,315,1350,Wellington,174,House,North
+3,360,1375,Wellington,159,House,North
+3,370,1375,Wellington,155,House,North
+3,330,1400,Wellington,166,House,North
+3,325,1400,Wellington,174,House,North
+3,370,1425,Wellington,159,House,North
+3,390,1475,Wellington,161,House,North
+3,380,1495,Wellington,158,House,North
+3,395,1505,Wellington,165,House,North
+3,365,1550,Wellington,167,House,North
+3,440,1565,Wellington,146,House,North
+3,340,1565,Wellington,151,House,North
+3,345,1575,Wellington,148,House,North
+3,365,1580,Wellington,163,House,North
+3,405,1600,Wellington,155,House,North
+3,395,1620,Wellington,172,House,North
+3,435,1625,Wellington,144,House,North
+3,380,1625,Wellington,151,House,North
+3,405,1640,Wellington,167,House,North
+3,460,1660,Wellington,158,House,North
+3,390,1660,Wellington,145,House,North
+3,425,1715,Wellington,162,House,North
+3,425,1725,Wellington,163,House,North
+3,450,1730,Wellington,161,House,North
+3,415,1735,Wellington,154,House,North
+3,440,1745,Wellington,162,House,North
+3,415,1760,Wellington,147,House,North
+3,405,1760,Wellington,145,House,North
+3,500,1815,Wellington,163,House,North
+3,420,1815,Wellington,162,House,North
+3,455,1825,Wellington,160,House,North
+3,490,1850,Wellington,161,House,North
+3,510,1870,Wellington,164,House,North
+3,500,1875,Wellington,149,House,North
+3,490,1905,Wellington,153,House,North
+3,535,1910,Wellington,160,House,North
+3,465,1940,Wellington,155,House,North
+3,530,1950,Wellington,156,House,North
+3,480,1995,Wellington,139,House,North
+3,550,2020,Wellington,173,House,North
+3,485,2025,Wellington,135,House,North
+3,535,2070,Wellington,139,House,North
+3,500,2075,Wellington,160,House,North
+3,545,2095,Wellington,155,House,North
+3,520,2105,Wellington,165,House,North
+3,500,2130,Wellington,159,House,North
+3,530,2170,Wellington,154,House,North
+3,520,2195,Wellington,153,House,North
+3,605,2205,Wellington,152,House,North
+3,580,2210,Wellington,171,House,North
+3,545,2255,Wellington,154,House,North
+3,615,2260,Wellington,143,House,North
+3,620,2335,Wellington,144,House,North
+3,650,2420,Wellington,161,House,North
+3,620,2425,Wellington,144,House,North
+3,615,2535,Wellington,162,House,North
+3,690,2540,Wellington,163,House,North
+3,675,2590,Wellington,170,House,North
+3,645,2625,Wellington,165,House,North
+3,760,2845,Wellington,156,House,North
+3,760,2865,Wellington,153,House,North
+3,750,2980,Wellington,175,House,North
+3,810,3000,Wellington,161,House,North
+3,820,3025,Wellington,147,House,North
+3,765,3040,Wellington,143,House,North
+3,1015,3875,Wellington,153,House,North
+3,1805,6530,Wellington,171,House,North
+3,2230,8295,Wellington,139,House,North
+4,375,1365,Wellington,209,Apartment,North
+4,365,1490,Wellington,198,Apartment,North
+4,385,1505,Wellington,204,Apartment,North
+4,510,1945,Wellington,220,Apartment,North
+4,475,1950,Wellington,215,Apartment,North
+4,470,2020,Wellington,227,Apartment,North
+4,675,2565,Wellington,227,Apartment,North
+4,655,2600,Wellington,226,Apartment,North
+4,730,2670,Wellington,229,Apartment,North
+4,240,880,Wellington,209,House,North
+4,250,1020,Wellington,206,House,North
+4,255,1080,Wellington,223,House,North
+4,340,1355,Wellington,211,House,North
+4,355,1550,Wellington,197,House,North
+4,430,1820,Wellington,193,House,North
+4,450,1875,Wellington,193,House,North
+4,510,1905,Wellington,210,House,North
+4,570,2185,Wellington,194,House,North
+4,570,2215,Wellington,200,House,North
+4,625,2255,Wellington,202,House,North
+4,565,2275,Wellington,200,House,North
+4,635,2280,Wellington,199,House,North
+4,645,2385,Wellington,215,House,North
+4,645,2405,Wellington,229,House,North
+4,620,2465,Wellington,230,House,North
+4,630,2560,Wellington,198,House,North
+4,750,2715,Wellington,216,House,North
+4,745,2745,Wellington,200,House,North
+4,750,2845,Wellington,202,House,North
+4,720,2850,Wellington,211,House,North
+4,715,2855,Wellington,222,House,North
+4,770,2885,Wellington,224,House,North
+4,730,2925,Wellington,214,House,North
+4,790,3120,Wellington,205,House,North
+4,810,3135,Wellington,194,House,North
+4,860,3145,Wellington,202,House,North
+4,865,3265,Wellington,232,House,North
+4,865,3390,Wellington,215,House,North
+4,875,3490,Wellington,226,House,North
+4,940,3640,Wellington,213,House,North
+4,940,3680,Wellington,225,House,North
+4,965,3710,Wellington,217,House,North
+4,945,3710,Wellington,213,House,North
+4,1055,3785,Wellington,197,House,North
+4,1015,3820,Wellington,203,House,North
+4,1080,3920,Wellington,190,House,North
+4,1075,4185,Wellington,196,House,North
+4,1125,4330,Wellington,219,House,North
+4,1685,6140,Wellington,197,House,North
+4,1795,6730,Wellington,214,House,North
+4,1900,6985,Wellington,201,House,North
+5,320,1255,Wellington,268,House,North
+5,480,1805,Wellington,279,House,North
+5,550,2005,Wellington,258,House,North
+5,585,2265,Wellington,278,House,North
+5,695,2555,Wellington,294,House,North
+5,795,3030,Wellington,283,House,North
+5,840,3090,Wellington,279,House,North
+5,885,3260,Wellington,300,House,North
+5,900,3465,Wellington,285,House,North
+5,915,3605,Wellington,271,House,North
+5,930,3665,Wellington,303,House,North
+5,1075,3990,Wellington,252,House,North
+5,1430,5225,Wellington,279,House,North
+5,1455,5245,Wellington,266,House,North
+5,1495,5540,Wellington,262,House,North
+5,1610,5810,Wellington,275,House,North
+6,1835,6820,Wellington,355,House,North
+6,1995,7190,Wellington,382,House,North
+10,1575,5775,Wellington,772,House,North
+1,135,795,West Coast,81,House,South
+2,330,1415,West Coast,117,Apartment,South
+2,205,935,West Coast,130,House,South
+3,475,1895,West Coast,143,Apartment,South
+3,485,1980,West Coast,140,Apartment,South
+3,740,2685,West Coast,162,Apartment,South
+3,315,1165,West Coast,146,House,South
+3,275,1195,West Coast,157,House,South
+3,365,1430,West Coast,147,House,South
+3,335,1535,West Coast,152,House,South
+3,430,1595,West Coast,160,House,South
+4,315,1285,West Coast,199,House,South
+4,460,1670,West Coast,240,House,South
+4,575,2325,West Coast,228,House,South
+4,665,2505,West Coast,233,House,South
+5,595,2185,West Coast,267,House,South
+9,1520,5695,West Coast,621,House,South
