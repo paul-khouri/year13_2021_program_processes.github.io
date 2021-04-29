@@ -47,49 +47,13 @@ class DrawingPage{
         this.yMouseStart = e.offsetY;
         if(this.boundaryCheck(this.xMouse, this.yMouse, this.x, this.y, this.w, this.h)){
             this.dragging = true;
-            //cty.beginPath();
-            //cty.moveTo(this.xMouseStart,this.yMouseStart);
 
         }
-    
-/*
-        this.grid_round(16,5)
-        this.grid_round(this.xMouseStart, this.w/this.xN)
-        this.grid_round(this.yMouseStart, this.h/this.yN)
-        */
-    
-
-
-
     }
 
     mMove(e){
         this.xMouse= e.offsetX;
         this.yMouse = e.offsetY;
-        /*
-        if(!this.boundaryCheck(this.xMouse, this.yMouse, this.x, this.y, this.w, this.h)){
-            if(this.dragging){
-                if(this.xMouse < this.x){
-                    this.xMouse = this.x;
-                }
-                if(this.xMouse > this.x + this.w){
-                    this.xMouse = this.x + this.w;
-                }
-                if(this.yMouse < this.y){
-                    this.yMouse = this.y;
-                }
-                if(this.yMouse > this.y + this.h){
-                    this.yMouse = this.y+this.h;
-                }
-
-            }
-            
-        }
-        */
-
-
- 
- 
     }
 
     mUp(e){
@@ -156,7 +120,11 @@ class DrawingPage{
                 var circGradient = ctx.createRadialGradient(this.xMouse,this.yMouse,0, this.xMouse,this.yMouse,30);
                 // Add three color stops
                 circGradient.addColorStop(0, this.currentColor);
-                circGradient.addColorStop(1, "rgba(255,255,255,0)");
+                var col_nums= this.currentColor.match(/\d+/g).map(Number);
+                var grad_edge = "rgba("+col_nums[0]+","+col_nums[1]+","+col_nums[2]+",0)"
+                var grad_center="rgba("+col_nums[0]+","+col_nums[1]+","+col_nums[2]+",1)"
+                circGradient.addColorStop(0, grad_center);
+                circGradient.addColorStop(1, grad_edge);
                 // Set the fill style and draw a circle
                 cty.fillStyle = circGradient;
                 //cty.fillStyle = this.currentColor;
