@@ -31,6 +31,7 @@ class DrawingPage{
         this.element.addEventListener('mousedown', this.mDown.bind(this));
         this.element.addEventListener('mousemove', this.mMove.bind(this));
         this.element.addEventListener('mouseup', this.mUp.bind(this));
+        //this.element.addEventListener('mouseleave', this.mLeave.bind(this));
         // if mouse is down and inside drawing boundary, dragging will be true
         this.dragging = false;
       
