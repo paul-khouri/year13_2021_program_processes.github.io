@@ -224,8 +224,6 @@ class DrawingPage{
     grid_round(M,N){
         var rounded = N*Math.round(M/N)
         return rounded
-
-
     }
 
 
