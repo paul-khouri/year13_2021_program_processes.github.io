@@ -9,11 +9,19 @@ canvas.width = width*scale;
 canvas.height = height*scale;
 ctx.scale(scale,scale);
 
-canvasSecond = document.querySelector('#myCanvas');
-var ctx_s = canvas.getContext('2d');
+canvasSecond = document.querySelector('#mySecondCanvas');
+var ctx_s = canvasSecond.getContext('2d');
 canvasSecond.width = width*scale;
 canvasSecond.height = height*scale;
 ctx_s.scale(scale,scale);
+/*
+ctx_s.beginPath();
+ctx_s.arc(100, 100, 30, 0, 2*Math.PI);
+ctx_s.fill();
+*/
+
+
+
 
 console.log(width);
 console.log(height);
@@ -55,10 +63,10 @@ var colArray=[
 
 /**
  * Updates the context using small data object
- * @param mini object of type {l: lineWidth, s: strokeColour,  f: fillColour} can be empty , can be ordered
+ * @param {object} ob mini object of type {l: lineWidth, s: strokeColour,  f: fillColour} can be empty , can be ordered
  * @return Null
  */
- function updateContext(ob,){
+ function updateContext(ob, cx=ctx){
    
     for (const [key, value] of Object.entries(ob)) {
         switch(key) {
@@ -82,11 +90,24 @@ var colArray=[
       }
 
 }
-//_rect(300,300,10,10, {f: "rgb(255,255,255)",l: 5, s: "rgb(0,0,0)" })
-function _rect(x,y,w,h, c){
+ /**
+ * Updates the context using small data object
+ * @param {number} x top corner
+ * @param {number} y top corner
+ * @param {number} w width
+ * @param {number} h height
+ * @param {object} c mini object of type {l: lineWidth, s: strokeColour,  f: fillColour}
+ * @param {number} rotation 0- 360
+ * @return Null
+ */
+function _rect(x,y,w,h, c, rotation = 0){
+    ctx.save();
+    ctx.translate(x+w/2,y+h/2);
+    ctx.rotate(rotation*Math.PI/180)
     ctx.beginPath();
-    ctx.rect(x,y,w,h);
+    ctx.rect(0-w/2,0-h/2,w,h);
     updateContext(c);
+    ctx.restore()
 }
 function _circ(x,y,r,c){
     ctx.beginPath()
@@ -166,15 +187,20 @@ function grid(x,y,w,h,xN, yN, c={ l:0.5, s:"rgba(0,0,0,0.2)"} ){
 }
 
 class Rectangle{
-    constructor(x,y,w,h,c){
+    constructor(x,y,w,h,c, rotation = 0){
         this.x = x;
         this.y = y;
         this.w = w;
         this.h = h;
         this.c=c;
+        this.rotation = rotation*Math.PI/180;
     }
     update(){
-        this._rect(this.x, this.y, this.w, this.h, this.c)
+        ctx.save();
+        ctx.translate(this.x + this.w/2, this.y+this.h/2);
+        ctx.rotate(this.rotation)
+        this._rect(0-this.w/2, 0 - this.h/2, this.w, this.h, this.c);
+        ctx.restore();
     }
 }
 Rectangle.prototype._rect = _rect
@@ -192,6 +218,15 @@ class Ellipse{
     }
 }
 Ellipse.prototype._ellipse = _ellipse
+
+class CanvasImage{
+    constructor(img){
+        this.img = img
+    }
+    update(){
+        ctx.drawImage(this.img, 0,0,width,height)
+    }
+}
 
 
 
@@ -263,6 +298,39 @@ class Handler{
     }
 
 }
+
+
+// slider section ------------------------------------------------------------------------
+class GeneralSlider{
+    constructor(x,y,w,h,general_col_object, sliding_point_col_object,max,min,start){
+        this.x = x;
+        this.y = y;
+        this.w = w;
+        this.h = h;
+        this.g = general_col_object;
+        this.s = sliding_point_col_object
+        this.min = min;
+        this.max = max;
+        this.start = start;
+        this.r = h/6
+        this.P = new SlidingPoint(x,y+2*h/3,w,this.r, sliding_point_col_object,max,min,start)
+        console.log(this.P.max)
+
+    }
+
+    update(){
+        this._rect(this.x, this.y,this.w,this.h, this.g)
+        this._line(this.x, this.y+2*this.h/3, this.x+this.w, this.y+2*this.h/3, this.g )
+        this.P.update();
+        this.drawText_Boxed(this.x/2, this.y, this.w, this.h/3,this.P.getValue(),this.s)
+    }
+    getValue(){
+        return this.P.getValue()
+    }
+}
+GeneralSlider.prototype._rect = _rect
+GeneralSlider.prototype._line = _line;
+GeneralSlider.prototype.drawText_Boxed = drawText_Boxed;
 
 
 
@@ -351,7 +419,19 @@ ColourSlider.prototype.drawText_Boxed = drawText_Boxed;
 ColourSlider.prototype.draw_grid = draw_grid
 
 
-//class Slider (x,y,w,r, c_1,c_2, c_3, max, min, start)
+/**
+ * Create a point that can dragged horizontally between x and x+w
+ * @param {number} x left
+ * @param {number} y top
+ * @param {number} w width 
+ * @param {number} r radius of pont
+ * @param {object} colours {f: rgb, l: num, s: rgb}
+ * @param {number} max maximum number value
+ * @param {number} min maximum number value
+ * @param {number} start between min and max
+ * @return {number} getX() x position of point 
+ * @return {number} getProportion() proportional position of point on its line 
+ */
 class SlidingPoint{
 constructor(x,y,w, r, colours, max, min, start){
     this.x = x;
@@ -394,7 +474,10 @@ getX(){
     return this.xCircle
 }
 getProportion(){
-    return Math.round(   ((this.xCircle - this.x)/(this.w - this.x)*10) )/10
+    return Math.round(   ((this.xCircle - this.x)/(this.w)*10) )/10
+}
+getValue(){
+    return Math.round (this.min + ((this.xCircle - this.x)/(this.w))*(this.max-this.min));
 }
 }
 SlidingPoint.prototype._circ = _circ;
@@ -477,18 +560,25 @@ class DrawingPage{
         this.current_state_down = false 
         this.xmouseS = 0;
         this.ymouseS = 0;
-        this.xN = 18;
-        this.yN = 22;
+        this.xN = 9;
+        this.yN = 11;
         this.grid_on = true;
         this.object_set = [];
         this.S = new ColourSlider(10,193, 250, 100,colArray[0][0], colArray[0][8], {l:2,s:colArray[0][0]},255,0,100)
+        this.R = new GeneralSlider(10,400,250,37.5,{l:6, s:colArray[0][4], f:colArray[0][3]},
+            {l:4, s:colArray[0][5], f:colArray[0][7]},180,0,0)
         
     }
 
     update(){
         this.S.update();
         var colour = this.S.getValue()
+        this.R.update();
+        var rot = this.R.getValue()
+        //console.log(rot)
+        // update previous state before getting current state
         this.previous_state_down = this.current_state_down
+        // get current state from Handler
         var state = my_Handler.dataPack()
         this.current_state_down = state.down
         // first moment mouse goes down
@@ -503,13 +593,15 @@ class DrawingPage{
         }
 
 
-
+        ctx.save()
         this._rect(this.x, this.y, this.w, this.h, {f:this.shade})
+        ctx.clip()
         //this.draw_grid(this.x, this.y, this.w, this.h,10,{l:0.25, s:"rgb(150,150,150)"})
         this.grid(this.x, this.y, this.w, this.h,this.xN,this.yN, {l:0.25, s:"rgb(150,150,150)"})
         for(var i=0; i<this.object_set.length; i++){
             this.object_set[i].update();
         }
+        ctx.restore()
         
 
 
@@ -524,14 +616,31 @@ class DrawingPage{
                 y = this.grid_round(this.ymouseS-this.y, this.h/this.yN) + this.y
                 w = this.grid_round(w, this.w/this.xN)
                 h = this.grid_round(h, this.h/this.yN)
-
             }
+            if(Button.shape == "Brush"){
+                // drawing the brush on the second canvas
+                ctx_s.beginPath();
+                ctx_s.arc(state.x, state.y, 5, 0, 2*Math.PI);
+                ctx_s.fillStyle = colour.f
+                ctx_s.fill();
+                //blank rectangle on ctx canvas as clipping //f:"rgba(0,0,0,0)"
+                // empty object for colour so it will not draw
+                ctx.save()
+                this._rect(this.x, this.y, this.w, this.h, {})
+                ctx.clip()
+                // draw second canvas clipped to drawing area
+                ctx.drawImage(canvasSecond,0,0, width,height);
+                ctx.restore()
+            }
+            else{
             this._rect(x, y,w,h, {l:0.5, s: "rgb(0,0,0)"})
+            this._rect(x, y,w,h, {l:0.5, s: "rgb(0,0,0)"}, rot)
+        }
         }
 
         // mouse  goes up
         if(this.current_state_down == false && this.previous_state_down == true && this.dragging){
-
+            // if a shape has been set by the buttons, create object and push
             console.log(Button.shape)
             if(Button.shape == "Rectangle"){
             var temp = new Rectangle(x,y,w,h, colour)
@@ -542,36 +651,31 @@ class DrawingPage{
                 this.object_set.push(temp);
                 }
             else if(Button.shape == "Brush"){
-
-                var circGradient = ctx.createRadialGradient(state.x,state.y,0, state.x,state.y,30);
-                // Add three color stops
-                circGradient.addColorStop(0, this.currentColor);
-                var col_nums= this.currentColor.match(/\d+/g).map(Number);
-                var grad_edge = "rgba("+col_nums[0]+","+col_nums[1]+","+col_nums[2]+",0)"
-                var grad_center="rgba("+col_nums[0]+","+col_nums[1]+","+col_nums[2]+",1)"
-                circGradient.addColorStop(0, grad_center);
-                circGradient.addColorStop(1, grad_edge);
-
+                // create image of second canvas
+                var img = canvasSecond.toDataURL("image/png");
+                // create new JS image and set source
+                var copiedImage = new Image()
+                copiedImage.src = img
+                // create the image object (mine) and push
+                var temp = new CanvasImage(copiedImage)
+                this.object_set.push(temp);
+                // clear second canvas
+                ctx_s.clearRect(0,0,width,height);
             }
-
         }
-
+        // as soon as mouse not down set all dragging to false
         if(!state.down){
             this.dragging = false
         }
-
-
-
     }
-
+//rounding number M to the nearest N
     grid_round(M,N){
         var rounded = N*Math.round(M/N)
         return rounded
     }
-
-
 }
 DrawingPage.prototype._rect = _rect;
+DrawingPage.prototype._circ = _circ;
 DrawingPage.prototype._line = _line;
 DrawingPage.prototype.draw_grid = draw_grid
 DrawingPage.prototype.grid = grid
@@ -598,6 +702,8 @@ for(let i=0 ; i< names.length ; i++){
 //var S = new ColourSlider(10,163, 250, 100,colArray[0][0], colArray[0][8], {l:2,s:colArray[0][0]},255,0,100)
 var D = new DrawingPage(300, 20, 450, 550,colArray[0][0] )
 var R = new Rectangle(100,100,300,200, {l:3,s:colArray[0][5], f:colArray[0][4]})
+
+
 
 
 function animate(){
