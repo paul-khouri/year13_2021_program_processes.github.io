@@ -90,8 +90,9 @@ var colArray=[
       }
 
 }
+
  /**
- * Updates the context using small data object
+ * Draw a Rectangle
  * @param {number} x top corner
  * @param {number} y top corner
  * @param {number} w width
@@ -109,16 +110,30 @@ function _rect(x,y,w,h, c, rotation = 0){
     updateContext(c);
     ctx.restore()
 }
+
+ /**
+ * Draw a circle
+ * @param {number} x top corner
+ * @param {number} y top corner
+ * @param {number} r radius (must be positive)
+ * @param {object} c mini object of type {l: lineWidth, s: strokeColour,  f: fillColour}
+ * @return Null
+ */
 function _circ(x,y,r,c){
     ctx.beginPath()
     ctx.arc(x,y,r, 0, 2*Math.PI);
     updateContext(c)
 }
-function _line(x_1,y_1,x_2,y_2,c){
-    
+
+
+function _line(x_1,y_1,x_2,y_2,c,rotation = 0){
+    ctx.save();
+    ctx.translate(x_1,y_1)
+    ctx.rotate(rotation*Math.PI/180)
     ctx.beginPath();
-    ctx.moveTo(x_1, y_1);
-    ctx.lineTo(x_2 , y_2);
+    ctx.moveTo(0, 0);
+    ctx.lineTo(x_2-x_1 , y_2-y_1);
+    ctx.restore();
     updateContext(c)
 }
 
@@ -136,6 +151,20 @@ function drawText_Boxed(x,y,w,h,text,c){
     ctx.font=myFont;
     ctx.fillText(text, x+ w/2 ,y+h/2);
     //drawOutline_Rect(x,y,w,h,2,"rgb(200,200,200)")
+}
+
+ /**
+ * Get smaller magnitude of two numbers
+ * @param {number} w top corner
+ * @param {number} h top corner
+ * @return {number} positive
+ */
+function getabsolutesmaller(w,h){
+    if(Math.abs(w)<Math.abs(h)){
+        return Math.abs(w);
+    }else{
+        return Math.abs(h);
+    }
 }
 
 
@@ -186,6 +215,70 @@ function grid(x,y,w,h,xN, yN, c={ l:0.5, s:"rgba(0,0,0,0.2)"} ){
     }
 }
 
+ /**
+ * Filled Polygon
+ * @param {number} x top corner of bounding box
+ * @param {number} y top corner of bounding box
+ * @param {number} w width of bounding box
+ * @param {number} h height of bounding box
+ * @param {object} c mini object of type {f: fillColour}
+ * @param {number} n number of sides
+ * @param {number} rotation rotation
+ * @return Null
+ */
+class Polygon{
+    constructor(x,y,w,h,c,n=5,rotation = 10){
+        this.x_c = x+w/2;
+        this.y_c = y+h/2;
+        this.r = this.getabsolutesmaller(w,h)/2;
+        this.n = n;
+        this.c = c;
+        this.rotation = rotation*Math.PI/180;
+    }
+    update(){
+        this.draw()
+    }
+    draw(){
+        //console.log(this.c)
+        var x
+        var y
+        var n = this.n;
+        var R = this.r;
+        var rot = 0
+        if(n%4 == 0){
+            rot = -Math.PI/n
+        }else if((n+2)%4==0){
+            rot = 0
+        }
+        else{
+            rot = -Math.PI/2
+        }
+        ctx.save();
+        ctx.translate(this.x_c, this.y_c);
+        ctx.rotate(this.rotation);
+        ctx.beginPath()
+         var pointSet = []
+         for(var i=0; i<n; i++){
+             x= Math.round( R*Math.cos(i*2*Math.PI/n + rot) )
+             y= Math.round( R*Math.sin(i*2*Math.PI/n + rot) )
+             if(i== 0){
+                 ctx.moveTo(x,y)
+             }else{
+                 ctx.lineTo(x, y)
+             }
+             pointSet.push({x:x, y:y})
+         }
+         ctx.closePath();
+         ctx.restore();
+         this.updateContext(this.c);
+
+    }
+
+}
+Polygon.prototype._line = _line
+Polygon.prototype.updateContext = updateContext
+Polygon.prototype.getabsolutesmaller = getabsolutesmaller
+
 class Rectangle{
     constructor(x,y,w,h,c, rotation = 0){
         this.x = x;
@@ -206,15 +299,20 @@ class Rectangle{
 Rectangle.prototype._rect = _rect
 
 class Ellipse{
-    constructor(x,y,w,h,c){
+    constructor(x,y,w,h,c, rotation = 0){
         this.x = x+w/2;
         this.y = y+h/2;
         this.xRad = Math.abs(w/2);
         this.yRad = Math.abs(h/2);
         this.c=c;
+        this.rotation = rotation*Math.PI/180;
     }
     update(){
-        this._ellipse(this.x, this.y, this.xRad, this.yRad, this.c)
+        ctx.save();
+        ctx.translate(this.x, this.y);
+        ctx.rotate(this.rotation)
+        this._ellipse(0, 0, this.xRad, this.yRad, this.c)
+        ctx.restore();
     }
 }
 Ellipse.prototype._ellipse = _ellipse
@@ -567,6 +665,8 @@ class DrawingPage{
         this.S = new ColourSlider(10,193, 250, 100,colArray[0][0], colArray[0][8], {l:2,s:colArray[0][0]},255,0,100)
         this.R = new GeneralSlider(10,400,250,37.5,{l:6, s:colArray[0][4], f:colArray[0][3]},
             {l:4, s:colArray[0][5], f:colArray[0][7]},180,0,0)
+        this.N = new GeneralSlider(10,500,250,37.5,{l:6, s:colArray[0][4], f:colArray[0][3]},
+            {l:4, s:colArray[0][5], f:colArray[0][7]},20,3,5)
         
     }
 
@@ -575,6 +675,8 @@ class DrawingPage{
         var colour = this.S.getValue()
         this.R.update();
         var rot = this.R.getValue()
+        this.N.update()
+        var n = this.N.getValue();
         //console.log(rot)
         // update previous state before getting current state
         this.previous_state_down = this.current_state_down
@@ -610,12 +712,23 @@ class DrawingPage{
             var h = state.y - this.ymouseS;
             var x = this.xmouseS;
             var y = this.ymouseS;
+            var r
+            if(Math.abs(w)<Math.abs(h)){
+                r = Math.abs(w/2);
+            }else{
+                r = Math.abs(h/2);
+            }
             if(this.grid_on){
                 // rounded coordinates for snapping to grid
                 x = this.grid_round(this.xmouseS-this.x, this.w/this.xN) + this.x
                 y = this.grid_round(this.ymouseS-this.y, this.h/this.yN) + this.y
                 w = this.grid_round(w, this.w/this.xN)
                 h = this.grid_round(h, this.h/this.yN)
+                if(Math.abs(w)<Math.abs(h)){
+                    r = Math.abs(w/2);
+                }else{
+                    r = Math.abs(h/2);
+                }
             }
             if(Button.shape == "Brush"){
                 // drawing the brush on the second canvas
@@ -633,23 +746,32 @@ class DrawingPage{
                 ctx.restore()
             }
             else{
+            //drawing main bounding box for shapes
             this._rect(x, y,w,h, {l:0.5, s: "rgb(0,0,0)"})
+            this._line(x+w/2, y+h/2, x+w, y+h,{l:3, s: "rgb(0,255,0)"} )
             this._rect(x, y,w,h, {l:0.5, s: "rgb(0,0,0)"}, rot)
+            this._line(x+w/2, y+h/2, x+w, y+h,{l:3, s: "rgb(255,0,0)"} , rot)
+            this._circ(x+w/2,y+h/2,r, {l:0.5, s: "rgb(0,0,0)"})
+    
         }
         }
 
-        // mouse  goes up
+        // mouse  goes up and dragging
         if(this.current_state_down == false && this.previous_state_down == true && this.dragging){
             // if a shape has been set by the buttons, create object and push
             console.log(Button.shape)
             if(Button.shape == "Rectangle"){
-            var temp = new Rectangle(x,y,w,h, colour)
+            var temp = new Rectangle(x,y,w,h, colour, rot)
             this.object_set.push(temp);
             }
             else if(Button.shape == "Ellipse"){
-                var temp = new Ellipse(x,y,w,h, colour)
+                var temp = new Ellipse(x,y,w,h, colour,rot)
                 this.object_set.push(temp);
                 }
+            else if(Button.shape == "Polygon"){
+                var temp = new Polygon(x,y,w,h, colour,n,rot)
+                this.object_set.push(temp);
+            }
             else if(Button.shape == "Brush"){
                 // create image of second canvas
                 var img = canvasSecond.toDataURL("image/png");
@@ -661,7 +783,14 @@ class DrawingPage{
                 this.object_set.push(temp);
                 // clear second canvas
                 ctx_s.clearRect(0,0,width,height);
-            }
+                }
+
+        }// up state outside of drawing page
+        else if(this.current_state_down == false && this.previous_state_down == true){
+            if(Button.shape == "Clear"){
+                console.log("Clear")
+                this.object_set = [];
+                }
         }
         // as soon as mouse not down set all dragging to false
         if(!state.down){
@@ -688,7 +817,7 @@ var my_Handler = new Handler(canvas);
 
 object_set =[]
 // (x,y,w,h,l_w,c_f, c_s, c_over, c_selected, c_text, text)
-names = ["Rectangle", "Ellipse", "Polygon","Brush","Clear"]
+names = ["Rectangle", "Ellipse", "Polygon", "Brush", "Clear"]
 let yStep = 35
 for(let i=0 ; i< names.length ; i++){
     let temp = new Button(10,10+i*yStep,100, yStep, 
@@ -698,18 +827,14 @@ for(let i=0 ; i< names.length ; i++){
 
 }
 
-//class Slider (canvas,x,y,w,h,c_1,c_2, c_3, max, min, start)
-//var S = new ColourSlider(10,163, 250, 100,colArray[0][0], colArray[0][8], {l:2,s:colArray[0][0]},255,0,100)
-var D = new DrawingPage(300, 20, 450, 550,colArray[0][0] )
-var R = new Rectangle(100,100,300,200, {l:3,s:colArray[0][5], f:colArray[0][4]})
 
+var D = new DrawingPage(300, 20, 450, 550,colArray[0][0] )
 
 
 
 function animate(){
     ctx.clearRect(0, 0, width, height);
-    D.update()
-   // S.update();
+    D.update();
   
 
     for(let i=0; i<object_set.length; i++){

@@ -115,10 +115,11 @@ class DrawingPage{
             this.xMRound = this.grid_round(this.xMouse, this.w/this.xN)
             this.yMRound = this.grid_round(this.yMouse, this.h/this.yN)
             if(Button.shape == "Line"){
+                var l = LineSizes.linesize;
                 console.log("okay");
                 cty.drawImage(this.tempBitMap, 0,0);
                 console.log(this.tempBitMap)
-                var circGradient = ctx.createRadialGradient(this.xMouse,this.yMouse,0, this.xMouse,this.yMouse,30);
+                var circGradient = ctx.createRadialGradient(this.xMouse,this.yMouse,0, this.xMouse,this.yMouse,l);
                 // Add three color stops
                 circGradient.addColorStop(0, this.currentColor);
                 var col_nums= this.currentColor.match(/\d+/g).map(Number);

@@ -1,4 +1,28 @@
 console.log("main js called");
+var I = new InteractiveSquare(100,400,50,50,"rgb(200,0,100)", undefined, 1)
+var J = new InteractiveSquare(160,400,50,50,"rgb(200,0,100)", undefined, 2)
+var K = new InteractiveSquare(220,400,50,50,"rgb(200,0,100)", undefined, 3)
+var group = [I,J,K]
+I.setGroupMembers(group)
+J.setGroupMembers(group)
+K.setGroupMembers(group)
+I.select();
+var L = new InteractiveSquare(100,460,50,50,"rgb(200,0,100)", undefined, "S")
+var M = new InteractiveSquare(160,460,50,50,"rgb(200,0,100)", undefined, "M")
+var N = new InteractiveSquare(220,460,50,50,"rgb(200,0,100)", undefined, "L")
+var group = [L,M,N]
+L.setGroupMembers(group)
+M.setGroupMembers(group)
+N.setGroupMembers(group)
+M.select();
+var T = new LineSizes(100,340,50,50,"rgb(200,0,100)", undefined, 10)
+var U = new LineSizes(160,340,50,50,"rgb(200,0,100)", undefined, 20)
+var V = new LineSizes(220,340,50,50,"rgb(200,0,100)", undefined, 30)
+var group = [T,U,V]
+T.setGroupMembers(group)
+U.setGroupMembers(group)
+V.setGroupMembers(group)
+T.select();
 
 var backer = new Rectangle(0,0, 210+2,600, colArray[0][2]);
 
@@ -70,6 +94,18 @@ function animate(){
     moveButton.update();
     gridButton.update();
     S.update();
+
+    I.update();
+    J.update();
+    K.update();
+
+    L.update();
+    M.update();
+    N.update();
+
+    T.update();
+    U.update();
+    V.update();
 
 
 
