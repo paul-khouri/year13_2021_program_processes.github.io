@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Version Four</title>
+    <style type="text/css">
+    body{
+        background-color: rgb(199, 199, 199);
+        margin: 0px;
+    }
+    canvas{
+        background-color: rgb(95, 95, 95);
+        width:800px;
+        height:600px;
+        display: block;
+        margin:auto;
+        margin-top: 5px;
+    }
+  
+    </style>
+</head>
+<body>
+    
+    <canvas id='myCanvas'></canvas>
+    <canvas id='mySecondCanvas' style="display:none;"></canvas>
+    <script type="text/javascript" src="init.js"> </script>
+    <script type="text/javascript" src="colour_manager.js"> </script>
+    <script type="text/javascript" src="rectangle.js"> </script>
+    <script type="text/javascript" src="ellipse.js"> </script>
+    <script type="text/javascript" src="polygon.js"> </script>
+    <script type="text/javascript" src="button.js"> </script>
+    <script type="text/javascript" src="swatch.js"> </script>
+    <script type="text/javascript" src="drawingpage.js"> </script>
+    <script type="text/javascript" src="main.js"> </script>
+
+    <script>
+        var str="rgb(200,200,50)"
+        console.log(str.length);
+        var new_str = str.substring(0,str.length-1 )+",0)"
+        var nums= str.match(/\d+/g).map(Number);
+        var nums_one= str.match(/\d+/g) // "3"
+        console.log(nums)
+        console.log(nums_one)
+
+
+
+
+    </script>
+
+
+</body>
+</html>

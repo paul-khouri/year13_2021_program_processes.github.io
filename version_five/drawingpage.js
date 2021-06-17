@@ -66,7 +66,6 @@ class DrawingPage{
                 }else{
                     this.objectSet.push(new MoveRectangle(this.xSRound, this.ySRound, this.xMRound, this.yMRound, this.currentColor, canvas))
                 }
-               
             }else if(Button.shape == "Ellipse"){
                 if(!GridButton.on){
                     this.objectSet.push(new Ellipse(this.xMouseStart, this.yMouseStart, this.xMouse, this.yMouse, this.currentColor, canvas))
@@ -74,6 +73,20 @@ class DrawingPage{
                         this.objectSet.push(new Ellipse(this.xSRound, this.ySRound, this.xMRound, this.yMRound, this.currentColor, canvas))
                     }
 
+            }else if(Button.shape == "Polygon"){
+                if(!GridButton.on){
+                    this.objectSet.push(new Polygon(this.xMouseStart, this.yMouseStart, this.xMouse, this.yMouse, this.currentColor,PolygonOption.value))
+                    }else{
+                        this.objectSet.push(new Polygon(this.xSRound, this.ySRound, this.xMRound, this.yMRound, this.currentColor,PolygonOption.value))
+                    }
+            
+            }else if(Button.shape == "Star"){
+                if(!GridButton.on){
+                    this.objectSet.push(new Star(this.xMouseStart, this.yMouseStart, this.xMouse, this.yMouse, this.currentColor,PolygonOption.value))
+                    }else{
+                        this.objectSet.push(new Star(this.xSRound, this.ySRound, this.xMRound, this.yMRound, this.currentColor,PolygonOption.value))
+                    }
+            
             }else if(Button.shape == "Line"){
                 
                 this.objectSet.push(new DrawImage(this.tempBitMap))
