@@ -1,6 +1,6 @@
 console.log("testobject js called")
 
-
+// control area for the inner drawing "canvas"
 class DrawingPage{
     constructor(canvas, x, y, w, h){
 
@@ -58,6 +58,7 @@ class DrawingPage{
     }
 
     mUp(e){
+
         if(this.dragging){
             if(Button.shape == "Rectangle"){
                 //MoveRectangle xS, yS, xM, yM, col, canvas
@@ -82,18 +83,29 @@ class DrawingPage{
             
             }else if(Button.shape == "Star"){
                 if(!GridButton.on){
-                    this.objectSet.push(new Star(this.xMouseStart, this.yMouseStart, this.xMouse, this.yMouse, this.currentColor,PolygonOption.value))
+                    this.objectSet.push(new Star(this.xMouseStart, this.yMouseStart, this.xMouse, this.yMouse, this.currentColor,PolygonOption.value,StarOption.value))
                     }else{
-                        this.objectSet.push(new Star(this.xSRound, this.ySRound, this.xMRound, this.yMRound, this.currentColor,PolygonOption.value))
+                        this.objectSet.push(new Star(this.xSRound, this.ySRound, this.xMRound, this.yMRound, this.currentColor,PolygonOption.value,StarOption.value))
                     }
             
             }else if(Button.shape == "Line"){
-                
+                var img = canvasSecond.toDataURL("image/png");
+                // create new JS image and set source
+                var copiedImage = new Image()
+                copiedImage.src = img
+                /*
+                copiedImage.onload = function(){
+                    alert("Image has loaded")
+                }*/
+                // create the image object (mine) and push
+                var temp = new CanvasImage(copiedImage)
+                this.objectSet.push(temp);
+                // clear second canvas
+                ctx_s.clearRect(0,0,width,height);
+                /*
                 this.objectSet.push(new DrawImage(this.tempBitMap))
                 this.tempBitMap = new Image();
-
-
-
+                */
             }
 
         }
@@ -111,6 +123,14 @@ class DrawingPage{
         }
         // get current color from color slider and update
         this.currentColor = ColorSlider.color
+        // check if undo button has been clicked
+        // if it has set to unlicked and pop from object set
+        if(NoSelectButton.shape == "Undo"){
+            console.log("Undo called")
+            NoSelectButton.setUnClicked()
+            var temp = this.objectSet.pop();
+            console.log(temp)
+        }
 
 
 
@@ -129,32 +149,36 @@ class DrawingPage{
             this.xMRound = this.grid_round(this.xMouse, this.w/this.xN)
             this.yMRound = this.grid_round(this.yMouse, this.h/this.yN)
             if(Button.shape == "Line"){
-                var l = LineSizes.linesize;
-                console.log("okay");
-                cty.drawImage(this.tempBitMap, 0,0);
-                console.log(this.tempBitMap)
+                // get width of brush line
+                var l = LineOption.value;
+                // set up gradient fill
                 var circGradient = ctx.createRadialGradient(this.xMouse,this.yMouse,0, this.xMouse,this.yMouse,l);
                 // Add three color stops
                 circGradient.addColorStop(0, this.currentColor);
+                // get current color selection
+                // and extract r ,g,b as separate numbers
                 var col_nums= this.currentColor.match(/\d+/g).map(Number);
+                // set center and edge with alpha 1 and 0 respectively
                 var grad_edge = "rgba("+col_nums[0]+","+col_nums[1]+","+col_nums[2]+",0)"
                 var grad_center="rgba("+col_nums[0]+","+col_nums[1]+","+col_nums[2]+",1)"
                 circGradient.addColorStop(0, grad_center);
                 circGradient.addColorStop(1, grad_edge);
                 // Set the fill style and draw a circle
-                cty.fillStyle = circGradient;
-                //cty.fillStyle = this.currentColor;
-                cty.strokeStyle = this.currentColor;
-                cty.lineWidth = 5;
-                cty.beginPath();
-                cty.arc(this.xMouse, this.yMouse, 30, 0, 2*Math.PI);
-                cty.fill();
-                //cty.moveTo(this.xMouseStart, this.yMouseStart);
-                //cty.lineTo(this.xMouse,this.yMouse);
-               //cty.stroke();
-                this.tempBitMap = cv.transferToImageBitmap();
-                //this.tempBitMap.src = cv.toDataURL();
-                ctx.drawImage(this.tempBitMap,0,0);
+                ctx_s.beginPath();
+                ctx_s.arc(this.xMouse,this.yMouse, l, 0, 2*Math.PI);
+                ctx_s.fillStyle = circGradient
+                ctx_s.fill();
+                ctx_s.stroke();
+                //blank rectangle on ctx canvas as clipping //f:"rgba(0,0,0,0)"
+                // empty object for colour so it will not draw
+                ctx.save()
+                ctx.beginPath()
+                ctx.rect(this.x, this.y, this.w, this.h)
+                ctx.clip()
+                // draw second canvas clipped to drawing area
+                ctx.drawImage(canvasSecond,0,0, width,height);
+                ctx.restore()
+                
             }else if(GridButton.on){
                 this.drawRect(this.xSRound, this.ySRound, this.xMRound - this.xSRound, this.yMRound - this.ySRound, this.dragColor, false);
                 var r = this.getRadius(this.xMRound - this.xSRound, this.yMRound - this.ySRound)

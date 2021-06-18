@@ -1,4 +1,5 @@
 console.log(" swatch js has been called")
+/*
 class InteractiveSquare{
     // class Button x,y,w,h,fill, stroke, canvas
     constructor(x,y,w,h,background_col, text_col="rgb(255,255,255", value){
@@ -109,7 +110,7 @@ class LineSizes extends InteractiveSquare{
     }
 
 }
-LineSizes.linesize = 10;
+LineSizes.linesize = 100;
 
 
 
@@ -178,4 +179,4 @@ Swatch.colour = "rgba(0,0,0, 1)"
 
 
 
-
+*/

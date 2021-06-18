@@ -1,5 +1,31 @@
 console.log("ellipse js called");
 
+console.log("rectangle js called");
+
+
+class Rectangle{
+constructor(xS,yS,xM,yM, col){
+this.x = xS;
+this.y = yS;
+this.w = xM-xS;
+this.h = yM-yS;
+this.fill = col;
+}
+
+update(){
+    this.draw();
+}
+
+draw(){
+    ctx.beginPath();
+    ctx.rect(this.x, this.y, this.w, this.h);
+    ctx.fillStyle = this.fill;
+    ctx.fill();
+}
+
+
+}
+
 class Ellipse{
     constructor(xS, yS, xM, yM , col){
         this.x = (xS + xM)/2;
@@ -33,5 +59,14 @@ class DrawImage{
     update(){
         //ctx.drawImage(this.tempBitMap,0,0);
         ctx.drawImage(this.im,0,0);
+    }
+}
+
+class CanvasImage{
+    constructor(img){
+        this.img = img
+    }
+    update(){
+        ctx.drawImage(this.img, 0,0,width,height)
     }
 }

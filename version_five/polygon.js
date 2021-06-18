@@ -69,7 +69,7 @@ class Polygon{
 }
 
 class Star{
-    constructor(xS,yS,xM,yM, fc, n=5){
+    constructor(xS,yS,xM,yM, fc, n=5, ratio){
         console.log("update")
         this.x_c = xS+(xM-xS)/2
         this.y_c = yS+(yM-yS)/2
@@ -79,6 +79,7 @@ class Star{
         this.stroke = "rgb(200,200,200)";
         this.lw = 2;
         this.n = n;
+        this.ratio = ratio;
     }
     update(){
         this.draw()
@@ -109,7 +110,7 @@ class Star{
              if(i%2 == 0){
                  R = this.R;
              }else{
-                 R = this.R/2;
+                 R = this.R*this.ratio;
              }
              x= Math.round(  this.x_c + R*Math.cos(i*2*Math.PI/n - Math.PI/2)  )
              y= Math.round(  this.y_c + R*Math.sin(i*2*Math.PI/n - Math.PI/2)  )

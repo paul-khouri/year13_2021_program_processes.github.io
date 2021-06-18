@@ -1,4 +1,4 @@
-console.log("colour slider called")
+console.log("colour slider and sliding point objects")
 
 class ColorSlider{
     constructor(x,y,w,h){
@@ -6,14 +6,12 @@ class ColorSlider{
         this.y = y;
         this.w = w;
         this.h = h;
-        this.P = new slidingPoint(x,y,w,h, 0.5*this.h);
+        this.P = new SlidingPoint(x,y,w,h, 0.5*this.h);
         this.step = 2*h;
-        this.Q = new slidingPoint(x, y+this.step,w,h, 0.5*this.h )
+        this.Q = new SlidingPoint(x, y+this.step,w,h, 0.5*this.h )
         
         this.selected_colour = "rgb(0,0,0)";
         this.shadeColour = "rgb(0,0,0)"
-
-
     }
 
     update(){
@@ -22,16 +20,18 @@ class ColorSlider{
         this.drawShades();
         this.drawColour();
         
-        
+        // get x value across lenth L of the sliding point
+        // use this to determine hue using get colour function
         this.selected_colour = this.getColor(this.P.getX()-this.x, this.w)
+        // and send back to sliding point to set colour of the point
         this.P.setColour(this.selected_colour)
+        // same process but now determining shade
         this.shadeColour = this.getShade(this.selected_colour, this.Q.getX() - this.x, this.w )
         this.Q.setColour(this.shadeColour )
         this.P.update()
         this.Q.update()
-
+        // update to accessible static variable
         ColorSlider.color = this.shadeColour
-
     }
 
     drawHues(){
@@ -58,8 +58,6 @@ class ColorSlider{
         ctx.beginPath();
         ctx.rect(this.x, this.y+this.step, this.w, this.h)
         ctx.fill()
-
-
     }
 
     drawColour(){
@@ -74,25 +72,20 @@ class ColorSlider{
         ctx.beginPath();
         ctx.rect(this.x, this.y, this.w, 4*this.h)
         ctx.fill()
-
     }
 
     getColor(){
         return this.shadeColour
     }
-
-    
-
-
 }
 ColorSlider.prototype.getColor = getColor;
 ColorSlider.prototype.getShade = getShade;
 ColorSlider.color ="rgb(0,0,0)";
 
-
-class slidingPoint{
+// basic sliding point for use in colour slider
+class SlidingPoint{
 constructor(x,y,w, h, r){
-    this.x_c = x + w/2;
+    this.x_c = x + w/1.5;
     this.y_c = y + h/2;
     this.x = x;
     this.w = w;

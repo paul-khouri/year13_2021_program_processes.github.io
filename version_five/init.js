@@ -27,9 +27,10 @@ canvasSecond.width = width*scale;
 canvasSecond.height = height*scale;
 ctx_s.scale(scale,scale);
 
-
+/*
 var cv = new OffscreenCanvas(800, 600);
 var cty = cv.getContext('2d');
+*/
 
 
 
@@ -51,3 +52,5 @@ var colArray=[
         "rgba(0,153,204,0.33)","rgba(255,255,153,0.33)","rgba(255,255,102,0.33)"
         ]
     ]
+
+
