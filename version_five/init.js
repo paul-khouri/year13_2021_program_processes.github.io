@@ -4,7 +4,7 @@ console.log("init js with scaling called")
 
 canvas = document.querySelector('#myCanvas');
 var ctx = canvas.getContext('2d');
-var width = 800;
+var width = 900;
 var height = 600;
 var dpr = window.devicePixelRatio || 1;
 var scale = dpr

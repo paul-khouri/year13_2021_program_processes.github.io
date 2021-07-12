@@ -7,7 +7,7 @@ var backer = new Rectangle(0,0, 210+2,600, colArray[0][2]);
 v_m= 30
 h_m = 30
 var step =30
-var drawingPage = new DrawingPage(canvas, 300,50, 400, 500);
+var drawingPage = new DrawingPage(canvas, 350,50, 500, 500);
 var rectButton = new Button(h_m, step * 0 + v_m, 210,30,"Rectangle", colArray[0][0],colArray[0][1], colArray[0][2], canvas);
 rectButton.setClicked();
 var ellipseButton = new Button(h_m,step * 1 + v_m,210,30,"Ellipse", colArray[0][0],colArray[0][1], colArray[0][2], canvas);
@@ -46,11 +46,11 @@ var clear = new NoSelectButton(h_m,step * 16 + v_m,210,30,"Clear", colArray[0][0
 
 
 var sWidth = 210/3
-var backerCol = new Rectangle(0,200, 210,200+9*30, colArray[0][0]);
+var backerCol = new Rectangle(0,0, 270,height, colArray[0][2]);
 
 
 
-
+var A = new ManyCircles(400,300,500,400,colArray[0][6])
 
 
 
@@ -64,7 +64,7 @@ var backerCol = new Rectangle(0,200, 210,200+9*30, colArray[0][0]);
 function animate(){
     ctx.clearRect(0, 0, width, height);
     //backer.update();
-    //backerCol.update();
+    backerCol.update();
     drawingPage.update();
     rectButton.update();
     ellipseButton.update();
@@ -86,19 +86,9 @@ function animate(){
     for(var i=0; i < line_option_set.length; i++){
         star_option_set[i].update();
     }
-/*
-    I.update();
-    J.update();
-    K.update();
 
-    L.update();
-    M.update();
-    N.update();
+    A.update();
 
-    T.update();
-    U.update();
-    V.update();
-*/
 
 
 

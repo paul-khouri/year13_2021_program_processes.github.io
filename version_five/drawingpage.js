@@ -14,7 +14,7 @@ class DrawingPage{
         this.xMRound = 0
         this.yMRound = 0
         //number of grid rectangles 
-        this.xN = 16;
+        this.xN = 20;
         this.yN = 20;
   
   
