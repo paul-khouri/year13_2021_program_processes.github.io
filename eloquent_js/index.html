@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  // camel case variables
+  let firstName = "Paul"
+  let secondName = "Smith"
+  let score = .63
+  let output ="My name is " + firstName +" " +secondName;
+
+  console.log(output)
+  // back tick quoted string
+  output = `I scored ${100*score}% in a test`
+  console.log(output)
+if (score < .9){
+  output = "That is a B"
+  console.log(output)
+}
+/*
+let response = prompt("Enter your name")
+  console.log(response +" has responded")
+  */
+
+
+  // loops
+  for(let i = 0; i<10 ; i++){
+    console.log(i*9)
+  }
+numberSet = []
+  for(let i=0 ; i<10 ; i++){
+
+temp = []
+    for(let j =0; j<10; j++){
+      temp.push(j + ", " + i)
+      //console.log(j + ", " + i)
+    }
+    numberSet.push(temp)
+  }
+  console.log(numberSet)
+  console.table(numberSet)
+
+</script>
+
+</body>
+</html>

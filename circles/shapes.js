@@ -1,49 +1,6 @@
-/**
- * Draw a grid  line in a rectangular boundary
- * uses the _line function 
- * @param {number} x width and height of each grid square
- * @param {number} y width and height of each grid square
- * @param {number} w width and height of each grid square
- * @param {number} h width and height of each grid square
- * @param {number} n side length each grid square
- * @return {null} 
- */
- function draw_grid(x,y,w,h,n, c = {l: 0.5, s:"rgb(255,255,255)"}){ 
-    var grid_interval = n;
-    //vertical lines
-    for(var i=1; i< w/grid_interval; i++){
-        _line(x + i*grid_interval, y, x + i*grid_interval,y+h, c);
-    }
-    // horizontal lines
-    for(var i=1; i< h/grid_interval; i++){
-        _line(x ,y + i*grid_interval,x+w,y+ i*grid_interval, c);
-    }
-    
-}
 
-/**
- * Draw a grid  line in a rectangular boundary
- * uses the _line function 
- * @param {number} x width and height of each grid square
- * @param {number} y width and height of each grid square
- * @param {number} w width and height of each grid square
- * @param {number} h width and height of each grid square
- * @param {number} xN number of x ticks
- * @param {number} yN number of y ticks
- * @return {null} 
- */
-function grid(x,y,w,h,xN, yN, c={ l:0.5, s:"rgba(0,0,0,0.2)"} ){
-    var xTick = w/xN;
-    var yTick = h/yN;
- // vertical;
-    for(var i=0 ; i <= xN ; i++){
-        _line(x+ i*xTick, y,x+ i*xTick, y+h, c)
-    }
- //horizontal
-    for(var j=0 ; j <= yN ; j++){
-        _line(x, y+j*yTick, x+ w, y+j*yTick,c)
-    }
-}
+
+
 
  /**
  * Filled Polygon

@@ -126,7 +126,7 @@ function _circ(x,y,r,c){
 }
 
 
-function _line(x_1,y_1,x_2,y_2,c,rotation = 0){
+function _line(x_1,y_1,x_2,y_2,c={l:0.5, s:"rgb(255,255,255)"},rotation = 0){
     ctx.save();
     ctx.translate(x_1,y_1)
     ctx.rotate(rotation*Math.PI/180)
@@ -165,6 +165,55 @@ function getabsolutesmaller(w,h){
     }else{
         return Math.abs(h);
     }
+}
+
+/**
+ * Draw a grid  in a rectangular boundary
+ * define number of ticks
+ * uses the _line function 
+ * @param {number} x top
+ * @param {number} y top
+ * @param {number} w width of grid
+ * @param {number} h height of grid
+ * @param {number} xN number of x ticks
+ * @param {number} yN number of y ticks
+ * @return {null} 
+ */
+ function grid(x,y,w,h,xN, yN, c={ l:0.5, s:"rgba(255,255,255,1)"} ){
+    _line(0, 0,100, 100, c)
+    var xTick = w/xN;
+    var yTick = h/yN;
+ // vertical;
+    for(var i=0 ; i <= xN ; i++){
+        _line(x+ i*xTick, y,x+ i*xTick, y+h, c)
+    }
+ //horizontal
+    for(var j=0 ; j <= yN ; j++){
+        _line(x, y+j*yTick, x+ w, y+j*yTick,c)
+    }
+}
+
+/**
+ * Draw a grid  with square cells
+ * uses the _line function 
+ * @param {number} x top
+ * @param {number} y top
+ * @param {number} w width 
+ * @param {number} h height
+ * @param {number} i side length each grid square
+ * @return {null} 
+ */
+ function draw_grid(x,y,w,h,i, c = {l: 0.5, s:"rgb(255,255,255)"}){ 
+    var grid_interval = i;
+    //vertical lines
+    for(var i=1; i< w/grid_interval; i++){
+        _line(x + i*grid_interval, y, x + i*grid_interval,y+h, c);
+    }
+    // horizontal lines
+    for(var i=1; i< h/grid_interval; i++){
+        _line(x ,y + i*grid_interval,x+w,y+ i*grid_interval, c);
+    }
+    
 }
 
 
@@ -373,7 +422,7 @@ var my_Handler = new Handler(canvas);
             this.x = this.xC+v_x*to_unit*this.d;
             this.y = this.yC+v_y*to_unit*this.d;
 
-            this._line(this.xC, this.yC, state.x, state.y, {l:0.5 , s:"rgb(0,255,255"})
+            //this._line(this.xC, this.yC, state.x, state.y, {l:0.5 , s:"rgb(0,255,255"})
             //console.log(ctx.lineWidth)
   
         }
@@ -387,7 +436,7 @@ var my_Handler = new Handler(canvas);
         }
     }
     draw(colours){
-        this._circ(this.xC, this.yC,this.d, {l:0.5 , s:"rgb(0,255,255"})
+        //this._circ(this.xC, this.yC,this.d, {l:0.5 , s:"rgb(0,255,255"})
         this._circ(this.x, this.y,this.r, colours)
         //this._circ(this.xC, this.yC,this.r, this.colours)
     }
@@ -402,6 +451,9 @@ var my_Handler = new Handler(canvas);
     }
     deselect(){
         this.dragging = false;
+    }
+    getSelected(){
+        return this.dragging;
     }
 
     }
@@ -420,9 +472,13 @@ var my_Handler = new Handler(canvas);
  */
 class CircleWithPoints{
     constructor(x,y,r, angles){
+        this.x = x
+        this.y = y
+        this.r = r
         this.S = []
+        this.V = []
         for(var i= 0; i< angles.length ; i++){
-            var temp = new CircularDragPoint(x,y,10,{f:colArray[0][2], l:3, s:colArray[0][6]},{f:colArray[0][7], l:3, s:colArray[0][4]}, r,angles[i])
+            var temp = new CircularDragPoint(x,y,5,{f:colArray[0][2], l:1, s:colArray[0][6]},{f:colArray[0][7], l:3, s:colArray[0][4]}, r,angles[i])
             this.S.push(temp)
         }
         for(var i =0; i<this.S.length; i++){
@@ -431,11 +487,49 @@ class CircleWithPoints{
     
     }
     update(){
+        this._circ(this.x, this.y,this.r, {l:1, s:"rgb(255,255,255)"});
+        var selected
+        var x_1, y_1, x_2,y_2
         for( var i = 0; i<this.S.length; i++){
+      
+                var j = i
+                j = (i-1+this.S.length)%this.S.length;
+                x_1 = this.S[j].getX()
+                y_1 = this.S[j].getY()
+                x_2 = this.S[i].getX()
+                y_2 = this.S[i].getY()
+                this._line(x_1,y_1,x_2,y_2)
+       
             this.S[i].update();
+            this.drawCross(x_2,y_2)
+            if( this.S[i].getSelected()){
+                selected = this.S[i];
+            }
+
         }
+        this.draw(selected)
+    
+    }
+    draw(s){
+        this._circ(this.x, this.y,2, {f:"rgb(255,255,255)"});
+        this._line(this.x-this.r, this.y, this.x+this.r, this.y)
+        this._line(this.x, this.y - this.r , this.x, this.y +this.r)
+        /*
+        if(s){
+            this._line(this.x, this.y  , s.getX(), s.getY());
+
+        }
+        */
+    }
+    drawCross(x,y){
+        this._line(x-50, y, x+50, y)
+        this._line(x, y-50, x, y+50)
+
+
     }
 }
+CircleWithPoints.prototype._circ = _circ;
+CircleWithPoints.prototype._line = _line;
 
 
 class Button{

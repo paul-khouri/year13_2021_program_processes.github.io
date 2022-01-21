@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Objects Start</title>
+</head>
+<body>
+<canvas id='myCanvas'></canvas>
+<script type="text/javascript" src="init.js"> </script>
+<script type="text/javascript" src="objectSet.js"> </script>
+<script>
+
+
+
+    let G= new Grid(width, height, 100, col[0][2], 0.5);
+    let R = new Rectangle(-50,-25,100,50, col[0][6], undefined, undefined)
+
+    G.update();
+    ctx.save();
+    ctx.translate(500,300);
+    ctx.rotate(60*Math.PI/180);
+    //G.update();
+    R.update();
+    ctx.restore()
+
+    ballSet = []
+    let r = 20
+    let x = 100
+    let y = 400
+    let space = 5*r
+    for(let i= 0; i< col[0].length; i++){
+        let temp = new Ball(x+ space*i, y, r , col[0][i], col[0][5], 2)
+        ballSet.push(temp)
+
+    }
+    console.log(ballSet)
+    for(let j=0; j<ballSet.length; j++){
+        ballSet[j].update()
+    }
+
+    let T = new TextBox(100,100,150, "", col[0][1], col[0][2])
+    T.update("5")
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

@@ -6,7 +6,7 @@ P.setGroup(groupMembers)
 Q.setGroup(groupMembers)
 R.setGroup(groupMembers)
 
-var C = new CircleWithPoints(400,300,200,[45,60, 75,90])
+var C = new CircleWithPoints(400,300,200,[0,90, 180,270])
 var D = new CircularDragPoint(100,300,10,{f:colArray[0][2], l:3, s:colArray[0][6]},{f:colArray[0][7], l:3, s:colArray[0][4]}, 200,90)
 var E = new CircularDragPoint(400,300,10,{f:colArray[0][2], l:3, s:colArray[0][6]},{f:colArray[0][7], l:3, s:colArray[0][4]}, 200,180)
 function animate(){
@@ -15,8 +15,11 @@ function animate(){
   //Q.update();
   //R.update();
   C.update();
-  D.update();
+  //D.update();
   //E.update();
+ //grid(300,300,100,200,2,2)
+ //draw_grid(0,0,100,300,10)
+// _line(0,0,100,100,{ l:0.5, s:"rgba(255,255,255,1)"})
   
    window.requestAnimationFrame(animate);
 }

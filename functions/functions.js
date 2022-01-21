@@ -69,10 +69,10 @@ draw_line(0,400, 600,100)
  */
 function draw_grid(n){
     var grid_interval = n;
-    for(var i=0; i< width/grid_interval; i++){
+    for(let i=0; i< width/grid_interval; i++){
         draw_line(i*grid_interval,0,i*grid_interval,height);
     }
-    for(var i=0; i< height/grid_interval; i++){
+    for(let i=0; i< height/grid_interval; i++){
         draw_line(0,i*grid_interval,width,i*grid_interval);
     }
 }
@@ -81,10 +81,13 @@ draw_grid(50);
 /**
  * Draw a white line between two points
  *
- * @param {number} x_1 x coordinate of first point.
- * @param {number} y_1 y coordinate of first point.
- * @param {number} x_2 x coordinate of second point.
- * @param {number} y_2 y coordinate of second point.
+ * @param {number} x x coordinate of first point.
+ * @param {number} y y coordinate of first point.
+ * @param {number} w width.
+ * @param {number} h height.
+ * @param {string} bCol hex string background colour
+ * @param {string} tCol hex string text colour
+ * @param {string} message text
  * @return {null} 
  */
 function text_box(x,y,w,h, bCol, tCol, message){
@@ -98,12 +101,10 @@ function text_box(x,y,w,h, bCol, tCol, message){
     ctx.stroke();
     // reset the context for the text color
     ctx.fillStyle=tCol;
-    var myFont= "bold 25px monospace";
     // position and draw text in middle of box
-    ctx.font=myFont;
+    ctx.font="bold 25px monospace";
     ctx.textBaseline = 'middle';
     ctx.textAlign = "center";
-    var output = message;
     ctx.fillText(output, x+w/2,y+h/2);
 }
 // create one text box

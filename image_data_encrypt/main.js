@@ -39,7 +39,7 @@ var v_encrypt = function(imageData, ctx) {
     //let key = [[200,50,30], [0,30,170], [100,200,100], [230,100,190]]
     // create random list
     let key =[]
-    for(let i = 0; i<5; i++){
+    for(let i = 0; i<50; i++){
         let temp = []
         for(let j = 0; j<3; j++){
             let r = Math.floor(255*Math.random())

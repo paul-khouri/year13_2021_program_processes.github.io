@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Objects Start</title>
+</head>
+<body>
+<canvas id='myCanvas'></canvas>
+<script type="text/javascript" src="init.js"> </script>
+<script type="text/javascript" src="objects.js"> </script>
+<script>
+  let G = new Grid(width, height, 25, col[0][2], 0.3)
+  let T = new TextBox(800,550,200, col[0][4], col[0][2])
+  G.update();
+  // note that the text is set through the update function call
+  T.update("My Text");
+
+</script>
+</body>
+</html>
