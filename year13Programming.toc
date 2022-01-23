@@ -11,7 +11,10 @@
 \contentsline {section}{\numberline {11}Objects}{19}{section.11}%
 \contentsline {section}{\numberline {12}Animation Frame}{23}{section.12}%
 \contentsline {section}{\numberline {13}Animation}{28}{section.13}%
-\contentsline {section}{\numberline {14}Event Handling}{28}{section.14}%
-\contentsline {section}{\numberline {15}Basic Draggable Point}{28}{section.15}%
-\contentsline {section}{\numberline {16}Better Draggable Point}{28}{section.16}%
-\contentsline {section}{\numberline {17}Buttons}{30}{section.17}%
+\contentsline {subsection}{\numberline {13.1}Linear Interpolation}{28}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}Quadratic Interpolation}{35}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}Trigonometric Interpolation}{38}{subsection.13.3}%
+\contentsline {section}{\numberline {14}Event Handling}{40}{section.14}%
+\contentsline {section}{\numberline {15}Basic Draggable Point}{40}{section.15}%
+\contentsline {section}{\numberline {16}Better Draggable Point}{40}{section.16}%
+\contentsline {section}{\numberline {17}Buttons}{42}{section.17}%
