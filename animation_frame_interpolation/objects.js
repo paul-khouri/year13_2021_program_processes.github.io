@@ -313,6 +313,60 @@ class TrigBallGroup extends QuadraticBallGroup{
         return new TrigBall(x_b,y_b,radius, randColour, randT, H, xIS)
     }
 }
+/**
+ * Pulsing Ball
+ * @param {number} x  x position
+ * @param {number} y base y position
+ * @param {number} maxRadius maximum radius for pulse
+ * @param {string} fillColour fill colour
+ * @param {number} T total Tick interval (50 ticks = about 1 second)
+ * @param {number} TPosition  number between 0 and 1 (where in the cycle to start)
+ */
+class PulsingBall{
+    constructor(x,y,  maxRadius, fillColour, T, TPosition){
+        this.x = x
+        this.y = y
+        this.fillColour = fillColour
+        this.T = T
+        this.maxR = maxRadius
+        this.t = T*TPosition
+    }
+    update(){
+        this.t += 1
+        let rad = this.getRadius(this.t, this.T, this.maxR)
+        this.drawCircle(this.x, this.y, rad)
+    }
+    getRadius(t,T,R){
+        let rad = (R/2) * Math.cos( (2*Math.PI/T) *t) + R/2
+        return rad
+    }
+
+    drawCircle(x,y,r){
+        ctx.beginPath()
+        ctx.arc(x, y, r, 0, 2*Math.PI)
+        ctx.fillStyle = this.fillColour
+        ctx.fill();
+    }
+}
+
+class PulseGroup{
+
+    constructor(x,y,  maxRadius, fillColour, T, quantity){
+        this.PSet = []
+
+        for( let i=0 ; i<quantity; i++){
+            let temp = new PulsingBall(x,y,  maxRadius, fillColour, T, i/quantity)
+            this.PSet.push(temp)
+        }
+    }
+
+    update(){
+        for(let i = 0 ; i < this.PSet.length ; i++){
+            this.PSet[i].update()
+        }
+    }
+
+}
 
 /**
  * Grid - square grid
@@ -352,6 +406,74 @@ class Grid{
         ctx.strokeStyle = strokeColour;
         ctx.lineWidth = strokeWidth;
         ctx .stroke()
+    }
+}
+/**
+ * Grid - square grid
+ * @param {number} w width of canvas
+ * @param {number} h height of canvas
+ * @param {number} intervalWidth distance each grid unit
+ * @param {string} strokeColour stroke colour
+ * @param {number} strokeWidth  width of outline
+ */
+class RotatingFunStar{
+    constructor(x,y,in_r,out_r,points, col_1, col_2, col_3) {
+        this.x = x;
+        this.y = y;
+        this.r = in_r;
+        this.R = out_r;
+        this.p = points
+        this.col_1 = col_1;
+        this.col_2 = col_2;
+        this.col_3 = col_3;
+        this.t = 0
+    }
+    update(){
+        this.draw()
+        this.t += 1
+    }
+
+    draw(){
+
+        let p = this.p;
+        let pPositions = []
+        let ang = 0;
+        let x = 0;
+        let y = 0;
+        ctx.beginPath()
+
+        for(let i =0 ; i<=2*p ; i++){
+            ang = i*2*Math.PI/(2*p) + this.t/100*Math.PI
+            if( i%2 === 0 ){
+                x = this.x + this.R*Math.cos(ang);
+                y = this.y + this.R*Math.sin(ang);
+                pPositions.push(x,y)
+            }else{
+                x = this.x + this.r*Math.cos(ang);
+                y = this.y + this.r*Math.sin(ang);
+            }
+            if(i === 0){
+                ctx.moveTo(x, y)
+            }else {
+                ctx.lineTo(x, y);
+            }
+
+        }
+
+        ctx.strokeStyle = this.col_1;
+        ctx.lineWidth = 2;
+        ctx.stroke()
+        for(let i = 0 ; i<pPositions.length; i+=2){
+            this.drawCircle(pPositions[i],pPositions[i+1], this.r, this.col_2)
+        }
+
+
+    }
+    drawCircle(x,y,r, fillColour){
+        ctx.beginPath()
+        ctx.arc(x, y, r, 0, 2*Math.PI)
+        ctx.fillStyle = fillColour
+        ctx.fill();
     }
 }
 

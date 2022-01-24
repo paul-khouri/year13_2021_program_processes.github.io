@@ -1,3 +1,7 @@
+// init file with canvas set up
+// colours
+// functions
+//...
 canvas = document.querySelector('#myCanvas');
 let ctx = canvas.getContext('2d');
 // define width and height
@@ -22,135 +26,106 @@ my_c.style.margin = "auto";
 document.body.style.backgroundColor = "rgb(190,190,190)";
 
 
-const col={
-    black:"rgba(0,0,0,1)",
-    grey:"rgba(150,150,150,1)",
-    white:"rgba(255,255,255,1)",
-    green: "rgba(0,92,0,1)",
-    pink: "rgba(243,92,155,1)",
-    purple: "rgba(153,19,206)",
-    dblue:"rgba(16,16,162)",
-    pblue:"rgba(135,211,243,1)",
-    pyellow:"rgba(246,244,193,1)",
-    black_t:"rgba(0,0,0,0.5)",
-    grey_t:"rgba(150,150,150,0.5)",
-    white_t:"rgba(255,255,255,0.5)",
-    green_t: "rgba(0,92,0,0.5)",
-    pink_t: "rgba(243,92,155,0.5)",
-    purple_t: "rgba(153,19,206,0.5)",
-    dblue_t:"rgba(16,16,162,0.5)",
-    pblue_t:"rgba(135,211,243,0.5)",
-    pyellow_t:"rgba(246,244,193,0.5)",
-}
+// two dimensional array of colours
+const col= [
+    [ // opaque
+// black (0)               grey (1)               white (2)
+        "rgba(0,0,0,1)" , "rgba(150,150,150,1)", "rgba(255,255,255,1)" ,
+// pink  (3)           purple (4)       deep blue (5)
+        "rgb(243,92,155,1)", "rgb(153,19,206,1)", "rgb(16,16,162,1)",
+// pale blue (6)           yellow   (7)         bright yellow (7)
+        "rgba(135,211,243,1)", "rgba(246,244,193,1)", "rgba(250,250,0,1)"
+    ],
+    [ // semi-transparent
+// black (0)               grey (1)               white (2)
+        "rgba(0,0,0,0.5)" , "rgba(150,150,150,0.5)", "rgba(255,255,255,0.5)" ,
+// pink  (3)           purple (4)       deep blue (5)
+        "rgb(243,92,155,0.5)", "rgb(153,19,206,0.5)", "rgb(16,16,162,0.5)",
+// pale blue (6)           yellow   (7)         bright yellow (7)
+        "rgba(135,211,243,0.5)", "rgba(246,244,193,0.5)", "rgba(250,250,0,0.5)"
+    ]
+]
+
+
+
 /**
- * Fill and or Stroke the Current Path
- *
- * @param {string} fillColour rgb string
- * @param {string} strokeColour rgb string.
- * @param {number} strokeWidth
- * @return {null}
+ * Grid - square grid
+ * @param {number} w width of canvas
+ * @param {number} h height of canvas
+ * @param {number} intervalWidth distance each grid unit
+ * @param {string} strokeColour stroke colour
+ * @param {number} strokeWidth  width of outline
  */
-function updateContext(fillColour, strokeColour, strokeWidth){
-    ctx.fillStyle = fillColour;
-    ctx.strokeStyle = strokeColour;
-    ctx.lineWidth = strokeWidth;
-    if(fillColour){
-        ctx.fill();
+class Grid{
+    constructor(w,h,intervalWidth, strokeColour, strokeWidth){
+        this.w = w;
+        this.h = h;
+        this.intervalWidth=intervalWidth;
+        this.strokeColour = strokeColour;
+        this.strokeWidth = strokeWidth;
     }
-    if(strokeColour|| strokeWidth){
-        ctx.stroke();
+    update(){
+        this.draw()
+    }
+    draw(){
+        for(let i = -this.w ; i <= this.w ; i+= this.intervalWidth){
+            this.drawLine(i,-this.h, i,this.h, this.strokeColour, this.strokeWidth);
+        }
+
+        for(let j = -this.h ; j <= this.h ; j+= this.intervalWidth){
+            this.drawLine(-this.w,j, this.w,j, this.strokeColour, this.strokeWidth);
+        }
+
+    }
+
+    drawLine(x_1,y_1, x_2, y_2, strokeColour,strokeWidth){
+        ctx.beginPath();
+        ctx.moveTo(x_1,y_1);
+        ctx.lineTo(x_2,y_2);
+        ctx.lineCap = "round";
+        ctx.strokeStyle = strokeColour;
+        ctx.lineWidth = strokeWidth;
+        ctx .stroke()
     }
 }
 
+
 /**
- * Draw a rectangle
- *
- * @param {number} x corner x
- * @param {number} y corner y
+ * Filled TextBox
+ * @param {number} x top corner of bounding box
+ * @param {number} y top corner of bounding box
  * @param {number} w width
- * @param {number} h height
- * @param {string} fillColour rgb string
- * @param {string} strokeColour rgb string.
- * @param {number} strokeWidth
- * @return {null}
+ * @param {string} txt text
+ * @param {string} fill fill colour
+ * @param {string} txtColour colour of text
  */
-function drawRectangle(x,y,w,h, fillColour, strokeColour, strokeWidth){
-    ctx.beginPath();
-    ctx.rect(x,y,w,h);
-    updateContext(fillColour, strokeColour, strokeWidth)
-}
-/**
- * Draw a circle
- *
- * @param {number} x centre x
- * @param {number} y centre y
- * @param {number} r radius
- * @param {string} fillColour rgb string
- * @param {string} strokeColour rgb string.
- * @param {number} strokeWidth
- * @return {null}
- */
-function drawCircle(x,y,r,  fillColour, strokeColour, strokeWidth){
-    ctx.beginPath();
-    ctx.arc(x,y,r,0,2*Math.PI);
-    updateContext(fillColour, strokeColour, strokeWidth)
-}
-/**
- * Draw a line
- *
-    * @param {number} x_1 start x
-    * @param {number} y_1 start y
-    * @param {number} x_2 end x
-    * @param {number} y_2 end y
-    * @param {string} strokeColour rgb string
-    * @param {number} strokeWidth width of line
-    * @return {null}
- */
-function drawLine(x_1,y_1, x_2, y_2, strokeColour,strokeWidth){
-    ctx.beginPath();
-    ctx.moveTo(x_1,y_1);
-    ctx.lineTo(x_2,y_2);
-    ctx.lineCap = "round";
-    updateContext(undefined, strokeColour, strokeWidth);
-}
-/**
- * Draw text
-    *
-    * @param {number} x top corner x
-    * @param {number} y top corner y
-    * @param {string} txt
-    * @param {string} fillColour rgb string.
-    * @param {string} font css shorthand font style
-    * @return {null}
- */
-function drawText(x,y,txt,fillColour, font = "bold 30px monospace" ) {
-    ctx.font = font;
-    updateContext(fillColour, undefined, undefined);
-    ctx.fillText(txt, x,y);
-    //
-}
-/**
- * Draw text box
-    *
-    * @param {number} x top corner x
-    * @param {number} y top corner y
-    * @param {number} w width
-    * @param {string} txt
-    * @param {string} backColour rgb string.
-    * @param {string} fillColour rgb string.
-    * @param {string} font css shorthand font style
-    * @return {null}
- */
-function drawTextBox(x,y,w,txt,backColour, fillColour, font = "bold 30px monospace"){
-    let h =50;
-    drawRectangle(x,y,w,h, backColour, undefined, undefined)
-    ctx.font = font;
-    ctx.fillStyle = fillColour;
-    ctx.textAlign = "center";
-    ctx.textBaseline = "middle";
-    ctx.fillText(txt, x+w/2,y+h/2);
-    drawLine(x,y+h/2,x+w,y+h/2, col.green_t,1);
+class TextBox{
+    constructor(x,y,width, fillColour, txtColour) {
+        this.x = x;
+        this.y = y;
+        this.w = width;
+        // fixed height
+        this.h = 50;
+        // text managed through update
+        this.txt = "Placeholder";
+        console.log(this.txt)
+        this.fillColour = fillColour;
+        this.txtColour = txtColour;
+    }
+    update(txt ="Placeholder"){
+        this.txt = txt
+        this.draw()
+    }
 
+    draw(){
+        ctx.beginPath();
+        ctx.rect(this.x,this.y,this.w,this.h);
+        ctx.fillStyle= this.fillColour;
+        ctx.fill();
+        ctx.font = "20px monospace";
+        ctx.textAlign = "center";
+        ctx.textBaseline = "middle";
+        ctx.fillStyle = this.txtColour;
+        ctx.fillText(this.txt, this.x+this.w/2, this.y+this.h/2);
+    }
 }
-
-

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pulses Rotations</title>
+</head>
+<body>
+<canvas id='myCanvas'></canvas>
+<script type="text/javascript" src="init.js"> </script>
+<script type="text/javascript" src="objects.js"> </script>
+<script>
+  let G = new Grid(width, height, 50, col[0][2], 0.3)
+  let T = new TextBox(800,550,200, col[0][4], col[0][2])
+  let P = new PulsingBall(150,200 , 50, col[0][3],200, 0)
+  let PG = new PulseGroup(300,200, 50,col[1][3], 200, 3)
+  let F = new RotatingFunStar(500, 300, 5,80,10, col[0][6], col[0][7], col[0][8])
+
+
+
+
+  // create an animation function
+  function animate(t){
+    ctx.clearRect(0,0, width, height);
+    G.update();
+    let timer = Math.round(t)
+    T.update(timer);
+    P.update();
+    PG.update()
+    F.update();
+
+
+
+
+    // the call below is a request to the browser
+    // the function is called again (about 50 times a second)
+    window.requestAnimationFrame(animate)
+  }
+  // start off call to get it going
+  animate()
+</script>
+</body>
+</html>
