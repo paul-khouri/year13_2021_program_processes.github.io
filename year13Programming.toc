@@ -15,6 +15,6 @@
 \contentsline {subsection}{\numberline {13.2}Quadratic Interpolation}{35}{subsection.13.2}%
 \contentsline {subsection}{\numberline {13.3}Trigonometric Interpolation}{38}{subsection.13.3}%
 \contentsline {section}{\numberline {14}Event Handling}{40}{section.14}%
-\contentsline {section}{\numberline {15}Basic Draggable Point}{40}{section.15}%
-\contentsline {section}{\numberline {16}Better Draggable Point}{40}{section.16}%
-\contentsline {section}{\numberline {17}Buttons}{42}{section.17}%
+\contentsline {section}{\numberline {15}Basic Draggable Point}{41}{section.15}%
+\contentsline {section}{\numberline {16}Better Draggable Point}{43}{section.16}%
+\contentsline {section}{\numberline {17}Buttons}{45}{section.17}%

@@ -370,9 +370,59 @@ Complete code for both the TrigBall class and TrigBallGroup class (both are inhe
 
 
 \section{Event Handling}
-\section{Basic Draggable Point}
+We want to able to monitor \textbf{events}. If you are researching this you are looking for `DOM events javascript'.\\
+The main events we are concerned with are \textbf{mouse events}.\\
+These are when when the user clicks the mouse, presses the mouse down, moves the mouse.\\
+There are also `touch' events, but this adds another layer of complexity and testing, so this has been avoided for this course. \\
+There are many other events as well (you can research).\\\\
+We get these events by creating a \textbf{listener} that we attach to the canvas page element (node).\\
+The listener then calls the function that is attached to it.\\
+When the listener `fires' it creates an event object , which contains a substantial amount of data.\\
+To see it, put a console.log(e) in one of the mouse functions.\\
+We mainly want to know:
+\begin{itemize}
+	\item Is the mouse down?
+	\item Is the mouse up?
+	\item What is the current (x,y) position of the mouse (in terms of the default canvas coordinates)?
+\end{itemize}
+This creates a significant block of code, so it is best to create a single object to manage this, and we can then , via inheritance, integrate it into any object that needs it.
 
+\lstinputlisting[language=JavaScript, caption=Interactive Object,   linerange={1-52} ]{newbasicevents/objects.js}
+\section{Basic Draggable Point}
+To make use of it we can `inherit' into an interactive ball object, which will now follow the mouse when it is down.
+\lstinputlisting[language=JavaScript, caption=Interactive Object,   linerange={55-98} ]{newbasicevents/objects.js}
 \section{Better Draggable Point}
+We would like the ball to move only if the mouse is inside it.\\
+This is called \textbf{hit testing}.\\
+\begin{center}
+	\newcommand{\T}{12}
+	\newcommand{\Hg}{8}
+	\begin{tikzpicture}[scale=0.8, yscale = 1]
+		\draw[blue](0,0) rectangle(16,10);
+		\newcommand{\ang}{45}
+		\newcommand{\R}{3cm}
+		\newcommand{\RLarge}{9cm}
+		\newcommand{\x}{5cm}
+		\newcommand{\y}{3.1cm}
+		\coordinate (A) at (\x,\y);
+		\coordinate (B) at ({\x +\R*cos(\ang)}, {\y +\R*sin(\ang)});
+		\coordinate (C) at ({\x +\RLarge*cos(\ang)}, {\y +\RLarge*sin(\ang)});
+		\coordinate (CX) at ({\x +\RLarge*cos(\ang)}, {\y});
+		\coordinate (CY) at  ({\x}, {\y +\RLarge*sin(\ang)});
+		
+		\draw[dashed , red] (A) -- (CX)node[midway, below]{$x_m - x_c $};
+		\draw[dashed, red] (CX) -- (C)node[midway, right]{$y_m - y_c $};;
+		
+		\draw[] (A) circle[radius=\R];
+		\draw[<->, red, ultra thick ] (A)node[below]{$(x_c , y_c)$} -- (C)node[midway, below, rotate=\ang]{$d$ (distance from centre)};
+		\draw[<->, blue, thin] (A) -- (B)node[midway, above, rotate=\ang]{$r$ (radius)};
+		\fill[red] (C)node[right]{$(x_m, y_m)$} circle[radius=0.1cm];
+	\end{tikzpicture}
+\end{center}\vspace{0.5cm}
+The distance from the centre of the circle to where the mouse is , is:
+$$d = \sqrt{ (x_m - x_c)^2 + (y_m - y_c)^2}$$
+If  $d<r$ , then the mouse is inside the circle,\\
+Otherwise it is not.
 
 
 
