@@ -32,17 +32,25 @@ const col= [
 // black (0)               grey (1)               white (2)
         "rgba(0,0,0,1)" , "rgba(150,150,150,1)", "rgba(255,255,255,1)" ,
 // pink  (3)           purple (4)       deep blue (5)
-        "rgb(243,92,155,1)", "rgb(153,19,206,1)", "rgb(16,16,162,1)",
+        "rgb(243,92,155,1)", "rgb(153,19,206,1)", "rgb(16,16,250,1)",
 // pale blue (6)           yellow   (7)         bright yellow (8)
-        "rgba(135,211,243,1)", "rgba(246,244,193,1)", "rgba(250,250,0,1)"
+        "rgba(135,211,243,1)", "rgba(246,244,193,1)", "rgba(250,250,0,1)",
+// intense green (9)           pale green   (10)        dull green (11)
+        "rgba(0,211,0,1)", "rgba(100,244,0,1)", "rgba(0,190,100,1)",
+// red (12)           dull red   (13)        orange red (14)
+        "rgba(240,0,0,1)", "rgba(200,80,0,1)", "rgba(255,100,100,1)"
     ],
     [ // semi-transparent
 // black (0)               grey (1)               white (2)
         "rgba(0,0,0,0.5)" , "rgba(150,150,150,0.5)", "rgba(255,255,255,0.5)" ,
 // pink  (3)           purple (4)       deep blue (5)
-        "rgb(243,92,155,0.5)", "rgb(153,19,206,0.5)", "rgb(16,16,162,0.5)",
+        "rgb(243,92,155,0.5)", "rgb(153,19,206,0.5)", "rgb(16,16,250,0.5)",
 // pale blue (6)           yellow   (7)         bright yellow (7)
-        "rgba(135,211,243,0.5)", "rgba(246,244,193,0.5)", "rgba(250,250,0,0.5)"
+        "rgba(135,211,243,0.5)", "rgba(246,244,193,0.5)", "rgba(250,250,0,0.5)",
+// intense green (9)           pale green   (10)        dull green (11)
+        "rgba(0,211,0,0.5)", "rgba(100,244,0,0.5)", "rgba(0,190,100,0.5)",
+// red (12)           dull red   (13)        orange red (14)
+        "rgba(240,0,0,0.5)", "rgba(200,80,0,0.5)", "rgba(255,100,100,0.5)"
     ]
 ]
 

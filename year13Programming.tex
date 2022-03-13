@@ -7,6 +7,7 @@
 \usepackage{xcolor}
 \linespread{1.3}
 \setlength\parindent{0pt}
+\usetikzlibrary{patterns}
 %--------------------------
 \usepackage{hyperref}
 \hypersetup{
@@ -219,16 +220,30 @@ Diagram\\
 \lstinputlisting[language=HTML, caption=Implementing (using HTML file),  linerange={10-45} ]{newobjects/index.html}
 \newpage
 \section{Animation Frame}
-Set up code
+\subsection{A bit of a code review - preparation}.\\
+You do not need to have exactly this.\\
 \lstinputlisting[language=JavaScript, caption=init]{animationframe/init.js}
+It is good to have a grid object and a textbox object.\\
+Let's also start doc typing.
 \lstinputlisting[language=JavaScript, caption=objects]{animationframe/objects.js}
-\lstinputlisting[language=JavaScript, caption=index ]{animationframe/index_start.html}
+\lstinputlisting[language=JavaScript, caption=index (note text being set using update function call) ]{animationframe/index_start.html}
 \begin{center}
-	\includegraphics[width=18cm, angle=0, origin=c]{animationframe/start_up.png}
+	\includegraphics[width=10cm, angle=0, origin=c]{animationframe/start_up.png}
 \end{center}
-\lstinputlisting[language=JavaScript, caption=index ,   linerange={13-28} ]{animationframe/index.html}
+\newpage
+\subsection{Introduce the animation frame}
+We can create a function, animate.\\
+At the end of, and in, the function we have the `window.requestAnimationFrame()', in the parameter you put the `animate' function.\\
+This means that, at the browser's discretion the function will be called over and over again. This should happen somewhere between 50 - 60 times  persecond.\\
+We don't give animate any parameter, but a parameter is sent (let's call it `t') and can be used.\\
+In this case it is the number of milliseconds since the animation began.\\
+Inside the animate function , the first thing we do is erase the canvas and then redraw what we want after that.\\
+This will give us `frame-by-frame' animation.\\
+
+
+\lstinputlisting[language=JavaScript, caption=index  ,   linerange={13-28} ]{animationframe/index.html}
 \begin{center}
-	\includegraphics[width=18cm, angle=0, origin=c,]{animationframe/animation_frame_running.png}
+	\includegraphics[width=10cm, angle=0, origin=c,]{animationframe/animation_frame_running.png}
 \end{center}
 \newpage
 \section{Animation}
@@ -236,7 +251,7 @@ Set up code
 Consider the graph below.\\
 The graph runs of a interval of $T$ and moves between a maximum height of $H$ and a minimum of $0$.\\
 We could use this to represent a, very simple, motion of a ball going up and down.\\
-If we keep repeating the interval, the ball would go up and don indefinitely.\\
+If we keep repeating the interval, the ball would go up and down indefinitely.\\
 The lower case $t$ represents the `time ticks' and is like the $x$ value.\\
 The equations for this piecewise graph are given below and you should be able to work these out for yourself.\\
 
@@ -388,9 +403,11 @@ We mainly want to know:
 This creates a significant block of code, so it is best to create a single object to manage this, and we can then , via inheritance, integrate it into any object that needs it.
 
 \lstinputlisting[language=JavaScript, caption=Interactive Object,   linerange={1-52} ]{newbasicevents/objects.js}
+\newpage
 \section{Basic Draggable Point}
 To make use of it we can `inherit' into an interactive ball object, which will now follow the mouse when it is down.
 \lstinputlisting[language=JavaScript, caption=Interactive Object,   linerange={55-98} ]{newbasicevents/objects.js}
+\newpage
 \section{Better Draggable Point}
 We would like the ball to move only if the mouse is inside it.\\
 This is called \textbf{hit testing}.\\
@@ -398,7 +415,7 @@ This is called \textbf{hit testing}.\\
 	\newcommand{\T}{12}
 	\newcommand{\Hg}{8}
 	\begin{tikzpicture}[scale=0.8, yscale = 1]
-		\draw[blue](0,0) rectangle(16,10);
+		\draw[white](0,0) rectangle(16,10);
 		\newcommand{\ang}{45}
 		\newcommand{\R}{3cm}
 		\newcommand{\RLarge}{9cm}
@@ -423,10 +440,74 @@ The distance from the centre of the circle to where the mouse is , is:
 $$d = \sqrt{ (x_m - x_c)^2 + (y_m - y_c)^2}$$
 If  $d<r$ , then the mouse is inside the circle,\\
 Otherwise it is not.
+\lstinputlisting[language=JavaScript, caption=Interactive Object,   linerange={100-189} ]{newbasicevents/objects.js}
+Start up code:
+\lstinputlisting[language=JavaScript, caption=Interactive Object,   linerange={14-47} ]{newbasicevents/index_one.html}
 
 
 
+
+\newpage
+\section{Buttons}
+To create a button
+\begin{itemize}
+	\item We need to register a user "click"
+	\item We need to know that the user has clicked with the mouse inside the button
+	\item We also need to give plenty of feedback (a hover colour and a colour change to show the button has been `selected')
+\end{itemize}
+Hit testing for a rectangle:
+\begin{center}
+	\newcommand{\T}{12}
+	\newcommand{\Hg}{8}
+	\begin{tikzpicture}[scale=0.8, yscale = 1]
+	
+		
+		\newcommand{\ang}{45}
+		\newcommand{\R}{3cm}
+		\newcommand{\RLarge}{9cm}
+		\newcommand{\x}{5}
+		\newcommand{\y}{3.5}
+		\newcommand{\w}{5}
+		\newcommand{\h}{1.5}
+		\newcommand{\Hght}{5}
+		\newcommand{\W}{16}
+		\draw[white](0,0) rectangle (\W,\Hght);
+		
+	
+		\draw[blue, dotted](\x,0) -- (\x, \Hght);
+		\draw[blue, dotted](\x+\w,0) -- (\x+\w, \Hght);
+		\draw[blue, dotted](0,\y) -- (\W, \y);
+		\draw[blue, dotted](0,\y-\h) -- (\W, \y - \h);
+		
+	\filldraw[draw=teal, pattern=north west lines, pattern color = teal, ultra thick] (\x,\y)node[above]{\tiny $(x,y)$} -- (\x+\w, \y)node[above]{\tiny $(x +w,y)$}  -- (\x+\w, \y-\h)node[below]{\tiny $(x +w,y+h)$} -- (\x, \y-\h)node[below]{\tiny $(x,y+h)$}--(\x,\y); 
+	
+	\draw[red, <->, thick](\x,\y-\h - 1) -- (\x+\w, \y - \h -1)node[midway, below]{$x<x_m<x+w$};
+	\draw[red, <->, thick](\x-1,\y) -- (\x-1, \y - \h )node[midway, left]{$y<y_m<y+h$};
+	
+		
+
+		
+		%\draw[dashed , red] (A) -- (CX)node[midway, below]{$x_m - x_c $};
+		%\draw[dashed, red] (CX) -- (C)node[midway, right]{$y_m - y_c $};;
+		
+
+		
+		\fill[red] (\x+1, \y-0.5)node[right]{$(x_m, y_m)$} circle[radius=0.1cm];
+	\end{tikzpicture}
+\end{center}\vspace{0.5cm}
+For the point $(x_m, y_m)$ to be inside the rectangle , the follow conditions must \textbf{all} be met.
+$$x_m > x~~and~~x_m < x+w ~ ~and ~~y_m> y ~~ and ~~ y_m < y+h$$
+\lstinputlisting[language=JavaScript, caption=Button,   linerange={58 -127} ]{newbasicbuttons/objects.js}
+\newpage
+\section{Manager Object}
+\begin{center}
+	\includegraphics[width=18cm, angle=0, origin=c]{newbasicbuttons/changingcolours.png}
+\end{center}
+\newpage
+\section{Code refactoring - prototyping}
+\newpage
+\section{Old Stuff}
+Older Code example
 \lstinputlisting[language=JavaScript, caption=Python example ]{slider/point.js}
 
-\section{Buttons}
 \end{document}

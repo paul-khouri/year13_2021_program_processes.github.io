@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Intro</title>
+    <style>
+        #little-div{
+            background-color: rgb(200,0,100);
+            color:white;
+            font-size: 3em;
+        }
+
+    </style>
+</head>
+<body>
+<div id="little-div"> Hello </div>
+<script>
+    // other tests
+    function print_a_b_c(a="a", b="b", c="c"){
+        let my_string = a + " " + b + " " +c
+        console.log(my_string)
+    }
+    print_a_b_c(undefined , "c", "f")
+
+
+    // declare a variable
+    let my_name = "Paul";
+    console.log(my_name);
+    let x= document.getElementById("little-div");
+    x.innerHTML = my_name;
+    x.style.backgroundColor = "rgb(0,200,0)";
+    x.style.width = "50%";
+
+    //loops
+    // declared counter, upper limit, increment
+    for(let i=0 ; i<10 ; i++){
+        //console.log(i)
+        console.log(Math.pow(i, 6))
+    }
+    // a list but is called an array
+    A = []
+    A.push("Annie")
+    A.push("Bob")
+    A.push("Claudia")
+    A.push("Darren")
+    console.log(A);
+
+    for(let i=0; i<A.length ; i++){
+        console.log(A[i])
+    }
+
+    function reverseLetters(n){
+        // length of string
+        let nameLength = n.length;
+        let reversedName = ""
+        for(let i= nameLength - 1 ; i>=0 ; i--){
+            console.log(n.charAt(i))
+
+            reversedName += n.charAt(i)
+        }
+
+        return reversedName
+    }
+
+    // call the function
+    reversedName = reverseLetters("mirabelle")
+    console.log(reversedName)
+    x.innerHTML = reversedName
+
+
+
+</script>
+
+</body>
+</html>

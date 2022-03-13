@@ -111,7 +111,7 @@ class MovingBallBoth{
     }
 }
 /**
- * Ball that moves up down
+ * Block of moving balls
  * @param {number} x_b base x position
  * @param {number} y_b base y position
  * @param {number} radius radius

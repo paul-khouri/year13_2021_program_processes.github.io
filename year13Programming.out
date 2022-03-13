@@ -10,11 +10,16 @@
 \BOOKMARK [1][-]{section.10}{Rotations}{}% 10
 \BOOKMARK [1][-]{section.11}{Objects}{}% 11
 \BOOKMARK [1][-]{section.12}{Animation Frame}{}% 12
-\BOOKMARK [1][-]{section.13}{Animation}{}% 13
-\BOOKMARK [2][-]{subsection.13.1}{Linear Interpolation}{section.13}% 14
-\BOOKMARK [2][-]{subsection.13.2}{Quadratic Interpolation}{section.13}% 15
-\BOOKMARK [2][-]{subsection.13.3}{Trigonometric Interpolation}{section.13}% 16
-\BOOKMARK [1][-]{section.14}{Event Handling}{}% 17
-\BOOKMARK [1][-]{section.15}{Basic Draggable Point}{}% 18
-\BOOKMARK [1][-]{section.16}{Better Draggable Point}{}% 19
-\BOOKMARK [1][-]{section.17}{Buttons}{}% 20
+\BOOKMARK [2][-]{subsection.12.1}{A bit of a code review - preparation}{section.12}% 13
+\BOOKMARK [2][-]{subsection.12.2}{Introduce the animation frame}{section.12}% 14
+\BOOKMARK [1][-]{section.13}{Animation}{}% 15
+\BOOKMARK [2][-]{subsection.13.1}{Linear Interpolation}{section.13}% 16
+\BOOKMARK [2][-]{subsection.13.2}{Quadratic Interpolation}{section.13}% 17
+\BOOKMARK [2][-]{subsection.13.3}{Trigonometric Interpolation}{section.13}% 18
+\BOOKMARK [1][-]{section.14}{Event Handling}{}% 19
+\BOOKMARK [1][-]{section.15}{Basic Draggable Point}{}% 20
+\BOOKMARK [1][-]{section.16}{Better Draggable Point}{}% 21
+\BOOKMARK [1][-]{section.17}{Buttons}{}% 22
+\BOOKMARK [1][-]{section.18}{Manager Object}{}% 23
+\BOOKMARK [1][-]{section.19}{Code refactoring - prototyping}{}% 24
+\BOOKMARK [1][-]{section.20}{Old Stuff}{}% 25

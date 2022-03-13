@@ -135,7 +135,7 @@ function rounded_rectangle(x,y,w,h, bCol = "rgb(0,0,255)"){
         rad = h/2;
     }
     ctx.beginPath();
-    // draw in order the 4 quater circles of the rounded rectangle edges
+    // draw in order the 4 quarter circles of the rounded rectangle edges
     // straight lines will autaomatically connect them
     ctx.arc(x+rad,y+rad, rad, Math.PI,3*Math.PI/2 );
     ctx.arc(x+w-rad,y+rad, rad, 3*Math.PI/2,0 );

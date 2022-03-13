@@ -10,11 +10,16 @@
 \contentsline {section}{\numberline {10}Rotations}{18}{section.10}%
 \contentsline {section}{\numberline {11}Objects}{19}{section.11}%
 \contentsline {section}{\numberline {12}Animation Frame}{23}{section.12}%
+\contentsline {subsection}{\numberline {12.1}A bit of a code review - preparation}{23}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Introduce the animation frame}{27}{subsection.12.2}%
 \contentsline {section}{\numberline {13}Animation}{28}{section.13}%
 \contentsline {subsection}{\numberline {13.1}Linear Interpolation}{28}{subsection.13.1}%
 \contentsline {subsection}{\numberline {13.2}Quadratic Interpolation}{35}{subsection.13.2}%
 \contentsline {subsection}{\numberline {13.3}Trigonometric Interpolation}{38}{subsection.13.3}%
 \contentsline {section}{\numberline {14}Event Handling}{40}{section.14}%
-\contentsline {section}{\numberline {15}Basic Draggable Point}{41}{section.15}%
-\contentsline {section}{\numberline {16}Better Draggable Point}{43}{section.16}%
-\contentsline {section}{\numberline {17}Buttons}{45}{section.17}%
+\contentsline {section}{\numberline {15}Basic Draggable Point}{42}{section.15}%
+\contentsline {section}{\numberline {16}Better Draggable Point}{44}{section.16}%
+\contentsline {section}{\numberline {17}Buttons}{47}{section.17}%
+\contentsline {section}{\numberline {18}Manager Object}{50}{section.18}%
+\contentsline {section}{\numberline {19}Code refactoring - prototyping}{51}{section.19}%
+\contentsline {section}{\numberline {20}Old Stuff}{52}{section.20}%
