@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Interactive Button with Rectangles</title>
+</head>
+<body>
+<canvas id='myCanvas'></canvas>
+<script type="text/javascript" src="init.js"> </script>
+<script type="text/javascript" src="objects.js"> </script>
+
+<script>
+    let G = new Grid(width, height, 50, col[0][2], 0.3)
+    let T = new TextBox(800,550,200, col[0][4], col[0][2])
+    //let I = new InteractiveObject()
+    let buttonList = ["Pink", "Green", "Pale Yellow", "Blue", "Red"]
+    let buttonSet = []
+    let buttonHeight = 50
+    let xb= 400
+    let yb= 200
+    for(let i = 0 ; i< buttonList.length; i++){
+        let temp = new InteractiveButton(xb,yb + i*buttonHeight,200, buttonHeight, col[0][3],
+            col[0][4], col[0][6],col[0][7], buttonList[i], col[0][8])
+        buttonSet.push(temp)
+    }
+    let M = new Manager()
+
+
+
+
+
+
+
+
+    // create an animation function
+    function animate(t){
+        ctx.clearRect(0,0, width, height);
+        G.update();
+        let timer = Math.round(t)
+        T.update(timer);
+        M.update()
+
+        for(let i = 0 ; i< buttonSet.length; i++){
+            buttonSet[i].update()
+        }
+
+        window.requestAnimationFrame(animate)
+    }
+    // start off call to get it going
+    animate()
+</script>
+</body>
+</html>

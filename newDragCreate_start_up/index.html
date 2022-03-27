@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Interactive Button with Rectangles</title>
+</head>
+<body>
+<canvas id='myCanvas'></canvas>
+<hr/>
+<canvas id='mySecondCanvas' style ="background-color: gray; display: block;"></canvas>
+<script type="text/javascript" src="init.js"> </script>
+
+<script type="text/javascript" src="objects.js"> </script>
+
+<script>
+  let G = new Grid(1000,600, 50)
+  let MilliSeconds = new TextBox(0,500, 200, col[0][6],col[0][0])
+  let Frames = new TextBox(0,550, 200, col[0][6],col[0][0])
+  let D = new DrawingPage(450,50,500,500, col[0][1])
+  //let M = new MouseMover(450,50,500,500)
+  let R = new Rectangle(10,10,100,200, col[0][6])
+
+  let frames = 0
+  let secCount = 0
+  let frameCount = 0
+  // create an animation function
+  function animate(t){
+    ctx.clearRect(0,0, width, height);
+    G.update();
+    D.update();
+
+    //M.update()
+    let timer = Math.round(t)
+    MilliSeconds.update(timer);
+    Frames.update(frameCount)
+
+
+
+    if(secCount>timer%1000){
+      frameCount = frames
+      frames = 0
+
+    }
+    secCount = timer%1000
+    frames+=1
+
+
+
+
+    window.requestAnimationFrame(animate)
+  }
+  // start off call to get it going
+  animate()
+
+</script>
+</body>
+</html>
