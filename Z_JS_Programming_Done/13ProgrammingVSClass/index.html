@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>File and Sprint Catalogue</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<style type="text/css">
+    body{
+        background-color: rgb(227, 229, 186);
+        margin-left: 20px;
+    }
+    .imgSizer{
+        width: 700px;
+        margin-bottom: 20px;
+        
+    }
+    .vid_div{
+        margin-bottom: 30px;
+    }
+    .emphasise{
+        font-style: italic;
+        font-weight:bolder; 
+
+    }
+
+    
+
+    
+
+    </style>
+</head>
+<body>
+    <hr>
+    <h1>First Sprint: </h1>
+    <p>My aim is to have a defined drawing area on the canvas.<br>
+    When the user down drags in this area, the bounding box shows the boundary defined by MouseStart and current Mouse coordinates.<br>
+    When the rectangle is released a coloured rectangle stays on the screen.<br></p>
+    <p> And <span class="emphasise">by the way</span> I am also going to <span class="emphasise">thoroughly </span> comment my code</p>
+    <div><img class="imgSizer" src="version_one/sprint1codeplan.jpg"></div>
+    <h3>My Trello plan </h3>
+    <div><img class="imgSizer" src="version_one/trello_v1.jpg"></div>
+    <h3> Testing </h3>
+    <p> This first test uses console logging to test if my boundary function is working properly </p>
+    <div class="vid_div"><video width="600"  controls>
+            <source src="version_one/basictest.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <p> This second test explores how the bounding box appears when I click and drg in and out of the rectangle.<br>
+        This could be a bit more user friendly by staying at the boundary if the user drags outside , 
+        but this is a reasonable working version for now.
+        </p>
+    <div class="vid_div"><video width="600"  controls>
+            <source src="version_one/inboundstest.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+        </div>
+        <p> This third test, tests whether I have completed my first sprint.<br>
+            Note the "double click" in the same place , this would have created an object with virtually no dimensions.<br>
+            Would probably be good to improve on this at some stage.
+            </p>
+    <div class="vid_div"><video width="600"  controls>
+            <source src="version_one/withrectangelstest.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+        </div>
+        Include a link to the file itself.
+        <hr>
+        <h2>Second Sprint: </h2>
+        <p>My aim is to have two buttons allowing me to select a particular shape to draw on the canvas .<br>
+            This will now give me a potentially shippable product of <span class="emphasise">two </span>features
+</p>
+        <div><img class="imgSizer" src="version_two/sprint2plan.jpg"></div>
+        <div><img class="imgSizer" src="version_two/trello_v2.jpg"></div>
+        <p> This tests the drawing of the shapes within the boundary of drawingpage object<br>
+            One error has been found if I drag outside the canvas area. <br>
+            This is actually a result of a fix I made to make the drawing rectangle <br>
+            not immediately disappear when the user drags off the drwing page.<br>
+            This is a small error and will leave at this stage.
+            </p>
+    <div class="vid_div"><video width="600"  controls>
+            <source src="version_two/testwithshapes.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+        </div>
+        Include a link to the file itself.
+    <hr>
+    <h2>Third Sprint: </h2>
+    <p>My aim is to include swatches (colour squares).<br>
+        This will allow the user to select a colour for the shape.
+        This will now give me a potentially shippable product that has choices for colour and shape.
+</p>
+    <div><img class="imgSizer" src="version_three/sprint3plan.jpg"></div>
+    <div class="vid_div"><video width="600"  controls>
+        <source src="version_three/colourandshape.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+    </div>
+    <div><img class="imgSizer" src="version_three/download_1.png"></div>
+    <div><img class="imgSizer" src="version_three/download_3.png"></div>
+
+    Reflection: I can now go on and build a number of new shapes and consider what other useful features can be included.
+ 
+<ul>
+<li><a href="drawing/basicdrawing.html"> Basic Drawing </a></li>
+<li><a href="functions/functions.html"> Functions </a>
+<br>
+You should create a functions for:
+<ul>
+<li>A Rectangle</li> 
+<li>A Circle</li> 
+<li>Drawing a line between two points</li>
+<li>Writing text on the screen</li> 
+<li>An ellipse</li>
+</ul>
+</li>
+<li><a href="functions/functions_rotation.html"> Functions and rotation </a></li>
+<li> <a href="functions/functions1.html"> Another functions sheet </a><br>
+    This one just has some other examples - please note that the code may not be <u> exactly </u> 
+    the same as what we have done in class. <br>
+It is also worth noting that there is a more extended code block at the top, this is just a copy-pasted
+piece that is doing what? </li>
+<li><a href="functionsclass/functionclass.html"> Rectangle with a circle inside </a></li>
+To make this function, problems arise if negative values are entered as width and height.<br>
+Later on you will need to realise that this can happen and the kind of problems that can arise<br>
+This one if fixed so it will always work for any width and height inputs
+<li><a href= "gradients/gradients.html">Looking at Gradients (this is a bit of extension) </a> </li>
+<li><a href= "loops/functions_loops.html">Loops file with slightly different function structure</a> </li>
+<li><a href= "loops/functions_loops_complex.html">More complex loops as these have been combined with rotations</a> </li>
+<hr>
+<li><a href="objects/rectangleobject.html"> Rectangle Object </a></li>
+Basic rectangle object. Please note the array structure used to update the object.
+<li><a href="objects/objects.html"> Five Dot Square Object </a></li>
+Object with a more complicated drawing and a built in circle function,
+lots of useful stuff in this one.
+<hr>
+<li><a href="animation/animation.html"> a set of animated objects </a></li>
+The two differences here is that the update inside the object will change a value (an x or something like that).
+Every time the update is called the value changes.<br>
+In the main js file there is a new function called animate. This now runs in a loop in real time. 
+It runs about 40 times per second.<br> 
+Every time it loops it erases the entire canvas and re-draws all the objects (though their update).<br>
+Because the a variable ( like x ) has changed, the object appears in a different position and we have 
+the illusion of movement because the changes happen very quickly.<br>
+The counters should give you an idea of how quickly the animation loop is running.
+<hr>
+<li><a href="interaction/interaction_base.html"> Interaction Base </a></li>
+This canvas is blank but if you open the console and click the mouse on the canvas, 
+you will observe that "mousedown", "mouseup", and "mousemove" events are being registered.<br>
+The basic animation loop is in the main js but serves no purpose at this stage.<br>
+The mouse events are being registered by the "listener" codes that have been put inside the object<br>
+The listener must be attached to an HTML element (in this case the canvas).<br>
+ Note that the canvas connection variable itself has been passed as a parameter.
+ <li><a href="interaction/interaction.html"> Interaction with dragged out rectangle </a></li>
+ This now integrates the animation frame with the listeners (and an object). <br>
+ Click and drag on the canvas.
+ <li><a href="interaction/interaction_square.html"> Interaction with dragged out rectangle and a contained square </a></li>
+This is virtually identical to the previous example. <br>
+The only difference is that a square is drawn inside the rectangle as well<br>
+It would be very helpful to try to solve this problem without looking at the code<br>
+Or have a look and then try on your own.<br>
+If you do try on your own and drag in different directions you 
+should find that there is a small but tricky problem that needs to be solved.
+<li><a href="interaction/interaction_push.html"> Draw a rectangle </a></li>
+Each click and drag leaves a rectangle drawn on the canvas<br>
+It should be noted at this stage, that we have the beginnings of a simple drawing program<br>
+Note that the Rectangle class is called from within the control object.<br>
+It is not great practice to do this without actually passing the class as a parameter<br>
+We could have done this but we do want to consider that we may be dealing with lots of classes <br>
+ and may need to manage things with more sophistaction later on. So this solution is fine for now<br>
+ In Javascript a class is accessible from anywhere.
+ <hr>
+ <li><a href="dragpoints/dpoints.html"> Dragging Points </a></li>
+ Click and drag on the points. (the Rectangles are extensions of the point idea)
+ <li><a href="dragpoints_inherit/dpointsinherit.html"> Dragging Things </a></li>
+This is the same idea, but it does have a new coding structure. <br>
+We may start using this later.
+<li><a href="dragpoints_inherit/points_to_shapes_min.html"> Dragging Things </a></li>
+This is the same idea, but it does have a new coding structure. <br>
+We may start using this later.
+<hr>
+<li><a href="button_rectangle_min.html"> Buttons and Rectangles </a></li>
+Buttons controlling rectangles
+<li><a href="version_one/rectangleinborder.html"> v1 </a></li>
+<li><a href="version_two/shapes_button.html"> v2 </a></li>
+<li><a href="version_three/shapes_button_col.html"> v3 </a></li>
+<li><a href="version_four/shapes_button_col.html"> v4 </a></li>
+</ul>
+</body>
+    </html>

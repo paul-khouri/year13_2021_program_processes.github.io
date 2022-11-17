@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<title>Accelerate</title>
+<script type="text/javascript" src="vector.js"></script>
+<script type="text/javascript" src="particle.js"></script>
+<script type="text/javascript" src="init.js"></script>
+<style type="text/css">
+html, body{
+    margin:0px;
+}
+canvas{
+    display: block;
+    border: 3px solid gray;
+    
+}
+
+div{
+    box-sizing: border-box;
+    border: 1px solid blueviolet;
+}
+</style>
+<script>
+window.onload = function(){
+document.getElementById("my_output").innerHTML="Test";
+for(var i=-50; i<=50; i+= 0.5 ){
+    var x = i%10;
+    if(x<0){
+        x=x+10;
+    }
+    document.getElementById("my_output").innerHTML += i + "," + x +" <br> ";
+
+}
+
+}
+
+</script>
+
+<body>
+    <div id="my_output">
+
+
+    </div>
+
+
+</body>
+
+</html>

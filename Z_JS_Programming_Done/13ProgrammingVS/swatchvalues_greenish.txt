@@ -1,0 +1,12 @@
+// white ,grey, black
+//deep green blue, green, pale green
+//red, yellow, blue black
+rgb(255,255,255)
+rgb(153,153,153)
+rgb(0,0,0)
+rgb(11,73,88)
+rbg(77,138,124)
+rgb(255,243,139)
+rgb(255,78,100)
+rgb(255,255,153)
+rgb(27,63,72)

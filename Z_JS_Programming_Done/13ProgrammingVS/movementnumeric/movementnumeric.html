@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Testing</title>
+    <style type="text/css">
+    body{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: large;
+
+    }
+
+
+    </style>
+</head>
+<body id="bod">
+ 
+        
+        <div id="demo"></div>
+        <script>
+        function print(m){
+            document.getElementById("demo").innerHTML+=m+"<br>";
+        }
+        function myRound(num, dp){
+            return Math.round(num*Math.pow(10,dp))/Math.pow(10,dp);
+
+
+        }
+
+
+
+        var t = 0;
+        var dt = 0.1;
+
+        var velocity = 0;
+        var position = 0;
+        var force = 10;
+        var mass = 1;
+        var k = 1;
+        var x = 10;
+
+        while( t <= 40){
+            velocity = velocity + (-k*x/mass)*dt;
+            x = x + velocity*dt;
+            var strA = "t,"+myRound(t,2)+",x,"+myRound(x,2)+",velocity,"+myRound(velocity,2);
+            var strB = ""
+            print( strA + strB );
+            t += dt;
+        }
+/*
+        while(t <=10 ){
+            position = position + velocity*dt;
+            velocity = velocity + (force/mass)*dt;
+            var strA = "t="+myRound(t,2)+":  position="+myRound(position,2)+"   velocity="+myRound(velocity,2);
+            var strB = "   Exact result="+ myRound(0.5*(force/mass)*Math.pow(t,2),2) ;
+            print( strA + strB );
+            t += dt;
+        }
+        */
+
+
+
+        </script>
+
+ 
+
+
+    </body>
+
+</html>

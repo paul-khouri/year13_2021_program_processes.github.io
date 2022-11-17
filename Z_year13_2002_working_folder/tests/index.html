@@ -1,0 +1,87 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title> Tests </title>
+
+</head>
+
+<body>
+
+<canvas id='myCanvas'></canvas>
+<hr/>
+<canvas id='mySecondCanvas'></canvas>
+
+<script type="text/javascript" src="init.js"> </script>
+<script>
+
+    let mount = new Image()
+    mount.src = "mont.PNG"
+    let corot = new Image()
+    corot.src = "corot.JPG"
+    let images =  [mount,corot]
+    for(let i=0; i<images.length; i++){
+
+        images[i].onload = function() {
+            console.log("image loaded")
+        }
+
+
+    }
+
+
+    function draw(){
+        ctx.clearRect(0,0,width,height)
+
+        ctx.save()
+        ctx.beginPath()
+        ctx.rect(0,0,width,height)
+        ctx.fillStyle = "rgba(200,100,10,0)"
+        ctx.fill()
+        ctx.globalCompositeOperation = 'multiply';
+        ctx.drawImage(images[0], 20, 20, 300, 300);
+        ctx.restore()
+
+        //ctx.globalCompositeOperation = 'source-over';
+        //
+        ctx.save()
+        ctx.globalCompositeOperation = 'darken';
+        ctx.drawImage(images[0], 300, 20, 300, 300);
+        ctx.restore()
+
+        ctx.save()
+        ctx.drawImage(images[0], 500, 200, 300, 300);
+        //ctx.globalCompositeOperation = 'lighten';
+        ctx.globalCompositeOperation = 'source-atop';
+        ctx.drawImage(images[1], 600, 200, 300, 300);
+        ctx.restore()
+
+
+
+        window.requestAnimationFrame(draw)
+
+    }
+    draw()
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+</body>
+
+</html>

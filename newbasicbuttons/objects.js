@@ -141,7 +141,7 @@ class Rectangle{
             let R = 5+50*Math.random()
             let index = Math.floor(13*Math.random())
             let temp = new MovingBall(x_b, y, R, col[1][index], T, h)
-            //this.objectSet.push(temp)
+            this.objectSet.push(temp)
         }
     }
     update(){

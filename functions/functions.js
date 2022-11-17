@@ -1,4 +1,70 @@
 /**
+ * Circle with circular gradient
+ *
+ * @param {number} x corner x
+ * @param {number} y corner y
+ * @param {number} w width
+ * @param {number} h height
+ * @param {string} fillcolour rgb string
+ * @param {string} strokecolour rgb string.
+ * @param {number} strokewidth x coordinate of second point.
+ * @return {null}
+ */
+function blurredCircle(){
+    // Create a radial gradient
+// The inner circle is at x=110, y=90, with radius=30
+// The outer circle is at x=100, y=100, with radius=70
+    let x= 200
+    let y = 300
+    let r =10
+   let gradient = ctx.createRadialGradient(x,y,0, x,y, r);
+    gradient.addColorStop(0, 'rgba(255,255,255,1)');
+    gradient.addColorStop(1, 'rgba(255,255,255,0)');
+    ctx.fillStyle = gradient;
+
+    ctx.beginPath()
+    ctx.arc(x,y,r, 0, 2*Math.PI)
+    ctx.fill();
+}
+blurredCircle()
+
+function blurredLine(x_1, y_1, x_2, y_2){
+    let x_mid = (x_1+x_2)/2
+    let y_mid = (y_1 +y_2)/2
+    let w = x_2 - x_1
+    let h = y_2 - y_1
+    let ang = Math.atan2(h,w);
+    console.log(ang*180/Math.PI)
+    let length = Math.sqrt(Math.pow(w,2) + Math.pow(h, 2))
+    let thickness = 5
+    basicCircle(x_1, y_1, 5)
+    basicCircle(x_2, y_2, 5)
+
+    ctx.save()
+    ctx.translate(x_mid, y_mid)
+    ctx.rotate(ang)
+
+    let gradient = ctx.createLinearGradient(0,0+thickness,0,0-thickness);
+    gradient.addColorStop(0, 'rgba(0,255,255,0)');
+    gradient.addColorStop(0.5, 'rgba(0,255,255,1)');
+    gradient.addColorStop(1, 'rgba(0,255,255,0)');
+
+
+
+    ctx.beginPath()
+    ctx.rect(0 -length/2,0-thickness, length, 2*thickness)
+    ctx.strokeStyle = "rgb(255,255,255)"
+    ctx.fillStyle = gradient
+    ctx.fill()
+    //ctx.stroke()
+    ctx.restore()
+
+
+}
+blurredLine(100,300, 400, 600)
+
+
+/**
  * Draw a rectangle
  *
  * @param {number} x corner x
@@ -21,6 +87,24 @@ function drawRect(x,y,w,h, fillcolour, strokecolour, strokewidth){
 }
 // call the function to make a rectangle
 drawRect(700,100,250, 450, "rgb(240, 100, 80)", "rgb(0, 100, 80)", 3)
+/**
+ * Draw a circle
+ *
+ * @param {number} x corner x
+ * @param {number} y corner y
+ * @param {number} r radius
+ * @param {string} fillcolour rgb string
+ * @param {string} strokecolour rgb string.
+ * @param {number} strokewidth x coordinate of second point.
+ * @return {null}
+ */
+function basicCircle(x,y,r, fillcolour="rgb(0,0,0)"){
+    ctx.fillStyle = fillcolour;
+    ctx.beginPath()
+    ctx.arc(x,y,r, 0, 2*Math.PI)
+    ctx.fill();
+    ctx.stroke();
+}
 /**
  * Draw a circle
  *
@@ -105,7 +189,7 @@ function text_box(x,y,w,h, bCol, tCol, message){
     ctx.font="bold 25px monospace";
     ctx.textBaseline = 'middle';
     ctx.textAlign = "center";
-    ctx.fillText(output, x+w/2,y+h/2);
+    ctx.fillText(message, x+w/2,y+h/2);
 }
 // create one text box
 text_box(0,0,300,50, "rgb(100,200,0)", "rgb(255,255,255)", "Little Text");

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title> Numbers from string </title>
+	<style>
+		body{
+			background-color: antiquewhite;
+		}
+		canvas{
+			background-color: white;
+
+		}
+		div{
+			width:800px;
+			margin: auto;
+			padding: 0;
+		}
+		
+	</style>
+
+
+
+</head>
+
+<body>
+	<div id="myD"></div>
+	<script>
+    // clear and array
+    
+    var myTest = "rgba(89,255,7)".match(/\d+/)[0];
+        myTest = "rgba(89,255,7)".match(/[0-9]/g);
+     var   thenum = "foo3bar5".match(/\d+/g)
+	 var nextTest = "rgba(89,255,7)".match(/\d+/g).map(Number);
+	 var nextT = "rgba(89,255,7, 0.56)".match(/[. 0-9]+/g).map(Number);
+	 var nextTOne = "rgba(89,255,7, 1)".match(/[. 0-9]+/g).map(Number);
+    print("myD", nextTOne);
+
+		
+		
+		
+	function print(id, m){
+		document.getElementById(id).innerHTML+=m+"<br>";
+	}
+		
+
+	
+		
+	</script>
+
+	
+
+
+	
+
+
+
+</body>
+</html>

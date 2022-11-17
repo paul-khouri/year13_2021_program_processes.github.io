@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title> Object Tests 1</title>
+	
+
+
+
+</head>
+
+<body>
+	<div id="myD"></div>
+	<script>
+
+        document.getElementById("myD").innerHTML += "hello world<br>";
+//-------------------
+        class Car{
+        // string , float, rgb, object           
+        constructor(myname, kmperl, colour, control){
+            this.myname = myname;
+            this.kmperl = kmperl;
+            this.colour = colour;
+            this.control= control
+
+        }
+            update(){
+                //var km = this.control.getKm();
+                var km = myControl.getKm();
+                var litresUsed = km/this.kmperl
+                return litresUsed; 
+            }
+
+        }
+//------------
+        class Control{
+
+            constructor(km){
+                this.km=km
+            }
+
+            getKm(){
+                return this.km;
+            }
+            setKm(k){
+                this.km= k;
+            }
+        }
+//----------------
+myControl = new Control(500);
+myCar = new Car("Corolla", 20, "rgb(255,0,0)", myControl);
+console.log( typeof myCar);
+console.log(Object.keys(myCar)[0]);
+document.getElementById("myD").innerHTML +="My Car has used "+myCar.update()+" litres of fuel<br>";
+document.getElementById("myD").innerHTML += "My Car's name is "+myCar.myname+ "<br>";
+document.getElementById("myD").innerHTML += "My Car's object name is "+myCar.name+ "<br>";
+
+
+		
+	</script>
+
+	
+
+
+	
+
+
+
+</body>
+</html>

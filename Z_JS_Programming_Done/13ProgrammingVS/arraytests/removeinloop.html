@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title> Array Tests 3</title>
+	<style>
+		body{
+			background-color: antiquewhite;
+		}
+		canvas{
+			background-color: white;
+
+		}
+		div{
+			width:800px;
+			margin: auto;
+			padding: 0;
+		}
+		
+	</style>
+
+
+
+</head>
+
+<body>
+	<div id="myD"></div>
+	<script>
+        function print(m){
+            document.getElementById("myD").innerHTML += m+"<br>";
+
+        }
+/*         print("hello");
+        var myArray = ["A","B", "C", "D", "E", "F", "G", "H", "I"]
+        print(myArray);
+        //myArray.splice(0,1);
+        //print(myArray);
+        //remove element at indices 1,3,5,6 in a loop
+        for(var i=0 ; i<= myArray.length ; i++){
+            print(i);
+            if(i == 1 || i==3 ){
+                print(myArray);
+                myArray.splice(i,1);
+                print(myArray);
+            }
+            
+        }
+        print(myArray); */
+
+    class Test{
+    //class Test name(string) done(boolean)
+        constructor(name, done){
+        this.name = name;
+        this.done = done;
+        }
+
+        getName(){
+            return this.name;
+        }
+        getDone(){
+            return this.done;
+        }
+    }
+    var objectList=[];
+    objectList.push(new Test("A", true ));
+    objectList.push(new Test("B", true ));
+    objectList.push(new Test("C", true ));
+    objectList.push(new Test("D", true ));
+    objectList.push(new Test("E", true ));
+    objectList.push(new Test("F", true ));
+
+function printList(){
+    for(var i = 0; i< objectList.length; i++){
+        var mystring = objectList[i].getName() +" , "+objectList[i].getDone();
+        print(mystring);
+    }
+
+}
+//printList();
+count = 0;
+for(var i=0; i< objectList.length ; i++){
+    count+=1;
+    if(objectList[i].getDone()){
+        objectList.splice(i,1);
+        i -= 1;
+    }
+}
+
+
+printList();
+print(count);
+
+
+
+	
+	
+
+		
+		
+	</script>
+
+	
+
+
+	
+
+
+
+</body>
+</html>

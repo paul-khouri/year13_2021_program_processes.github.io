@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Testing</title>
+    <style type="text/css">
+    body{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: large;
+
+    }
+
+
+    </style>
+</head>
+<body id="bod">
+        <script>
+               var cPack = {
+                            R: 0,
+                            G: 0,
+                            B: 0,
+                            A: 1,
+                            col : function() {
+                                return "rgba("+this.R+","+this.G+","+this.B+","+this.A+")";
+                            }
+                            };
+             
+                
+
+                var colourPackage = {
+                            R: 0,
+                            G: 0,
+                            B: 0,
+                            A: 1,
+                            col : function() {
+                                return "rgba("+this.R+","+this.G+","+this.B+","+this.A+")";
+                            }
+                            };
+            
+
+                document.getElementById("bod").innerHTML += colourPackage.col()+"<br>";
+                colourPackage.R = 255;
+                document.getElementById("bod").innerHTML += colourPackage.col();
+            
+                </script>
+
+
+
+        <p>An unordered list:</p>
+        <ul>
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Milk</li>
+        </ul>
+        
+        <p>Click the button to find out how many li elements there are in this document.</p>
+        
+        <button onclick="myFunction()">Try it</button>
+        
+        <p id="demo"></p>
+        
+        <script>
+       
+          var x = document.getElementsByTagName("P");
+          document.getElementById("demo").innerHTML = x.length;
+          document.getElementById("demo").innerHTML = x[0].innerHTML;
+     
+        </script>
+ 
+
+
+    </body>
+
+</html>

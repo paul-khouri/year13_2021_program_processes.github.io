@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title> Object Tests 1</title>
+	
+
+
+
+</head>
+
+<body>
+	<div id="myD"></div>
+	<script>
+        function print(m){
+            document.getElementById("myD").innerHTML += m;
+            document.getElementById("myD").innerHTML += "<br>";
+        }
+        print("hello world");
+
+        
+//-------------------
+class Person{
+    constructor(name, age){
+        this.name = name;
+        this.age = age;
+    }
+    setSub(s){
+        this.suburb = s;
+    }
+    getSuburb(){
+        return this.suburb;
+    }
+    setClassSuburb(s){
+        Person.suburb = s;
+    }
+    getClassSuburb(){
+        return Person.suburb;
+    }
+
+}
+Person.prototype.suburb = "Karori";
+Person.suburb = "Northland";
+var Paul = new Person("Paul", 100);
+var Carolyn = new Person("Carolyn", 10);
+var Liesbet = new Person("Liesbet", 50);
+
+print(Object.keys(Paul));
+print(Paul.getSuburb());
+Paul.setSub("Northland");
+print(Carolyn.getSuburb());
+print(Paul.getSuburb());
+Person.suburb = "Northland";
+print(Carolyn.getClassSuburb());
+print(Paul.getClassSuburb());
+print(Carolyn.getSuburb());
+print(Paul.getSuburb());
+
+class Car{
+    constructor(name, age, dealer){
+        this.name = name;
+        this.age = age;
+        // this is a static variable
+        // it updates commonly to all instances
+        Car.dealer = dealer
+    }
+    setDealer(d){
+        Car.dealer = d;
+    }
+    getDealer(){
+        return Car.dealer;
+    }
+
+    getDealerUsingThis(){
+        return this.dealer;
+    }
+
+}
+
+var Ford = new Car("Ford", 3, "Mike");
+var Toyota = new Car("Toyota", 3, "Jen");
+print(Ford.getDealer());
+print(Ford.getDealerUsingThis());
+
+
+
+		
+	</script>
+
+	
+
+
+	
+
+
+
+</body>
+</html>

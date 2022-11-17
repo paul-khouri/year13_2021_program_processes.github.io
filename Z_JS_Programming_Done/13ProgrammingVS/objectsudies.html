@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Object Tests 2</title>
+    </head>
+    <body>
+        <script>
+            class Person{
+constructor(name){
+    this.name=name;
+    this.age = 34;
+    this.eyes="blue";
+}
+greeting(){
+    alert("hello I\'m "+this.name+"!");
+}
+}
+var amy = new Person("Amy");
+document.body.innerHTML=amy.constructor.name;
+console.log(amy);
+for( var property in amy){
+    console.log(property +":"+amy[property]);
+}
+//amy.greeting();
+            
+            </script>
+
+    </body>
+    </html>

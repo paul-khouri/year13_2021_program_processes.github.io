@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+function regex_test() {
+    let c_string = "rgba(255,50,130,0.5)";
+    console.log(c_string)
+    digits = c_string.match(/(\d+(\.\d+))+/g);
+    //  /^(\d+(\.\d+)?)$  /(\d)+/g
+    alpha = 0.7
+
+    console.log(digits)
+    digits = c_string.match(/\d+(?=,)/g);
+    console.log(digits)
+    //digits = c_string.match( /\d+(?=,)|rgb/g   );
+    //console.log(digits)
+    digits = c_string.match(/\d+(?=,)|(\d+(\.\d+))+/g);
+    console.log(digits)
+    reconstruct = `rgba(${digits[0]},${digits[1]},${digits[2]},${alpha})`
+    console.log(reconstruct)
+}
+//regex_test()
+
+function get_set(){
+    let a = 10
+    let b = 89
+    let c = 102
+    return [a, b, c]
+}
+
+let fruit = ["apple", "banana", "lemon", "mango"];
+
+let result = fruit.flatMap(
+    (v, i) => fruit.slice(i+1).map( w => v + ' ' + w )
+
+);
+
+let initA = [255, 175, 85, 0]
+let A = [255, 175, 85, 0]
+
+let B = new Array()
+
+for(let k = 0 ; k < 2; k++){
+    B = new Array()
+    for(let i=0; i< A.length ; i++){
+        for(let j= 0; j < initA.length ; j++){
+            B.push(A[i] + "," + initA[j])
+        }
+    }
+    A = B
+}
+
+console.log(B)
+colour_list = []
+for(let i = 0; i< B.length; i++){
+    colour_list[i] = "rgb("+B[i] +")"
+}
+console.log(colour_list)
+
+
+//console.log(result);
+/*
+my_set = get_set()
+console.log(my_set)
+
+ */
+
+
+
+</script>
+
+</body>
+</html>

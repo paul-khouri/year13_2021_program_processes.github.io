@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Object Tests 1</title>
+</head>
+
+<body>
+	<div id="myD"></div>
+	<script>
+function print(m){
+        document.getElementById("myD").innerHTML += m+"<br>";
+}
+//-------------------
+class Animal{
+    constructor(legs, colour){
+        this.legs = legs;
+        this.colour = colour;
+    }
+
+    getColor(){
+        return this.colour;
+
+    }
+    
+    hide(){
+       console.log("I have hidden");
+
+
+    }
+
+
+} 
+var myAn = new Animal(5, "blue");
+print(myAn.getColor());
+
+class Dog extends Animal{
+    constructor(legs, colour,name){
+        super(legs, colour);
+        this.name = name;
+        
+    }
+
+    getMessage(){
+
+        return "legs: "+this.legs+ ", Colour: "+ this.colour + ", Name: "+ this.name;
+    }
+
+    hide(){
+        super.hide();
+        console.log("I have not hidden");
+
+    }
+}
+
+var myDog = new Dog(4, "green", "Spot");
+print(myDog.getMessage());
+print(myDog.getColor());
+myDog.hide();
+		
+	</script>
+
+	
+
+
+	
+
+
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loop Testing</title>
+    <style>
+    body{
+        font-size: 20px;
+    }
+    </style>
+
+</head>
+<body>
+    <div id="output"></div>
+<script>
+    function print(m){
+        document.getElementById("output").innerHTML += m;
+        
+    }
+    function newLine(){
+        document.getElementById("output").innerHTML += "<br>";
+    }
+   print("Hello");
+    //writing a loop
+    print("Loop that counts from 0 to 9");
+    newLine();
+    for(var i=0; i<10; i++){
+        print(i + " , ");
+    }
+    newLine()
+    //writing a loop
+    print("Loop that counts from 0 to 99");
+    newLine();
+    for(var k=0; k<100; k++){
+        print(k + ",");
+    }
+    newLine();
+    //writing a loop
+    print("Loop that counts from 15 to 30");
+    newLine();
+    for(var k=15; k<=30; k++){
+        print(k + ",");
+    }
+    newLine();
+    print("Odd Numbers");
+    newLine();
+    for(var k=0; k<=16; k++){
+        print(2*k+1 + ",");
+    }
+    newLine();
+    print("Double Loop");
+    newLine();
+    for(var i=0; i<10; i++){
+        for(var k=0; k<10; k++){
+            print("  "+ i + "," + k + "  ");
+        }
+        newLine();
+    }
+
+
+    var test = Math.round(25/200)
+    print(test);
+// takes xmouse xstart of grid(top left corner position)
+//width of grid and number of intervals of grid
+// snaps to a tile made of 4 squares
+    function mySnap(xmouse,s,w,n){
+        var xRound = s+w/n+Math.floor((xmouse-s)/(2*w/n))*(2*w/n);
+        return xRound
+    }
+    newLine();
+    print("-----------------------------");
+    newLine();
+    var s=25;
+    var w=400;
+    var n = 4;
+    var xmouse=30;
+    var t1 = mySnap(xmouse,s,w,4)
+    print(t1); 
+    newLine();
+    xmouse = 199;
+    var t2 = mySnap(xmouse,s,w,4)
+    print(t2);
+    newLine();
+    xmouse = 250;
+    var t3 = mySnap(xmouse,s,w,4)
+    print(t3);
+    newLine();
+    xmouse = 400;
+    var t4 = mySnap(xmouse,s,w,4)
+    print(t4);
+    newLine();
+    </script>
+</body>
+</html>

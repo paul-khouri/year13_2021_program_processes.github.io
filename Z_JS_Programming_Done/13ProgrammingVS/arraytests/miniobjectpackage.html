@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title> Numbers from string </title>
+	<style>
+		body{
+			background-color: antiquewhite;
+		}
+		canvas{
+			background-color: white;
+
+		}
+		div{
+			width:800px;
+			margin: auto;
+			padding: 0;
+		}
+		
+	</style>
+
+
+
+</head>
+
+<body>
+	<div id="myD"></div>
+	<script>
+    // clear and array
+    
+    function centreSquare(xMS, yMS, xM, yM){
+        var xC = (xMS+xM)/2;
+        var yC = (yMS+yM)/2;
+        // find smaller of width and height
+        var absW = Math.abs(xM - xMS);
+        var absH = Math.abs(yM - yMS);
+        var sideS = 0;
+        if(absW < absH){
+            sideS = absW;
+        }else{
+            sideS = absH;
+        }
+
+        return { xC : xC, yC: yC, s: sideS }
+
+
+    }
+
+    var cS =  centreSquare(10,100,40,90)
+
+    console.log(cS.xC);
+    console.log(cS.yC);
+    console.log(cS.s);
+		
+
+	
+		
+	</script>
+
+	
+
+
+	
+
+
+
+</body>
+</html>
